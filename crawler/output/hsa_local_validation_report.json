@@ -1,0 +1,39 @@
+{
+  "dataset": "VNU_HSA",
+  "validation": {
+    "summary": {
+      "total_documents": 1,
+      "valid_documents": 1,
+      "invalid_documents": 0,
+      "valid_pdf_documents": 1,
+      "documents_with_text": 1,
+      "image_only_or_scanned_pdf": 0,
+      "duplicate_urls": 0,
+      "duplicate_files": 0,
+      "total_pages": 96,
+      "total_text_characters": 116438
+    },
+    "documents": [
+      {
+        "document_id": "VNU_HSA_LOCAL_000001",
+        "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/hsa/document_0001.pdf",
+        "local_path": "D:\\TTDN\\competency_assessment_and_analysis\\crawler\\data\\raw\\hsa\\document_0001.pdf",
+        "processed_path": "crawler\\data\\processed\\hsa\\VNU_HSA_LOCAL_000001.json",
+        "content_type": "pdf",
+        "missing_fields": [],
+        "raw_file_exists": true,
+        "processed_file_exists": true,
+        "hash_matches": true,
+        "valid_pdf": true,
+        "page_count": 96,
+        "text_char_count": 116438,
+        "has_text": true,
+        "content_valid": true,
+        "pdf_error": null,
+        "duplicate_url": false,
+        "duplicate_file": false,
+        "valid": true
+      }
+    ]
+  }
+}

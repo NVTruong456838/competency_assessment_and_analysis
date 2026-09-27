@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "taxonomy": "internal",
+  "levels": [
+    {
+      "id": "M1",
+      "name": "M1",
+      "description": "Mức độ nhận biết và xử lý trực tiếp theo thông tin hoặc quy trình cơ bản."
+    },
+    {
+      "id": "M2",
+      "name": "M2",
+      "description": "Mức độ vận dụng, kết hợp thông tin và thực hiện suy luận."
+    },
+    {
+      "id": "M3",
+      "name": "M3",
+      "description": "Mức độ suy luận phức tạp, giải quyết vấn đề hoặc vận dụng tổng hợp."
+    }
+  ]
+}

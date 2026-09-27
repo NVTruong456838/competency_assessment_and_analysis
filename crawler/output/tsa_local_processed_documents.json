@@ -1,0 +1,35 @@
+[
+  {
+    "document_id": "HUST_TSA_LOCAL_000001",
+    "source": "HUST_TSA",
+    "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+    "title": "document_0001",
+    "document_type": "other",
+    "local_path": "D:\\TTDN\\competency_assessment_and_analysis\\crawler\\data\\raw\\tsa\\document_0001.pdf",
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_LOCAL_000001.json",
+    "sha256": "ee4199fcc030fff34533f8d176b9aa4903dfad62a9549c51f02735cb7d87ed38",
+    "status": "processed_local"
+  },
+  {
+    "document_id": "HUST_TSA_LOCAL_000002",
+    "source": "HUST_TSA",
+    "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+    "title": "document_0002",
+    "document_type": "other",
+    "local_path": "D:\\TTDN\\competency_assessment_and_analysis\\crawler\\data\\raw\\tsa\\document_0002.pdf",
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_LOCAL_000002.json",
+    "sha256": "6acf4fb3b63edc1d449e58d23c7ba0fcacf95bf7d4f0df5cc829789c39b33d4e",
+    "status": "processed_local"
+  },
+  {
+    "document_id": "HUST_TSA_LOCAL_000003",
+    "source": "HUST_TSA",
+    "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0003.pdf",
+    "title": "document_0003",
+    "document_type": "other",
+    "local_path": "D:\\TTDN\\competency_assessment_and_analysis\\crawler\\data\\raw\\tsa\\document_0003.pdf",
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_LOCAL_000003.json",
+    "sha256": "19c5f19c45e73c6c5fe2e68e7aedecc051f6c435e154903f00d86528518ce671",
+    "status": "processed_local"
+  }
+]

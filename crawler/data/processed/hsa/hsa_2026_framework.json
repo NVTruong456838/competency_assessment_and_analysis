@@ -1,0 +1,234 @@
+{
+  "exam": {
+    "id": "HSA",
+    "name": "Bài thi đánh giá năng lực học sinh trung học phổ thông",
+    "english_name": "High-school Student Assessment",
+    "organization": "Đại học Quốc gia Hà Nội",
+    "version": "2026",
+    "status": "draft",
+    "taxonomy": "internal",
+    "structure_source": {
+      "url": "https://www.hsa.edu.vn/huong-dan/dang-thuc-bai-thi",
+      "published_at": "2026-01-15"
+    }
+  },
+  "delivery": {
+    "mode": "computer_based",
+    "total_score": 150,
+    "total_duration_minutes": 195
+  },
+  "taxonomy_reference": "../../../taxonomy/competency_framework.json",
+  "sections": [
+    {
+      "id": "HSA_MATH_DATA",
+      "code": "MATH_DATA",
+      "name": "Toán học và xử lý số liệu",
+      "assessment_focus": "Tư duy định lượng",
+      "duration_minutes": 75,
+      "score": 50,
+      "question_count": 50,
+      "question_type_distribution": [
+        {
+          "type": "single_choice",
+          "choice_count": 4,
+          "question_count": 35
+        },
+        {
+          "type": "numeric_input",
+          "question_count": 15
+        }
+      ],
+      "difficulty_distribution": {
+        "level_1": 0.2,
+        "level_2": 0.6,
+        "level_3": 0.2
+      }
+    },
+    {
+      "id": "HSA_LITERATURE_LANGUAGE",
+      "code": "LITERATURE_LANGUAGE",
+      "name": "Văn học - Ngôn ngữ",
+      "assessment_focus": "Tư duy định tính",
+      "duration_minutes": 60,
+      "score": 50,
+      "question_count": 50,
+      "question_type_distribution": [
+        {
+          "type": "single_choice",
+          "choice_count": 4,
+          "question_count": 50
+        }
+      ],
+      "question_group_rules": {
+        "standalone_question_count": 25,
+        "group_count": 5,
+        "questions_per_group": 5,
+        "group_question_type": "single_choice"
+      },
+      "difficulty_distribution": {
+        "level_1": 0.2,
+        "level_2": 0.6,
+        "level_3": 0.2
+      }
+    },
+    {
+      "id": "HSA_OPTIONAL",
+      "code": "OPTIONAL",
+      "name": "Khoa học hoặc Tiếng Anh",
+      "duration_minutes": 60,
+      "score": 50,
+      "question_count": 50,
+      "selection_mode": "exactly_one_branch",
+      "branches": [
+        {
+          "id": "HSA_SCIENCE",
+          "code": "SCIENCE",
+          "name": "Khoa học",
+          "paper_code_pattern": "Q01-Q10",
+          "question_count": 50,
+          "subject_selection": {
+            "required_subject_count": 3,
+            "available_subjects": [
+              {
+                "id": "PHYSICS",
+                "name": "Vật lí",
+                "question_count_range": [
+                  16,
+                  17
+                ],
+                "minimum_numeric_input_count": 1
+              },
+              {
+                "id": "CHEMISTRY",
+                "name": "Hóa học",
+                "question_count_range": [
+                  16,
+                  17
+                ],
+                "minimum_numeric_input_count": 1
+              },
+              {
+                "id": "BIOLOGY",
+                "name": "Sinh học",
+                "question_count_range": [
+                  16,
+                  17
+                ],
+                "minimum_numeric_input_count": 1
+              },
+              {
+                "id": "HISTORY",
+                "name": "Lịch sử",
+                "question_count_range": [
+                  16,
+                  17
+                ],
+                "minimum_numeric_input_count": 0
+              },
+              {
+                "id": "GEOGRAPHY",
+                "name": "Địa lí",
+                "question_count_range": [
+                  16,
+                  17
+                ],
+                "minimum_numeric_input_count": 0
+              }
+            ]
+          },
+          "question_types": [
+            "single_choice",
+            "numeric_input"
+          ],
+          "question_group_rules": {
+            "group_count_per_selected_subject_range": [
+              1,
+              3
+            ],
+            "questions_per_group": 3
+          },
+          "difficulty_distribution": {
+            "level_1": 0.2,
+            "level_2": 0.6,
+            "level_3": 0.2
+          }
+        },
+        {
+          "id": "HSA_ENGLISH",
+          "code": "ENGLISH",
+          "name": "Tiếng Anh",
+          "paper_code": "Q21",
+          "question_count": 50,
+          "question_type_distribution": [
+            {
+              "type": "single_choice",
+              "choice_count": 4,
+              "question_count": 50
+            }
+          ],
+          "components": [
+            {
+              "id": "LANGUAGE_USE",
+              "name": "Từ vựng, ngữ pháp và diễn đạt viết",
+              "question_count": 30
+            },
+            {
+              "id": "READING_COMPREHENSION",
+              "name": "Đọc hiểu văn bản",
+              "question_count": 15,
+              "question_group_rules": {
+                "group_count": 3,
+                "questions_per_group": 5
+              }
+            },
+            {
+              "id": "REASONING_SITUATION",
+              "name": "Suy luận và giải quyết tình huống",
+              "question_count": 5
+            }
+          ],
+          "proficiency_distribution": {
+            "vietnamese_level_2_a2": 0.25,
+            "vietnamese_level_3_b1": 0.35,
+            "vietnamese_level_4_b2": 0.35,
+            "vietnamese_level_5_c1": 0.05
+          }
+        }
+      ]
+    }
+  ],
+  "question_group_model": {
+    "is_question_type": false,
+    "relationship": "QuestionGroup has many Questions",
+    "question_group_fields": [
+      "group_id",
+      "group_type",
+      "content",
+      "source_document_id",
+      "page_number"
+    ],
+    "question_reference_field": "group_id"
+  },
+  "required_metadata": [
+    "exam_id",
+    "exam_version",
+    "section_id",
+    "paper_code",
+    "subject_choice",
+    "question_type",
+    "group_id",
+    "competency_id",
+    "domain_id",
+    "topic_id",
+    "skill_id",
+    "cognitive_level_id",
+    "difficulty_planned",
+    "difficulty_empirical"
+  ],
+  "implementation_notes": [
+    "This file is the central HSA 2026 structure configuration; it is not an official question bank or an official scoring implementation.",
+    "Competency, Domain, and Topic nodes are defined in the central taxonomy reference.",
+    "A grouped question is represented by QuestionGroup plus Question records, not by a grouped_question question type.",
+    "System raw scores must not be presented as official HSA scores."
+  ]
+}

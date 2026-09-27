@@ -1,0 +1,13 @@
+[
+  {
+    "document_id": "VNU_HSA_LOCAL_000001",
+    "source": "VNU_HSA",
+    "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/hsa/document_0001.pdf",
+    "title": "document_0001",
+    "document_type": "sample_exam",
+    "local_path": "D:\\TTDN\\competency_assessment_and_analysis\\crawler\\data\\raw\\hsa\\document_0001.pdf",
+    "processed_path": "crawler\\data\\processed\\hsa\\VNU_HSA_LOCAL_000001.json",
+    "sha256": "699703c1f8e2d2a15bc3801cd859aad28da3fec19fca2f4569d18fd07710ac4d",
+    "status": "processed_local"
+  }
+]

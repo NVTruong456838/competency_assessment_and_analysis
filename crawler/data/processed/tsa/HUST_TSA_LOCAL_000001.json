@@ -1,0 +1,173 @@
+{
+  "source": "HUST_TSA",
+  "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+  "document_type": "other",
+  "title": "document_0001",
+  "content_type": "pdf",
+  "page_count": 6,
+  "content": "BỘ CÂU HỎI MINH HỌA  \nĐỀ THI ĐÁNH GIÁ TƯ DUY LĨNH VỰC TƯ DUY MÔN TOÁN \nCâu 1 (M1): Bạn Hải lấy một cặp số tự nhiên phân biệt rồi tính số dư khi chia t ổng lập \nphương của hai số cho tổng các chữ số của số lớn trong hai số đó. Nếu làm theo đúng quy \ntắc của bạn Hải với cặp số (31; 175) ta thu được kết quả bằng \nA. 2 \nB. 5 \nC. 0 \nD. 3 \nĐáp án: D \nCâu 2 (M1): Cho hàm số bậc ba có đồ thị \n( )C  như hình vẽ sau.  \n \nKéo ô thích hợp thả vào vị trí tương ứng để hoàn thành các câu sau: \nSố điểm cực trị của hàm số là [vị trí thả 1]. \nGiá trị cực đại của hàm số là [vị trí thả 2]. \nSố giao điểm của đồ thị \n( )C và trục hoành là [vị trí thả 3]. \n    \nĐáp án: \nSố điểm cực trị của hàm số là . \nGiá trị cực đại của hàm số là . \nSố giao điểm của đồ thị \n( )C và trục hoành là . \n3 2 4 1 \n2 \n1 \n3 \n\nCâu 3 (M2): Trong tiết học về hình đa diện đều, cô giáo Hạnh hướng dẫn học sinh tạo ra \nhình tứ diện đều như sau: \nĐầu tiên, cô giáo l ấy một miếng bìa hình tam giác đều có c ạnh dài 10 cm. Tiếp đó, g ấp \nmiếng bìa theo các đường kẻ nối trung điểm giữa các cạnh của miếng bìa (tham khảo hình \nvẽ). Sau đó, cô giáo dán các mép lại, chúng ta sẽ có một hình tứ diện đều (giả sử phần bìa \ntại các mép dán không đáng kể).  \n \nMỗi phát biểu sau là đúng hay sai? \nSTT Phát biểu Đúng Sai \n1 Độ dài c ạnh c ủa hình t ứ diện đ ều đư ợc t ạo ra \nbằng 10 cm. \n  \n2 \nDiện tích toàn ph ần của hình t ứ diện đều được \ntạo ra bằng \n225 3 . cm  \n  \n3 \nThể tích của khối tứ diện đều được tạo thành bởi \nhình tứ diện đều nói trên bằng \n3125 2 .12 cm  \n  \n  Đáp án: \nSTT Phát biểu Đúng Sai \n1 Độ dài c ạnh c ủa hình t ứ diện đ ều đư ợc t ạo ra \nbằng 10 cm.  X \n2 \nDiện tích toàn ph ần của hình t ứ diện đều được \ntạo ra bằng \n225 3 . cm  X  \n3 \nThể tích của khối tứ diện đều được tạo thành bởi \nhình tứ diện đều nói trên bằng \n3125 2 .12 cm  X  \n \n  \n\n\nCâu 4 (M2): Cho hàm số \n( ) 3logf x x x=+  và biểu thức \n( ) ( ) ( )1P xf x f x f= − − . \nKéo ô thích hợp thả vào vị trí tương ứng để hoàn thành các câu sau: \nGiá trị của biểu thức P tại \n1\n27x=  bằng [vị trí thả 1]. \nSố nghiệm nguyên thuộc đoạn \n 1;5 của bất phương trình \n1P−  là [vị trí thả 2]. \nSố nghiệm thực của phương trình \n2P=−  là [vị trí thả 3]. \n    \nĐáp án: \nGiá trị của biểu thức P tại \n1\n27x=  bằng . \nSố nghiệm nguyên thuộc đoạn \n 1;5 của bất phương trình \n1P−  là . \nSố nghiệm thực của phương trình \n2P=−  là . \n \nCâu 5 (M2): Một người dùng khi đăng nhập vào một trang web sẽ được cấp một mã kiểm \ntra là một dãy số gồm 5 chữ số. Giả sử mỗi chữ số trong mã được hệ thống tạo mã chọn  \nngẫu nhiên trong phạm vi từ 0 tới 9, xác suất để một mã kiểm tra tạo ra có ít nhất hai chữ \nsố 0 là (Các kết quả làm tròn đến chữ số thập phân thứ tư). \nA.  0,0729  \nB.  0,0815 \nC.  0,9185 \nD. 0,1000 \nĐáp án: B \nCâu 6 (M2): Xét những tờ giấy hình chữ nhật, kẻ ca-rô cỡ 𝑚 × 𝑛 ô vuông, một cách phân \nchia “tốt” được xác định khi ta ch ỉ dùng những dòng kẻ có sẵn chia tờ giấy thành những \nphần bằng nhau sao cho mỗi phần đều là hình vuông cỡ 𝑝 × 𝑝 ô.  \nChẳng hạn, ở hình dưới, bằng những dòng kẻ được tô màu xanh, ta xác định một cách phân \nchia “tốt” với m = 9, n = 12, p = 3. \n1 4 2 3 \n2 \n4 \n1 \n\n \nSố cách phân chia “tốt” đối với một tờ giấy ca-rô cỡ 120 × 300 là \nA. 12 cách. \nB. 60 cách. \nC. 30 cách. \nD. 36000 cách. \nĐáp án: A \nCâu 7 (M2): Tổng tất cả các nghiệm thuộc \n− \n3;22\n  của phương trình \nxx+=sin cos2 0  \nbằng …….. (kết quả làm tròn đến chữ số thập phân thứ hai, biết π ≈ 3,14). \nĐáp án: 4,71 \nCâu 8 (M2): Biết rằng giá trị nhỏ nhất của hàm số \n( )\n32 3f x x x m=− − +  trên đoạn \n 1 ;1−  \nbằng 1 thì giá trị của tham số m  thuộc những khoảng nào trong các khoảng dưới đây? \nA. (0; 4) \nB. (1; 5) \nC. (2; 6) \nD. (3; 7) \nĐáp án: C, D \nCâu 9  (M3): Trong không gian Oxyz, cho hình chóp đ ều S.ABCD có \n( ) ( ) ( )3;2;1 , 1 ;2;0 , 3;0;0S A C\n. Gọi E là trung điểm của BD.  Gọi I là tâm mặt cầu (S) ngoại \ntiếp của hình chóp S.ABCD. Mỗi phát biểu sau là đúng hay sai? \nPhát biểu Đúng Sai \nI cách đều ba điểm S, A, C.   \nI thuộc đường thẳng SE.   \nI cách đều mặt đáy và mặt bên của hình chóp.   \nPhương trình mặt cầu (S) là  \n2 2 2\n11 5 5 11\n6 6 6 4x y z     − + − + − =          \n. \n  \n \n\n\nĐáp án: \nPhát biểu Đúng Sai \nI cách đều ba điểm S, A, C. X  \nI thuộc đường thẳng SE. X  \nI cách đều mặt đáy và mặt bên của hình chóp.  X \nPhương trình mặt cầu (S) là  \n2 2 2\n11 5 5 11\n6 6 6 4x y z     − + − + − =          \n.  X \nCâu 10 (M3): Xưởng gỗ Bách Mộc thiết kế một mẫu đồ chơi gồm một khối nón và \nmột khối trụ có cùng bán kính đáy ch ồng lên nhau (như hình vẽ). Biết chiều cao \ncủa khối trụ và khối nón cùng bằng \n2cm và bằng độ dài của đường kính đáy.  \nKéo ô thích hợp thả vào vị trí tương ứng để hoàn thành các câu sau: \nThể tích gỗ cần dùng để làm khối đồ chơi gần bằng: [Vị trí thả 1] \n3cm  \nMột khách hàng muốn sơn khối đồ chơi đó bằng nhiều màu sắc khác nhau. Diện \ntích bề mặt gỗ cần sơn gần bằng: [Vị trí thả 2]\n2cm . \nNếu xưởng gỗ này muốn làm một chiếc hộp hình trụ bằng bìa cứng để đựng khối đồ chơi \nđó sao cho đỉnh của khối nón trùng với tâm mặt đáy trên của hộp và đáy khối trụ vừa khít \nvới đáy dưới của hộp. Diện tích bìa cứng cần dùng gần bằng: [Vị trí thả 3] \n2cm . (Các kết \nquả làm tròn đến chữ số thập phân thứ hai). \n     \nĐáp án: \nThể tích gỗ cần dùng để làm khối đồ chơi gần bằng: \n3cm  \nMột khách hàng mu ốn sơn khối đồ chơi đó bằng nhiều màu sắc khác nhau. Di ện tích bề \nmặt gỗ cần sơn gần bằng: \n2cm  \nNếu xưởng gỗ này muốn làm một chiếc hộp hình trụ bằng bìa cứng để đựng khối đồ chơi \nđó sao cho đỉnh của khối nón trùng với tâm mặt đáy trên của hộp và đáy khối trụ vừa khít \nvới đáy dưới của hộp. Diện tích bìa cứng cần dùng gần bằng: \n2cm . (Các kết quả \nlàm tròn đến chữ số thập phân thứ hai. \n  \n22,73 8,38 31,42 28,27 19,59 \n8,38 \n22,73 \n31,42 \n\n\nCâu 11 (M3): Một người thợ nhôm kính nhận đơn đặt hàng làm một bể cá cảnh bằng kính \ndạng hình hộp chữ nhật không có nắp với thể tích bằng \n33, 2 m  và chiều cao của bể gấp 2 \nlần chiều rộng của đáy. Biết giá một mét vuông kính để làm bể cá là 1 triệu đồng. Để mua \nđủ mét vuông kính làm bể cá theo yêu cầu thì người thợ cần tối thiểu số tiền bằng ...  triệu \nđồng. (Coi độ dày của kính là không đáng kể so với kích thước của bể). \nĐáp án: 12 \nCâu 12 (M3): Gọi 𝑆 là tập hợp tất cả các giá tr ị nguyên dương c ủa tham s ố \nm  sao cho \nphương trình \nm x m x +=sin ( 2 )[]\n  có đúng \n11  nghiệm phân biệt. Tổng các phần tử của 𝑆 \nlà   \nA. \n11                     B. \n9                           C. \n6                        D. \n5  \nĐáp án: A ",
+  "pages": [
+    {
+      "page": 1,
+      "text": "BỘ CÂU HỎI MINH HỌA  \nĐỀ THI ĐÁNH GIÁ TƯ DUY LĨNH VỰC TƯ DUY MÔN TOÁN \nCâu 1 (M1): Bạn Hải lấy một cặp số tự nhiên phân biệt rồi tính số dư khi chia t ổng lập \nphương của hai số cho tổng các chữ số của số lớn trong hai số đó. Nếu làm theo đúng quy \ntắc của bạn Hải với cặp số (31; 175) ta thu được kết quả bằng \nA. 2 \nB. 5 \nC. 0 \nD. 3 \nĐáp án: D \nCâu 2 (M1): Cho hàm số bậc ba có đồ thị \n( )C  như hình vẽ sau.  \n \nKéo ô thích hợp thả vào vị trí tương ứng để hoàn thành các câu sau: \nSố điểm cực trị của hàm số là [vị trí thả 1]. \nGiá trị cực đại của hàm số là [vị trí thả 2]. \nSố giao điểm của đồ thị \n( )C và trục hoành là [vị trí thả 3]. \n    \nĐáp án: \nSố điểm cực trị của hàm số là . \nGiá trị cực đại của hàm số là . \nSố giao điểm của đồ thị \n( )C và trục hoành là . \n3 2 4 1 \n2 \n1 \n3 "
+    },
+    {
+      "page": 2,
+      "text": "Câu 3 (M2): Trong tiết học về hình đa diện đều, cô giáo Hạnh hướng dẫn học sinh tạo ra \nhình tứ diện đều như sau: \nĐầu tiên, cô giáo l ấy một miếng bìa hình tam giác đều có c ạnh dài 10 cm. Tiếp đó, g ấp \nmiếng bìa theo các đường kẻ nối trung điểm giữa các cạnh của miếng bìa (tham khảo hình \nvẽ). Sau đó, cô giáo dán các mép lại, chúng ta sẽ có một hình tứ diện đều (giả sử phần bìa \ntại các mép dán không đáng kể).  \n \nMỗi phát biểu sau là đúng hay sai? \nSTT Phát biểu Đúng Sai \n1 Độ dài c ạnh c ủa hình t ứ diện đ ều đư ợc t ạo ra \nbằng 10 cm. \n  \n2 \nDiện tích toàn ph ần của hình t ứ diện đều được \ntạo ra bằng \n225 3 . cm  \n  \n3 \nThể tích của khối tứ diện đều được tạo thành bởi \nhình tứ diện đều nói trên bằng \n3125 2 .12 cm  \n  \n  Đáp án: \nSTT Phát biểu Đúng Sai \n1 Độ dài c ạnh c ủa hình t ứ diện đ ều đư ợc t ạo ra \nbằng 10 cm.  X \n2 \nDiện tích toàn ph ần của hình t ứ diện đều được \ntạo ra bằng \n225 3 . cm  X  \n3 \nThể tích của khối tứ diện đều được tạo thành bởi \nhình tứ diện đều nói trên bằng \n3125 2 .12 cm  X  \n \n  \n"
+    },
+    {
+      "page": 3,
+      "text": "Câu 4 (M2): Cho hàm số \n( ) 3logf x x x=+  và biểu thức \n( ) ( ) ( )1P xf x f x f= − − . \nKéo ô thích hợp thả vào vị trí tương ứng để hoàn thành các câu sau: \nGiá trị của biểu thức P tại \n1\n27x=  bằng [vị trí thả 1]. \nSố nghiệm nguyên thuộc đoạn \n 1;5 của bất phương trình \n1P−  là [vị trí thả 2]. \nSố nghiệm thực của phương trình \n2P=−  là [vị trí thả 3]. \n    \nĐáp án: \nGiá trị của biểu thức P tại \n1\n27x=  bằng . \nSố nghiệm nguyên thuộc đoạn \n 1;5 của bất phương trình \n1P−  là . \nSố nghiệm thực của phương trình \n2P=−  là . \n \nCâu 5 (M2): Một người dùng khi đăng nhập vào một trang web sẽ được cấp một mã kiểm \ntra là một dãy số gồm 5 chữ số. Giả sử mỗi chữ số trong mã được hệ thống tạo mã chọn  \nngẫu nhiên trong phạm vi từ 0 tới 9, xác suất để một mã kiểm tra tạo ra có ít nhất hai chữ \nsố 0 là (Các kết quả làm tròn đến chữ số thập phân thứ tư). \nA.  0,0729  \nB.  0,0815 \nC.  0,9185 \nD. 0,1000 \nĐáp án: B \nCâu 6 (M2): Xét những tờ giấy hình chữ nhật, kẻ ca-rô cỡ 𝑚 × 𝑛 ô vuông, một cách phân \nchia “tốt” được xác định khi ta ch ỉ dùng những dòng kẻ có sẵn chia tờ giấy thành những \nphần bằng nhau sao cho mỗi phần đều là hình vuông cỡ 𝑝 × 𝑝 ô.  \nChẳng hạn, ở hình dưới, bằng những dòng kẻ được tô màu xanh, ta xác định một cách phân \nchia “tốt” với m = 9, n = 12, p = 3. \n1 4 2 3 \n2 \n4 \n1 "
+    },
+    {
+      "page": 4,
+      "text": " \nSố cách phân chia “tốt” đối với một tờ giấy ca-rô cỡ 120 × 300 là \nA. 12 cách. \nB. 60 cách. \nC. 30 cách. \nD. 36000 cách. \nĐáp án: A \nCâu 7 (M2): Tổng tất cả các nghiệm thuộc \n− \n3;22\n  của phương trình \nxx+=sin cos2 0  \nbằng …….. (kết quả làm tròn đến chữ số thập phân thứ hai, biết π ≈ 3,14). \nĐáp án: 4,71 \nCâu 8 (M2): Biết rằng giá trị nhỏ nhất của hàm số \n( )\n32 3f x x x m=− − +  trên đoạn \n 1 ;1−  \nbằng 1 thì giá trị của tham số m  thuộc những khoảng nào trong các khoảng dưới đây? \nA. (0; 4) \nB. (1; 5) \nC. (2; 6) \nD. (3; 7) \nĐáp án: C, D \nCâu 9  (M3): Trong không gian Oxyz, cho hình chóp đ ều S.ABCD có \n( ) ( ) ( )3;2;1 , 1 ;2;0 , 3;0;0S A C\n. Gọi E là trung điểm của BD.  Gọi I là tâm mặt cầu (S) ngoại \ntiếp của hình chóp S.ABCD. Mỗi phát biểu sau là đúng hay sai? \nPhát biểu Đúng Sai \nI cách đều ba điểm S, A, C.   \nI thuộc đường thẳng SE.   \nI cách đều mặt đáy và mặt bên của hình chóp.   \nPhương trình mặt cầu (S) là  \n2 2 2\n11 5 5 11\n6 6 6 4x y z     − + − + − =          \n. \n  \n \n"
+    },
+    {
+      "page": 5,
+      "text": "Đáp án: \nPhát biểu Đúng Sai \nI cách đều ba điểm S, A, C. X  \nI thuộc đường thẳng SE. X  \nI cách đều mặt đáy và mặt bên của hình chóp.  X \nPhương trình mặt cầu (S) là  \n2 2 2\n11 5 5 11\n6 6 6 4x y z     − + − + − =          \n.  X \nCâu 10 (M3): Xưởng gỗ Bách Mộc thiết kế một mẫu đồ chơi gồm một khối nón và \nmột khối trụ có cùng bán kính đáy ch ồng lên nhau (như hình vẽ). Biết chiều cao \ncủa khối trụ và khối nón cùng bằng \n2cm và bằng độ dài của đường kính đáy.  \nKéo ô thích hợp thả vào vị trí tương ứng để hoàn thành các câu sau: \nThể tích gỗ cần dùng để làm khối đồ chơi gần bằng: [Vị trí thả 1] \n3cm  \nMột khách hàng muốn sơn khối đồ chơi đó bằng nhiều màu sắc khác nhau. Diện \ntích bề mặt gỗ cần sơn gần bằng: [Vị trí thả 2]\n2cm . \nNếu xưởng gỗ này muốn làm một chiếc hộp hình trụ bằng bìa cứng để đựng khối đồ chơi \nđó sao cho đỉnh của khối nón trùng với tâm mặt đáy trên của hộp và đáy khối trụ vừa khít \nvới đáy dưới của hộp. Diện tích bìa cứng cần dùng gần bằng: [Vị trí thả 3] \n2cm . (Các kết \nquả làm tròn đến chữ số thập phân thứ hai). \n     \nĐáp án: \nThể tích gỗ cần dùng để làm khối đồ chơi gần bằng: \n3cm  \nMột khách hàng mu ốn sơn khối đồ chơi đó bằng nhiều màu sắc khác nhau. Di ện tích bề \nmặt gỗ cần sơn gần bằng: \n2cm  \nNếu xưởng gỗ này muốn làm một chiếc hộp hình trụ bằng bìa cứng để đựng khối đồ chơi \nđó sao cho đỉnh của khối nón trùng với tâm mặt đáy trên của hộp và đáy khối trụ vừa khít \nvới đáy dưới của hộp. Diện tích bìa cứng cần dùng gần bằng: \n2cm . (Các kết quả \nlàm tròn đến chữ số thập phân thứ hai. \n  \n22,73 8,38 31,42 28,27 19,59 \n8,38 \n22,73 \n31,42 \n"
+    },
+    {
+      "page": 6,
+      "text": "Câu 11 (M3): Một người thợ nhôm kính nhận đơn đặt hàng làm một bể cá cảnh bằng kính \ndạng hình hộp chữ nhật không có nắp với thể tích bằng \n33, 2 m  và chiều cao của bể gấp 2 \nlần chiều rộng của đáy. Biết giá một mét vuông kính để làm bể cá là 1 triệu đồng. Để mua \nđủ mét vuông kính làm bể cá theo yêu cầu thì người thợ cần tối thiểu số tiền bằng ...  triệu \nđồng. (Coi độ dày của kính là không đáng kể so với kích thước của bể). \nĐáp án: 12 \nCâu 12 (M3): Gọi 𝑆 là tập hợp tất cả các giá tr ị nguyên dương c ủa tham s ố \nm  sao cho \nphương trình \nm x m x +=sin ( 2 )[]\n  có đúng \n11  nghiệm phân biệt. Tổng các phần tử của 𝑆 \nlà   \nA. \n11                     B. \n9                           C. \n6                        D. \n5  \nĐáp án: A "
+    }
+  ],
+  "url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+  "text": "BỘ CÂU HỎI MINH HỌA  \nĐỀ THI ĐÁNH GIÁ TƯ DUY LĨNH VỰC TƯ DUY MÔN TOÁN \nCâu 1 (M1): Bạn Hải lấy một cặp số tự nhiên phân biệt rồi tính số dư khi chia t ổng lập \nphương của hai số cho tổng các chữ số của số lớn trong hai số đó. Nếu làm theo đúng quy \ntắc của bạn Hải với cặp số (31; 175) ta thu được kết quả bằng \nA. 2 \nB. 5 \nC. 0 \nD. 3 \nĐáp án: D \nCâu 2 (M1): Cho hàm số bậc ba có đồ thị \n( )C  như hình vẽ sau.  \n \nKéo ô thích hợp thả vào vị trí tương ứng để hoàn thành các câu sau: \nSố điểm cực trị của hàm số là [vị trí thả 1]. \nGiá trị cực đại của hàm số là [vị trí thả 2]. \nSố giao điểm của đồ thị \n( )C và trục hoành là [vị trí thả 3]. \n    \nĐáp án: \nSố điểm cực trị của hàm số là . \nGiá trị cực đại của hàm số là . \nSố giao điểm của đồ thị \n( )C và trục hoành là . \n3 2 4 1 \n2 \n1 \n3 \n\nCâu 3 (M2): Trong tiết học về hình đa diện đều, cô giáo Hạnh hướng dẫn học sinh tạo ra \nhình tứ diện đều như sau: \nĐầu tiên, cô giáo l ấy một miếng bìa hình tam giác đều có c ạnh dài 10 cm. Tiếp đó, g ấp \nmiếng bìa theo các đường kẻ nối trung điểm giữa các cạnh của miếng bìa (tham khảo hình \nvẽ). Sau đó, cô giáo dán các mép lại, chúng ta sẽ có một hình tứ diện đều (giả sử phần bìa \ntại các mép dán không đáng kể).  \n \nMỗi phát biểu sau là đúng hay sai? \nSTT Phát biểu Đúng Sai \n1 Độ dài c ạnh c ủa hình t ứ diện đ ều đư ợc t ạo ra \nbằng 10 cm. \n  \n2 \nDiện tích toàn ph ần của hình t ứ diện đều được \ntạo ra bằng \n225 3 . cm  \n  \n3 \nThể tích của khối tứ diện đều được tạo thành bởi \nhình tứ diện đều nói trên bằng \n3125 2 .12 cm  \n  \n  Đáp án: \nSTT Phát biểu Đúng Sai \n1 Độ dài c ạnh c ủa hình t ứ diện đ ều đư ợc t ạo ra \nbằng 10 cm.  X \n2 \nDiện tích toàn ph ần của hình t ứ diện đều được \ntạo ra bằng \n225 3 . cm  X  \n3 \nThể tích của khối tứ diện đều được tạo thành bởi \nhình tứ diện đều nói trên bằng \n3125 2 .12 cm  X  \n \n  \n\n\nCâu 4 (M2): Cho hàm số \n( ) 3logf x x x=+  và biểu thức \n( ) ( ) ( )1P xf x f x f= − − . \nKéo ô thích hợp thả vào vị trí tương ứng để hoàn thành các câu sau: \nGiá trị của biểu thức P tại \n1\n27x=  bằng [vị trí thả 1]. \nSố nghiệm nguyên thuộc đoạn \n 1;5 của bất phương trình \n1P−  là [vị trí thả 2]. \nSố nghiệm thực của phương trình \n2P=−  là [vị trí thả 3]. \n    \nĐáp án: \nGiá trị của biểu thức P tại \n1\n27x=  bằng . \nSố nghiệm nguyên thuộc đoạn \n 1;5 của bất phương trình \n1P−  là . \nSố nghiệm thực của phương trình \n2P=−  là . \n \nCâu 5 (M2): Một người dùng khi đăng nhập vào một trang web sẽ được cấp một mã kiểm \ntra là một dãy số gồm 5 chữ số. Giả sử mỗi chữ số trong mã được hệ thống tạo mã chọn  \nngẫu nhiên trong phạm vi từ 0 tới 9, xác suất để một mã kiểm tra tạo ra có ít nhất hai chữ \nsố 0 là (Các kết quả làm tròn đến chữ số thập phân thứ tư). \nA.  0,0729  \nB.  0,0815 \nC.  0,9185 \nD. 0,1000 \nĐáp án: B \nCâu 6 (M2): Xét những tờ giấy hình chữ nhật, kẻ ca-rô cỡ 𝑚 × 𝑛 ô vuông, một cách phân \nchia “tốt” được xác định khi ta ch ỉ dùng những dòng kẻ có sẵn chia tờ giấy thành những \nphần bằng nhau sao cho mỗi phần đều là hình vuông cỡ 𝑝 × 𝑝 ô.  \nChẳng hạn, ở hình dưới, bằng những dòng kẻ được tô màu xanh, ta xác định một cách phân \nchia “tốt” với m = 9, n = 12, p = 3. \n1 4 2 3 \n2 \n4 \n1 \n\n \nSố cách phân chia “tốt” đối với một tờ giấy ca-rô cỡ 120 × 300 là \nA. 12 cách. \nB. 60 cách. \nC. 30 cách. \nD. 36000 cách. \nĐáp án: A \nCâu 7 (M2): Tổng tất cả các nghiệm thuộc \n− \n3;22\n  của phương trình \nxx+=sin cos2 0  \nbằng …….. (kết quả làm tròn đến chữ số thập phân thứ hai, biết π ≈ 3,14). \nĐáp án: 4,71 \nCâu 8 (M2): Biết rằng giá trị nhỏ nhất của hàm số \n( )\n32 3f x x x m=− − +  trên đoạn \n 1 ;1−  \nbằng 1 thì giá trị của tham số m  thuộc những khoảng nào trong các khoảng dưới đây? \nA. (0; 4) \nB. (1; 5) \nC. (2; 6) \nD. (3; 7) \nĐáp án: C, D \nCâu 9  (M3): Trong không gian Oxyz, cho hình chóp đ ều S.ABCD có \n( ) ( ) ( )3;2;1 , 1 ;2;0 , 3;0;0S A C\n. Gọi E là trung điểm của BD.  Gọi I là tâm mặt cầu (S) ngoại \ntiếp của hình chóp S.ABCD. Mỗi phát biểu sau là đúng hay sai? \nPhát biểu Đúng Sai \nI cách đều ba điểm S, A, C.   \nI thuộc đường thẳng SE.   \nI cách đều mặt đáy và mặt bên của hình chóp.   \nPhương trình mặt cầu (S) là  \n2 2 2\n11 5 5 11\n6 6 6 4x y z     − + − + − =          \n. \n  \n \n\n\nĐáp án: \nPhát biểu Đúng Sai \nI cách đều ba điểm S, A, C. X  \nI thuộc đường thẳng SE. X  \nI cách đều mặt đáy và mặt bên của hình chóp.  X \nPhương trình mặt cầu (S) là  \n2 2 2\n11 5 5 11\n6 6 6 4x y z     − + − + − =          \n.  X \nCâu 10 (M3): Xưởng gỗ Bách Mộc thiết kế một mẫu đồ chơi gồm một khối nón và \nmột khối trụ có cùng bán kính đáy ch ồng lên nhau (như hình vẽ). Biết chiều cao \ncủa khối trụ và khối nón cùng bằng \n2cm và bằng độ dài của đường kính đáy.  \nKéo ô thích hợp thả vào vị trí tương ứng để hoàn thành các câu sau: \nThể tích gỗ cần dùng để làm khối đồ chơi gần bằng: [Vị trí thả 1] \n3cm  \nMột khách hàng muốn sơn khối đồ chơi đó bằng nhiều màu sắc khác nhau. Diện \ntích bề mặt gỗ cần sơn gần bằng: [Vị trí thả 2]\n2cm . \nNếu xưởng gỗ này muốn làm một chiếc hộp hình trụ bằng bìa cứng để đựng khối đồ chơi \nđó sao cho đỉnh của khối nón trùng với tâm mặt đáy trên của hộp và đáy khối trụ vừa khít \nvới đáy dưới của hộp. Diện tích bìa cứng cần dùng gần bằng: [Vị trí thả 3] \n2cm . (Các kết \nquả làm tròn đến chữ số thập phân thứ hai). \n     \nĐáp án: \nThể tích gỗ cần dùng để làm khối đồ chơi gần bằng: \n3cm  \nMột khách hàng mu ốn sơn khối đồ chơi đó bằng nhiều màu sắc khác nhau. Di ện tích bề \nmặt gỗ cần sơn gần bằng: \n2cm  \nNếu xưởng gỗ này muốn làm một chiếc hộp hình trụ bằng bìa cứng để đựng khối đồ chơi \nđó sao cho đỉnh của khối nón trùng với tâm mặt đáy trên của hộp và đáy khối trụ vừa khít \nvới đáy dưới của hộp. Diện tích bìa cứng cần dùng gần bằng: \n2cm . (Các kết quả \nlàm tròn đến chữ số thập phân thứ hai. \n  \n22,73 8,38 31,42 28,27 19,59 \n8,38 \n22,73 \n31,42 \n\n\nCâu 11 (M3): Một người thợ nhôm kính nhận đơn đặt hàng làm một bể cá cảnh bằng kính \ndạng hình hộp chữ nhật không có nắp với thể tích bằng \n33, 2 m  và chiều cao của bể gấp 2 \nlần chiều rộng của đáy. Biết giá một mét vuông kính để làm bể cá là 1 triệu đồng. Để mua \nđủ mét vuông kính làm bể cá theo yêu cầu thì người thợ cần tối thiểu số tiền bằng ...  triệu \nđồng. (Coi độ dày của kính là không đáng kể so với kích thước của bể). \nĐáp án: 12 \nCâu 12 (M3): Gọi 𝑆 là tập hợp tất cả các giá tr ị nguyên dương c ủa tham s ố \nm  sao cho \nphương trình \nm x m x +=sin ( 2 )[]\n  có đúng \n11  nghiệm phân biệt. Tổng các phần tử của 𝑆 \nlà   \nA. \n11                     B. \n9                           C. \n6                        D. \n5  \nĐáp án: A ",
+  "links": [],
+  "document_id": "HUST_TSA_LOCAL_000001",
+  "exam": "TSA",
+  "local_path": "D:\\TTDN\\competency_assessment_and_analysis\\crawler\\data\\raw\\tsa\\document_0001.pdf",
+  "sha256": "ee4199fcc030fff34533f8d176b9aa4903dfad62a9549c51f02735cb7d87ed38",
+  "downloaded_at": "2026-09-27T08:36:09.586287+00:00",
+  "visual_assets": [
+    {
+      "asset_id": "HUST_TSA_LOCAL_000001_P001_VISUAL_01",
+      "kind": "question_visual_crop",
+      "page_number": 1,
+      "bbox": [
+        216.0,
+        269.0,
+        396.0,
+        458.0
+      ],
+      "path": "visuals/HUST_TSA_LOCAL_000001_page_001_VISUAL_01.png"
+    },
+    {
+      "asset_id": "HUST_TSA_LOCAL_000001_P001_VISUAL_02",
+      "kind": "question_visual_crop",
+      "page_number": 1,
+      "bbox": [
+        66.0,
+        527.2,
+        360.4,
+        690.0
+      ],
+      "path": "visuals/HUST_TSA_LOCAL_000001_page_001_VISUAL_02.png"
+    },
+    {
+      "asset_id": "HUST_TSA_LOCAL_000001_P002_VISUAL_01",
+      "kind": "question_visual_crop",
+      "page_number": 2,
+      "bbox": [
+        125.0,
+        173.0,
+        487.0,
+        318.0
+      ],
+      "path": "visuals/HUST_TSA_LOCAL_000001_page_002_VISUAL_01.png"
+    },
+    {
+      "asset_id": "HUST_TSA_LOCAL_000001_P002_VISUAL_02",
+      "kind": "question_visual_crop",
+      "page_number": 2,
+      "bbox": [
+        66.0,
+        326.6,
+        463.1,
+        669.8
+      ],
+      "path": "visuals/HUST_TSA_LOCAL_000001_page_002_VISUAL_02.png"
+    },
+    {
+      "asset_id": "HUST_TSA_LOCAL_000001_P003_VISUAL_01",
+      "kind": "question_visual_crop",
+      "page_number": 3,
+      "bbox": [
+        66.0,
+        188.8,
+        480.3,
+        367.0
+      ],
+      "path": "visuals/HUST_TSA_LOCAL_000001_page_003_VISUAL_01.png"
+    },
+    {
+      "asset_id": "HUST_TSA_LOCAL_000001_P003_VISUAL_02",
+      "kind": "question_visual_crop",
+      "page_number": 3,
+      "bbox": [
+        0.0,
+        537.9,
+        612.0,
+        763.0
+      ],
+      "path": "visuals/HUST_TSA_LOCAL_000001_page_003_VISUAL_02.png"
+    },
+    {
+      "asset_id": "HUST_TSA_LOCAL_000001_P004_VISUAL_01",
+      "kind": "question_visual_crop",
+      "page_number": 4,
+      "bbox": [
+        225.0,
+        66.0,
+        387.0,
+        192.0
+      ],
+      "path": "visuals/HUST_TSA_LOCAL_000001_page_004_VISUAL_01.png"
+    },
+    {
+      "asset_id": "HUST_TSA_LOCAL_000001_P004_VISUAL_02",
+      "kind": "question_visual_crop",
+      "page_number": 4,
+      "bbox": [
+        66.0,
+        552.0,
+        502.3,
+        695.9
+      ],
+      "path": "visuals/HUST_TSA_LOCAL_000001_page_004_VISUAL_02.png"
+    },
+    {
+      "asset_id": "HUST_TSA_LOCAL_000001_P005_VISUAL_01",
+      "kind": "question_visual_crop",
+      "page_number": 5,
+      "bbox": [
+        66.0,
+        83.9,
+        502.3,
+        227.8
+      ],
+      "path": "visuals/HUST_TSA_LOCAL_000001_page_005_VISUAL_01.png"
+    },
+    {
+      "asset_id": "HUST_TSA_LOCAL_000001_P005_VISUAL_02",
+      "kind": "question_visual_crop",
+      "page_number": 5,
+      "bbox": [
+        66.0,
+        210.4,
+        552.0,
+        639.5
+      ],
+      "path": "visuals/HUST_TSA_LOCAL_000001_page_005_VISUAL_02.png"
+    }
+  ],
+  "visual_page_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "pages_needing_ocr": []
+}

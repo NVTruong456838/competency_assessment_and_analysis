@@ -1,0 +1,79 @@
+{
+  "dataset": "HUST_TSA",
+  "validation": {
+    "summary": {
+      "total_documents": 3,
+      "valid_documents": 3,
+      "invalid_documents": 0,
+      "valid_pdf_documents": 3,
+      "documents_with_text": 3,
+      "image_only_or_scanned_pdf": 0,
+      "duplicate_urls": 0,
+      "duplicate_files": 0,
+      "total_pages": 20,
+      "total_text_characters": 30492
+    },
+    "documents": [
+      {
+        "document_id": "HUST_TSA_LOCAL_000001",
+        "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+        "local_path": "D:\\TTDN\\competency_assessment_and_analysis\\crawler\\data\\raw\\tsa\\document_0001.pdf",
+        "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_LOCAL_000001.json",
+        "content_type": "pdf",
+        "missing_fields": [],
+        "raw_file_exists": true,
+        "processed_file_exists": true,
+        "hash_matches": true,
+        "valid_pdf": true,
+        "page_count": 6,
+        "text_char_count": 6501,
+        "has_text": true,
+        "content_valid": true,
+        "pdf_error": null,
+        "duplicate_url": false,
+        "duplicate_file": false,
+        "valid": true
+      },
+      {
+        "document_id": "HUST_TSA_LOCAL_000002",
+        "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+        "local_path": "D:\\TTDN\\competency_assessment_and_analysis\\crawler\\data\\raw\\tsa\\document_0002.pdf",
+        "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_LOCAL_000002.json",
+        "content_type": "pdf",
+        "missing_fields": [],
+        "raw_file_exists": true,
+        "processed_file_exists": true,
+        "hash_matches": true,
+        "valid_pdf": true,
+        "page_count": 10,
+        "text_char_count": 19341,
+        "has_text": true,
+        "content_valid": true,
+        "pdf_error": null,
+        "duplicate_url": false,
+        "duplicate_file": false,
+        "valid": true
+      },
+      {
+        "document_id": "HUST_TSA_LOCAL_000003",
+        "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0003.pdf",
+        "local_path": "D:\\TTDN\\competency_assessment_and_analysis\\crawler\\data\\raw\\tsa\\document_0003.pdf",
+        "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_LOCAL_000003.json",
+        "content_type": "pdf",
+        "missing_fields": [],
+        "raw_file_exists": true,
+        "processed_file_exists": true,
+        "hash_matches": true,
+        "valid_pdf": true,
+        "page_count": 4,
+        "text_char_count": 4650,
+        "has_text": true,
+        "content_valid": true,
+        "pdf_error": null,
+        "duplicate_url": false,
+        "duplicate_file": false,
+        "valid": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "document_id": "HUST_TSA_000001",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/",
+    "title": "Trang chủ",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000001.json",
+    "sha256": "a65b5cff16786785c67b51cd00b4bffbe250ee1ee8bb648433fb63d7c6990031",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000002",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/login",
+    "title": "Login",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000002.json",
+    "sha256": "6b001147c38dbc1fce88bec3d2e6db25361dfff014f119357d0dbcb49cdedc1d",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000003",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/b/huong-nghiep",
+    "title": "",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000003.json",
+    "sha256": "63e62a97f0d4cb2276f670af09e68800f6908f7edc70ac97feec1d28c3a115e9",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000004",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/p/dai-hoc",
+    "title": "Đại học",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000004.json",
+    "sha256": "5d30f270aa2844c9184e66ef60102cd1f71953283f51fcf77defb59954c40eb5",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000005",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/b/thong-tin-chung",
+    "title": "",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000005.json",
+    "sha256": "6e2e4000ade3d55caa973d2a8221f73c7f45f3d50346f664214d90cbbb78abc8",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000006",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc",
+    "title": "Ngành đào tạo đại học",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000006.json",
+    "sha256": "02d97f3b00672551f686d3b35d755c2a2fd0d8e82fe4550959b822ba9a3c47be",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000007",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/b/xet-tuyen-tai-nang",
+    "title": "",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000007.json",
+    "sha256": "98a8dddc0ea31808918977bf54fcb1c089cdf0b2442906c3190f63c3d90dbc94",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000008",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/b/ky-thi-danh-gia-tu-duy",
+    "title": "",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000008.json",
+    "sha256": "94d47b1308725f3ab8a3c78806399bac6bb736e3dacaa94c5b4233d911875542",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000009",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/tin-tuc/huong-dan-dang-ky-xac-thuc-chung-chi-ngoai-ngu-2026",
+    "title": "Hướng dẫn đăng ký xác thực chứng chỉ Ngoại ngữ 2026",
+    "document_type": "guideline",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000009.json",
+    "sha256": "11171f6e314ab05f950fa219e5944f43d0288dcd03fe1d81fee658e70885d1ca",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000010",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/b/diem-chuan-tuyen-sinh",
+    "title": "",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000010.json",
+    "sha256": "9f15c01e1e5ee86a6df47d063e044b38cfc0ba792889edd8c8da187ec2bfd568",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000011",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/p/sau-dai-hoc",
+    "title": "Sau đại học",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000011.json",
+    "sha256": "7f0f664d704738c6f4de3c0e5e6587ea6aa383e4afdd1de5f6d1319e137360ee",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000012",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/b/tuyen-sinh-ky-su-chuyen-sau",
+    "title": "",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000012.json",
+    "sha256": "2f65f90b53c2cc46f21f0662480515ea93fb99112c77a995049ca1803324fdb4",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000013",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/b/tuyen-sinh-cao-hoc",
+    "title": "",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000013.json",
+    "sha256": "c78c7fe13bcf9b7171ae1096e08d72ead5f91abb70f01218bf3f223a0291ab29",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000014",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/b/tuyen-sinh-ncs",
+    "title": "",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000014.json",
+    "sha256": "df2bba58332c4331badcc926a89dd1f94de6efb029eba4829aba057b2661d570",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000015",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/en/program-cate/undergraduate-programs",
+    "title": "Undergraduate programs",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000015.json",
+    "sha256": "761c741c837d14ff2ba2d4f99f02f4d2b93f27fd6c1439ea8b23e0fb76e809b2",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000016",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/tin-tuc/hoc-phi-dai-hoc-chinh-quy",
+    "title": "Học phí Đại học chính quy",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000016.json",
+    "sha256": "a62587b0c424aeae85b6f37c59a5d517f2a99697328200fcdee51225c3d7c12b",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000017",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/tin-tuc/ho-tro-tai-chinh-cho-sinh-vien",
+    "title": "Hỗ trợ tài chính cho sinh viên",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000017.json",
+    "sha256": "323a209724ffa4926ca702f8758bd75638f88e93ddcdb285825857bfeda6ba30",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000018",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/p/lien-he",
+    "title": "Liên hệ",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000018.json",
+    "sha256": "7f556f7a4216ea85ca6a49ebfea5bee4650eba1e8d1368a39aa299405a38331a",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000019",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/tin-tuc/danh-sach-to-tu-van-chuyen-sau-cac-chuong-trinh-nganh-hoc",
+    "title": "Thông tin thầy cô phụ trách tư vấn tuyển sinh ĐHBK Hà Nội",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000019.json",
+    "sha256": "a1fbe0f85f6d4fa132e57477abe8511922090814ddb802565ba896fe6e86e3ea",
+    "status": "processed_html"
+  },
+  {
+    "document_id": "HUST_TSA_000020",
+    "source": "HUST_TSA",
+    "source_url": "https://ts.hust.edu.vn/tin-tuc/diem-chuan-dai-hoc-bach-khoa-ha-noi-nam-2026",
+    "title": "Điểm chuẩn Đại học Bách khoa Hà Nội năm 2026",
+    "document_type": "other",
+    "local_path": null,
+    "processed_path": "crawler\\data\\processed\\tsa\\HUST_TSA_000020.json",
+    "sha256": "e7022a3c1bb0a12527b10428d851bbc75ac39d40d274689a23504a268da1e1b1",
+    "status": "processed_html"
+  }
+]

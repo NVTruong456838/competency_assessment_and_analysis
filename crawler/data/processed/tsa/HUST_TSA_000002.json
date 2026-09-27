@@ -1,0 +1,19 @@
+{
+  "source": "HUST_TSA",
+  "source_url": "https://ts.hust.edu.vn/login",
+  "document_type": "other",
+  "title": "Login",
+  "content_type": "html",
+  "content": "Login\nĐăng nhập\nEmail\nMật khẩu\nGiữ tôi luôn đăng nhập trong 30 ngày\nĐăng nhập\nHoặc sử dụng\nFacebook\nGmail\nBạn quên mật khẩu?\nKhôi phục mật khẩu\nBạn chưa có tài khoản?\nĐăng ký ngay",
+  "links": [
+    "https://ts.hust.edu.vn/",
+    "https://ts.hust.edu.vn/login",
+    "https://ts.hust.edu.vn/forgot-password",
+    "https://ts.hust.edu.vn/register"
+  ],
+  "url": "https://ts.hust.edu.vn/login",
+  "text": "Login\nĐăng nhập\nEmail\nMật khẩu\nGiữ tôi luôn đăng nhập trong 30 ngày\nĐăng nhập\nHoặc sử dụng\nFacebook\nGmail\nBạn quên mật khẩu?\nKhôi phục mật khẩu\nBạn chưa có tài khoản?\nĐăng ký ngay",
+  "document_id": "HUST_TSA_000002",
+  "sha256": "6b001147c38dbc1fce88bec3d2e6db25361dfff014f119357d0dbcb49cdedc1d",
+  "downloaded_at": "2026-09-25T14:49:19.035785+00:00"
+}

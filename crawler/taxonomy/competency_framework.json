@@ -1,0 +1,912 @@
+{
+  "version": "1.0",
+  "status": "draft",
+  "taxonomy": "internal",
+  "exams": [
+    {
+      "id": "TSA",
+      "name": "Đánh giá tư duy",
+      "organization": "HUST",
+      "sections": [
+        {
+          "id": "TSA_MATH",
+          "name": "Tư duy Toán học",
+          "question_count": 40,
+          "duration_minutes": 60,
+          "competencies": [
+            {
+              "id": "TSA_MATH_QUANT",
+              "name": "Tư duy định lượng",
+              "domains": [
+                {
+                  "id": "TSA_MATH_NUMBER",
+                  "name": "Number & Arithmetic",
+                  "topics": []
+                },
+                {
+                  "id": "TSA_MATH_ALGEBRA",
+                  "name": "Algebra",
+                  "topics": [
+                    {
+                      "id": "TSA_MATH_ALGEBRA_EQUATION",
+                      "name": "Equation"
+                    },
+                    {
+                      "id": "TSA_MATH_ALGEBRA_INEQUALITY",
+                      "name": "Inequality"
+                    }
+                  ]
+                },
+                {
+                  "id": "TSA_MATH_FUNCTION",
+                  "name": "Function",
+                  "topics": []
+                },
+                {
+                  "id": "TSA_MATH_GEOMETRY",
+                  "name": "Geometry",
+                  "topics": []
+                },
+                {
+                  "id": "TSA_MATH_COMBINATORICS",
+                  "name": "Combinatorics",
+                  "topics": []
+                },
+                {
+                  "id": "TSA_MATH_PROBABILITY",
+                  "name": "Probability",
+                  "topics": []
+                },
+                {
+                  "id": "TSA_MATH_STATISTICS",
+                  "name": "Statistics",
+                  "topics": []
+                }
+              ]
+            },
+            {
+              "id": "TSA_MATH_MODEL",
+              "name": "Mô hình hóa toán học",
+              "domains": []
+            },
+            {
+              "id": "TSA_MATH_REASON",
+              "name": "Suy luận toán học",
+              "domains": []
+            },
+            {
+              "id": "TSA_MATH_PROBLEM",
+              "name": "Giải quyết vấn đề toán học",
+              "domains": []
+            }
+          ]
+        },
+        {
+          "id": "TSA_READING",
+          "name": "Tư duy Đọc hiểu",
+          "question_count": 20,
+          "duration_minutes": 30,
+          "competencies": [
+            {
+              "id": "TSA_READ_COMPREHEND",
+              "name": "Hiểu nội dung",
+              "domains": [
+                {
+                  "id": "TSA_READ_TEXT_TYPE",
+                  "name": "Text Type",
+                  "topics": [
+                    {
+                      "id": "TSA_READ_LITERARY_TEXT",
+                      "name": "Literary Text"
+                    },
+                    {
+                      "id": "TSA_READ_INFORMATIONAL_TEXT",
+                      "name": "Informational Text"
+                    },
+                    {
+                      "id": "TSA_READ_ARGUMENTATIVE_TEXT",
+                      "name": "Argumentative Text"
+                    }
+                  ]
+                },
+                {
+                  "id": "TSA_READ_MAIN_IDEA_DETAIL",
+                  "name": "Main Idea & Detail",
+                  "topics": []
+                }
+              ]
+            },
+            {
+              "id": "TSA_READ_ANALYZE",
+              "name": "Phân tích văn bản",
+              "domains": [
+                {
+                  "id": "TSA_READ_STRUCTURE_ORGANIZATION",
+                  "name": "Structure & Organization",
+                  "topics": []
+                },
+                {
+                  "id": "TSA_READ_ARGUMENT_EVIDENCE",
+                  "name": "Argument & Evidence",
+                  "topics": []
+                }
+              ]
+            },
+            {
+              "id": "TSA_READ_INFER",
+              "name": "Suy luận",
+              "domains": [
+                {
+                  "id": "TSA_READ_INFERENCE",
+                  "name": "Inference",
+                  "topics": []
+                }
+              ]
+            },
+            {
+              "id": "TSA_READ_EVALUATE",
+              "name": "Đánh giá",
+              "domains": [
+                {
+                  "id": "TSA_READ_EVALUATION_INTERPRETATION",
+                  "name": "Evaluation & Interpretation",
+                  "topics": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "TSA_SCIENCE",
+          "name": "Tư duy Khoa học/GQVĐ",
+          "question_count": 40,
+          "duration_minutes": 60,
+          "competencies": [
+            {
+              "id": "TSA_SCI_DATA",
+              "name": "Phân tích dữ liệu",
+              "domains": [
+                {
+                  "id": "TSA_SCI_DATA_INTERPRETATION",
+                  "name": "Data Interpretation",
+                  "topics": [
+                    {
+                      "id": "TSA_SCI_DATA_TABLES",
+                      "name": "Tables"
+                    },
+                    {
+                      "id": "TSA_SCI_DATA_CHARTS",
+                      "name": "Charts"
+                    },
+                    {
+                      "id": "TSA_SCI_DATA_STATISTICAL",
+                      "name": "Statistical Data"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "TSA_SCI_REASON",
+              "name": "Suy luận khoa học",
+              "domains": [
+                {
+                  "id": "TSA_SCI_REASON_SCIENTIFIC",
+                  "name": "Scientific Reasoning",
+                  "topics": [
+                    {
+                      "id": "TSA_SCI_REASON_EVIDENCE",
+                      "name": "Evidence"
+                    },
+                    {
+                      "id": "TSA_SCI_REASON_CAUSE_EFFECT",
+                      "name": "Cause & Effect"
+                    },
+                    {
+                      "id": "TSA_SCI_REASON_HYPOTHESIS",
+                      "name": "Hypothesis"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "TSA_SCI_CONCEPT",
+              "name": "Vận dụng kiến thức khoa học",
+              "domains": [
+                {
+                  "id": "TSA_SCI_CONCEPT_BIOLOGY_HEALTH",
+                  "name": "Biology / Health",
+                  "topics": [
+                    {
+                      "id": "TSA_SCI_CONCEPT_CANCER_PUBLIC_HEALTH",
+                      "name": "Cancer & Public Health"
+                    }
+                  ]
+                },
+                {
+                  "id": "TSA_SCI_CONCEPT_CHEMISTRY",
+                  "name": "Chemistry",
+                  "topics": []
+                },
+                {
+                  "id": "TSA_SCI_CONCEPT_PHYSICS",
+                  "name": "Physics",
+                  "topics": []
+                },
+                {
+                  "id": "TSA_SCI_CONCEPT_EARTH_ENVIRONMENT",
+                  "name": "Earth & Environmental Science",
+                  "topics": []
+                }
+              ]
+            },
+            {
+              "id": "TSA_SCI_PROBLEM",
+              "name": "Giải quyết vấn đề",
+              "domains": [
+                {
+                  "id": "TSA_SCI_PROBLEM_SOLVING",
+                  "name": "Problem Solving",
+                  "topics": [
+                    {
+                      "id": "TSA_SCI_PROBLEM_IDENTIFY",
+                      "name": "Identify Problem"
+                    },
+                    {
+                      "id": "TSA_SCI_PROBLEM_ANALYZE",
+                      "name": "Analyze Information"
+                    },
+                    {
+                      "id": "TSA_SCI_PROBLEM_SELECT_SOLUTION",
+                      "name": "Select Solution"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "HSA",
+      "name": "Bài thi đánh giá năng lực học sinh trung học phổ thông",
+      "organization": "Đại học Quốc gia Hà Nội",
+      "version": "2026",
+      "sections": [
+        {
+          "id": "HSA_MATH_DATA",
+          "name": "Toán học và xử lý số liệu",
+          "question_count": 50,
+          "duration_minutes": 75,
+          "competencies": [
+            {
+              "id": "HSA_MATH_LOGIC_QUANT",
+              "name": "Lập luận và tư duy định lượng",
+              "domains": [
+                {
+                  "id": "HSA_MATH_ALGEBRA_ANALYSIS",
+                  "name": "Số học, Đại số và Giải tích",
+                  "topics": [
+                    {
+                      "id": "HSA_MATH_NUMBER_SET",
+                      "name": "Số học, mệnh đề và tập hợp"
+                    },
+                    {
+                      "id": "HSA_MATH_ALGEBRA_EXPRESSION",
+                      "name": "Biểu thức đại số"
+                    },
+                    {
+                      "id": "HSA_MATH_EQUATION_INEQUALITY",
+                      "name": "Phương trình và bất phương trình"
+                    },
+                    {
+                      "id": "HSA_MATH_FUNCTION_GRAPH",
+                      "name": "Hàm số và đồ thị"
+                    },
+                    {
+                      "id": "HSA_MATH_CALCULUS",
+                      "name": "Giới hạn, đạo hàm, nguyên hàm và tích phân"
+                    }
+                  ]
+                },
+                {
+                  "id": "HSA_MATH_GEOMETRY_MEASUREMENT",
+                  "name": "Hình học và Đo lường",
+                  "topics": [
+                    {
+                      "id": "HSA_MATH_PLANE_GEOMETRY",
+                      "name": "Hình học phẳng"
+                    },
+                    {
+                      "id": "HSA_MATH_SPATIAL_GEOMETRY",
+                      "name": "Hình học không gian"
+                    },
+                    {
+                      "id": "HSA_MATH_MEASUREMENT",
+                      "name": "Đo lường"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "HSA_MATH_MODEL",
+              "name": "Mô hình hóa toán học",
+              "domains": [
+                {
+                  "id": "HSA_MATH_APPLIED_MODEL",
+                  "name": "Mô hình toán học trong thực tiễn",
+                  "topics": [
+                    {
+                      "id": "HSA_MATH_REAL_CONTEXT_MODEL",
+                      "name": "Mô hình hóa tình huống thực tiễn"
+                    },
+                    {
+                      "id": "HSA_MATH_MODEL_INTERPRETATION",
+                      "name": "Diễn giải kết quả mô hình"
+                    }
+                  ]
+                },
+                {
+                  "id": "HSA_MATH_OPTIMIZATION",
+                  "name": "Tối ưu hóa",
+                  "topics": [
+                    {
+                      "id": "HSA_MATH_OBJECTIVE_CONSTRAINT",
+                      "name": "Mục tiêu và ràng buộc"
+                    },
+                    {
+                      "id": "HSA_MATH_OPTIMAL_SOLUTION",
+                      "name": "Phương án tối ưu"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "HSA_MATH_PROBLEM",
+              "name": "Giải quyết vấn đề toán học",
+              "domains": [
+                {
+                  "id": "HSA_MATH_PROBLEM_STRATEGY",
+                  "name": "Chiến lược giải quyết vấn đề",
+                  "topics": [
+                    {
+                      "id": "HSA_MATH_MULTI_STEP",
+                      "name": "Bài toán nhiều bước"
+                    },
+                    {
+                      "id": "HSA_MATH_CONSTRAINT_CASE",
+                      "name": "Ràng buộc và trường hợp"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "HSA_MATH_DATA_ANALYSIS",
+              "name": "Phân tích dữ liệu và xác suất thống kê",
+              "domains": [
+                {
+                  "id": "HSA_MATH_STATISTICS",
+                  "name": "Thống kê",
+                  "topics": [
+                    {
+                      "id": "HSA_MATH_DATA_REPRESENTATION",
+                      "name": "Biểu diễn dữ liệu"
+                    },
+                    {
+                      "id": "HSA_MATH_DESCRIPTIVE_STATISTICS",
+                      "name": "Thống kê mô tả"
+                    }
+                  ]
+                },
+                {
+                  "id": "HSA_MATH_PROBABILITY",
+                  "name": "Xác suất và tổ hợp",
+                  "topics": [
+                    {
+                      "id": "HSA_MATH_COUNTING",
+                      "name": "Đại số tổ hợp"
+                    },
+                    {
+                      "id": "HSA_MATH_PROBABILITY_EVENT",
+                      "name": "Biến cố và xác suất"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "HSA_LITERATURE_LANGUAGE",
+          "name": "Văn học - Ngôn ngữ",
+          "question_count": 50,
+          "duration_minutes": 60,
+          "competencies": [
+            {
+              "id": "HSA_LANG_LANGUAGE_USE",
+              "name": "Sử dụng tiếng Việt",
+              "domains": [
+                {
+                  "id": "HSA_LANG_VIETNAMESE_SYSTEM",
+                  "name": "Hệ thống tiếng Việt",
+                  "topics": [
+                    {
+                      "id": "HSA_LANG_VOCABULARY_GRAMMAR",
+                      "name": "Từ vựng và ngữ pháp"
+                    },
+                    {
+                      "id": "HSA_LANG_SEMANTICS_PRAGMATICS",
+                      "name": "Ngữ nghĩa và giao tiếp"
+                    }
+                  ]
+                },
+                {
+                  "id": "HSA_LANG_WRITTEN_EXPRESSION",
+                  "name": "Diễn đạt và hành văn",
+                  "topics": [
+                    {
+                      "id": "HSA_LANG_SENTENCE_EXPRESSION",
+                      "name": "Diễn đạt câu"
+                    },
+                    {
+                      "id": "HSA_LANG_COHERENCE_COHESION",
+                      "name": "Liên kết và mạch lạc"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "HSA_LANG_READING",
+              "name": "Đọc hiểu văn bản",
+              "domains": [
+                {
+                  "id": "HSA_LANG_TEXT_COMPREHENSION",
+                  "name": "Hiểu nội dung văn bản",
+                  "topics": [
+                    {
+                      "id": "HSA_LANG_MAIN_IDEA_DETAIL",
+                      "name": "Ý chính và chi tiết"
+                    },
+                    {
+                      "id": "HSA_LANG_PURPOSE_VIEWPOINT",
+                      "name": "Mục đích và quan điểm"
+                    }
+                  ]
+                },
+                {
+                  "id": "HSA_LANG_TEXT_TYPE",
+                  "name": "Kiểu văn bản",
+                  "topics": [
+                    {
+                      "id": "HSA_LANG_LITERARY_TEXT",
+                      "name": "Văn bản văn học"
+                    },
+                    {
+                      "id": "HSA_LANG_INFORMATIONAL_TEXT",
+                      "name": "Văn bản thông tin"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "HSA_LANG_TEXT_ANALYSIS",
+              "name": "Phân tích văn bản và văn học",
+              "domains": [
+                {
+                  "id": "HSA_LANG_TEXT_STRUCTURE_ARGUMENT",
+                  "name": "Cấu trúc và lập luận",
+                  "topics": [
+                    {
+                      "id": "HSA_LANG_STRUCTURE_ORGANIZATION",
+                      "name": "Cấu trúc và tổ chức thông tin"
+                    },
+                    {
+                      "id": "HSA_LANG_ARGUMENT_EVIDENCE",
+                      "name": "Lập luận và bằng chứng"
+                    }
+                  ]
+                },
+                {
+                  "id": "HSA_LANG_LITERARY_ANALYSIS",
+                  "name": "Phân tích văn học",
+                  "topics": [
+                    {
+                      "id": "HSA_LANG_GENRE_IMAGE",
+                      "name": "Thể loại và hình tượng"
+                    },
+                    {
+                      "id": "HSA_LANG_THEME_ARTISTRY",
+                      "name": "Nội dung tư tưởng và nghệ thuật"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "HSA_LANG_EVALUATION",
+              "name": "Đánh giá và diễn giải",
+              "domains": [
+                {
+                  "id": "HSA_LANG_EXPRESSION_EVALUATION",
+                  "name": "Đánh giá biểu đạt và lập luận",
+                  "topics": [
+                    {
+                      "id": "HSA_LANG_ARGUMENT_QUALITY",
+                      "name": "Chất lượng lập luận"
+                    },
+                    {
+                      "id": "HSA_LANG_LANGUAGE_STYLE",
+                      "name": "Hiệu quả ngôn ngữ và phong cách"
+                    }
+                  ]
+                },
+                {
+                  "id": "HSA_LANG_LITERARY_EVALUATION",
+                  "name": "Đánh giá văn học",
+                  "topics": [
+                    {
+                      "id": "HSA_LANG_VALUE_INTERPRETATION",
+                      "name": "Giá trị và diễn giải tác phẩm"
+                    },
+                    {
+                      "id": "HSA_LANG_COMPARISON",
+                      "name": "So sánh văn bản và quan điểm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "HSA_OPTIONAL",
+          "name": "Khoa học hoặc Tiếng Anh",
+          "question_count": 50,
+          "duration_minutes": 60,
+          "section_type": "selection_container",
+          "selection_mode": "exactly_one_branch",
+          "branches": [
+            {
+              "id": "HSA_SCIENCE",
+              "name": "Khoa học",
+              "paper_code_pattern": "Q01-Q10",
+              "subject_choice_required": true,
+              "competencies": [
+                {
+                  "id": "HSA_SCI_CONCEPT",
+                  "name": "Vận dụng kiến thức khoa học",
+                  "domains": [
+                    {
+                      "id": "HSA_SCI_PHYSICS",
+                      "name": "Vật lí",
+                      "topics": [
+                        {
+                          "id": "HSA_SCI_PHYSICS_MECHANICS",
+                          "name": "Cơ học"
+                        },
+                        {
+                          "id": "HSA_SCI_PHYSICS_WAVES_ELECTRICITY",
+                          "name": "Dao động, sóng, điện và từ"
+                        },
+                        {
+                          "id": "HSA_SCI_PHYSICS_THERMAL_MODERN",
+                          "name": "Vật lí nhiệt, hạt nhân và phóng xạ"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "HSA_SCI_CHEMISTRY",
+                      "name": "Hóa học",
+                      "topics": [
+                        {
+                          "id": "HSA_SCI_CHEMISTRY_ATOMIC_ENERGY",
+                          "name": "Nguyên tử, liên kết và năng lượng hóa học"
+                        },
+                        {
+                          "id": "HSA_SCI_CHEMISTRY_INORGANIC_METALS",
+                          "name": "Hóa vô cơ và kim loại"
+                        },
+                        {
+                          "id": "HSA_SCI_CHEMISTRY_ORGANIC",
+                          "name": "Hợp chất hữu cơ"
+                        },
+                        {
+                          "id": "HSA_SCI_CHEMISTRY_SPECTROSCOPY_PRACTICE",
+                          "name": "Phổ và thực hành thí nghiệm"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "HSA_SCI_BIOLOGY",
+                      "name": "Sinh học",
+                      "topics": [
+                        {
+                          "id": "HSA_SCI_BIOLOGY_CELL_ORGANISM",
+                          "name": "Tế bào, vi sinh vật và sinh học cơ thể"
+                        },
+                        {
+                          "id": "HSA_SCI_BIOLOGY_METABOLISM_DEVELOPMENT",
+                          "name": "Trao đổi chất, sinh trưởng và phát triển"
+                        },
+                        {
+                          "id": "HSA_SCI_BIOLOGY_GENETICS_EVOLUTION",
+                          "name": "Di truyền học và tiến hóa"
+                        },
+                        {
+                          "id": "HSA_SCI_BIOLOGY_ECOLOGY_ENVIRONMENT",
+                          "name": "Sinh thái học và môi trường"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "HSA_SCI_HISTORY",
+                      "name": "Lịch sử",
+                      "topics": [
+                        {
+                          "id": "HSA_SCI_HISTORY_WORLD_MODERN",
+                          "name": "Lịch sử thế giới cận đại và hiện đại"
+                        },
+                        {
+                          "id": "HSA_SCI_HISTORY_SOUTHEAST_ASIA",
+                          "name": "Lịch sử Đông Nam Á"
+                        },
+                        {
+                          "id": "HSA_SCI_HISTORY_VIETNAM_MODERN",
+                          "name": "Lịch sử Việt Nam cận và hiện đại"
+                        },
+                        {
+                          "id": "HSA_SCI_HISTORY_INTEGRATION",
+                          "name": "Danh nhân và hội nhập quốc tế của Việt Nam"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "HSA_SCI_GEOGRAPHY",
+                      "name": "Địa lí",
+                      "topics": [
+                        {
+                          "id": "HSA_SCI_GEOGRAPHY_GENERAL",
+                          "name": "Địa lí đại cương"
+                        },
+                        {
+                          "id": "HSA_SCI_GEOGRAPHY_WORLD_SOCIOECONOMIC",
+                          "name": "Địa lí kinh tế - xã hội thế giới"
+                        },
+                        {
+                          "id": "HSA_SCI_GEOGRAPHY_VIETNAM_NATURAL",
+                          "name": "Địa lí tự nhiên và dân cư Việt Nam"
+                        },
+                        {
+                          "id": "HSA_SCI_GEOGRAPHY_VIETNAM_ECONOMIC",
+                          "name": "Địa lí kinh tế và vùng Việt Nam"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "HSA_SCI_DATA",
+                  "name": "Phân tích dữ liệu và tư liệu",
+                  "domains": [
+                    {
+                      "id": "HSA_SCI_EXPERIMENTAL_DATA",
+                      "name": "Dữ liệu khoa học và thực nghiệm",
+                      "topics": [
+                        {
+                          "id": "HSA_SCI_TABLE_CHART",
+                          "name": "Bảng và biểu đồ"
+                        },
+                        {
+                          "id": "HSA_SCI_EXPERIMENT_PRACTICE",
+                          "name": "Dữ liệu thí nghiệm và thực hành"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "HSA_SCI_SPATIAL_HISTORICAL_SOURCE",
+                      "name": "Tư liệu không gian và lịch sử",
+                      "topics": [
+                        {
+                          "id": "HSA_SCI_MAP_SPATIAL_DATA",
+                          "name": "Bản đồ và dữ liệu không gian"
+                        },
+                        {
+                          "id": "HSA_SCI_HISTORICAL_SOURCE",
+                          "name": "Tư liệu lịch sử"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "HSA_SCI_REASON",
+                  "name": "Lập luận dựa trên bằng chứng",
+                  "domains": [
+                    {
+                      "id": "HSA_SCI_EVIDENCE_REASONING",
+                      "name": "Suy luận từ bằng chứng",
+                      "topics": [
+                        {
+                          "id": "HSA_SCI_EVIDENCE_CONCLUSION",
+                          "name": "Bằng chứng và kết luận"
+                        },
+                        {
+                          "id": "HSA_SCI_CAUSE_EFFECT",
+                          "name": "Nguyên nhân và hệ quả"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "HSA_SCI_HYPOTHESIS_REASONING",
+                      "name": "Suy luận giả thuyết",
+                      "topics": [
+                        {
+                          "id": "HSA_SCI_PREDICTION",
+                          "name": "Dự đoán"
+                        },
+                        {
+                          "id": "HSA_SCI_HYPOTHESIS_EVALUATION",
+                          "name": "Đánh giá giả thuyết"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "HSA_SCI_PROBLEM",
+                  "name": "Giải quyết vấn đề khoa học/xã hội",
+                  "domains": [
+                    {
+                      "id": "HSA_SCI_PRACTICAL_PROBLEM",
+                      "name": "Vấn đề khoa học và thực hành",
+                      "topics": [
+                        {
+                          "id": "HSA_SCI_VARIABLE_IDENTIFY",
+                          "name": "Xác định vấn đề và biến số"
+                        },
+                        {
+                          "id": "HSA_SCI_METHOD_SELECT",
+                          "name": "Lựa chọn phương pháp"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "HSA_SCI_SOCIAL_ENVIRONMENTAL_PROBLEM",
+                      "name": "Vấn đề xã hội và môi trường",
+                      "topics": [
+                        {
+                          "id": "HSA_SCI_CONTEXT_ANALYSIS",
+                          "name": "Phân tích bối cảnh"
+                        },
+                        {
+                          "id": "HSA_SCI_SOLUTION_SELECT",
+                          "name": "Lựa chọn giải pháp"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "HSA_ENGLISH",
+              "name": "Tiếng Anh",
+              "paper_code": "Q21",
+              "competencies": [
+                {
+                  "id": "HSA_ENG_LANGUAGE_USE",
+                  "name": "Sử dụng ngôn ngữ",
+                  "domains": [
+                    {
+                      "id": "HSA_ENG_VOCABULARY_GRAMMAR",
+                      "name": "Vocabulary and Grammar",
+                      "topics": [
+                        {
+                          "id": "HSA_ENG_VOCABULARY",
+                          "name": "Vocabulary in Context"
+                        },
+                        {
+                          "id": "HSA_ENG_GRAMMAR",
+                          "name": "Grammar"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "HSA_ENG_WRITTEN_EXPRESSION",
+                      "name": "Written Expression",
+                      "topics": [
+                        {
+                          "id": "HSA_ENG_SENTENCE_TRANSFORMATION",
+                          "name": "Sentence Transformation"
+                        },
+                        {
+                          "id": "HSA_ENG_COHERENCE_COHESION",
+                          "name": "Coherence and Cohesion"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "HSA_ENG_READING",
+                  "name": "Đọc hiểu tiếng Anh",
+                  "domains": [
+                    {
+                      "id": "HSA_ENG_TEXT_COMPREHENSION",
+                      "name": "Text Comprehension",
+                      "topics": [
+                        {
+                          "id": "HSA_ENG_MAIN_IDEA_DETAIL",
+                          "name": "Main Idea and Detail"
+                        },
+                        {
+                          "id": "HSA_ENG_CONTEXTUAL_MEANING",
+                          "name": "Contextual Meaning"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "HSA_ENG_TEXT_STRUCTURE_PURPOSE",
+                      "name": "Text Structure and Purpose",
+                      "topics": [
+                        {
+                          "id": "HSA_ENG_TEXT_STRUCTURE",
+                          "name": "Text Structure"
+                        },
+                        {
+                          "id": "HSA_ENG_AUTHOR_ATTITUDE",
+                          "name": "Author Purpose and Attitude"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "HSA_ENG_SITUATIONAL_REASONING",
+                  "name": "Suy luận và giải quyết tình huống bằng tiếng Anh",
+                  "domains": [
+                    {
+                      "id": "HSA_ENG_PRAGMATIC_COMMUNICATION",
+                      "name": "Pragmatic Communication",
+                      "topics": [
+                        {
+                          "id": "HSA_ENG_COMMUNICATIVE_RESPONSE",
+                          "name": "Communicative Response"
+                        },
+                        {
+                          "id": "HSA_ENG_REGISTER_APPROPRIACY",
+                          "name": "Register and Appropriacy"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "HSA_ENG_INFERENCE_PROBLEM",
+                      "name": "Inference and Problem Solving",
+                      "topics": [
+                        {
+                          "id": "HSA_ENG_IMPLICIT_INFERENCE",
+                          "name": "Implicit Inference"
+                        },
+                        {
+                          "id": "HSA_ENG_SITUATIONAL_SOLUTION",
+                          "name": "Situational Solution"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2338 @@
+[
+  {
+    "question_id": "HUST_TSA_LOCAL_000001_Q001",
+    "question_number": 1,
+    "stem": "(M1): Bạn Hải lấy một cặp số tự nhiên phân biệt rồi tính số dư khi chia t ổng lập phương của hai số cho tổng các chữ số của số lớn trong hai số đó. Nếu làm theo đúng quy tắc của bạn Hải với cặp số (31; 175) ta thu được kết quả bằng",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "correct_answer": [
+      "D"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000001",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+      "page_number": 1
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      1
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000001_Q002",
+    "question_number": 2,
+    "stem": "(M1): Cho hàm số bậc ba có đồ thị ( )C như hình vẽ sau. Kéo ô thích hợp thả vào vị trí tương ứng để hoàn thành các câu sau: Số điểm cực trị của hàm số là [vị trí thả 1]. Giá trị cực đại của hàm số là [vị trí thả 2]. Số giao điểm của đồ thị ( )C và trục hoành là [vị trí thả 3]. Số điểm cực trị của hàm số là . Giá trị cực đại của hàm số là . Số giao điểm của đồ thị ( )C và trục hoành là . 3 2 4 1 2 1 3",
+    "question_type": "short_answer",
+    "options": [],
+    "correct_answer": null,
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000001",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+      "page_number": 1
+    },
+    "quality": {
+      "extraction_status": "needs_review",
+      "human_review_status": "pending",
+      "warnings": [
+        "missing_answer",
+        "visual_content_needs_review"
+      ],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      1
+    ],
+    "visual_assets": [
+      {
+        "asset_id": "HUST_TSA_LOCAL_000001_P001_VISUAL_01",
+        "kind": "question_visual_crop",
+        "page_number": 1,
+        "bbox": [
+          216.0,
+          269.0,
+          396.0,
+          458.0
+        ],
+        "path": "visuals/HUST_TSA_LOCAL_000001_page_001_VISUAL_01.png"
+      },
+      {
+        "asset_id": "HUST_TSA_LOCAL_000001_P001_VISUAL_02",
+        "kind": "question_visual_crop",
+        "page_number": 1,
+        "bbox": [
+          66.0,
+          527.2,
+          360.4,
+          690.0
+        ],
+        "path": "visuals/HUST_TSA_LOCAL_000001_page_001_VISUAL_02.png"
+      }
+    ],
+    "extra": {
+      "response_mode": "drag_drop"
+    }
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000001_Q003",
+    "question_number": 3,
+    "stem": "(M2): Trong tiết học về hình đa diện đều, cô giáo Hạnh hướng dẫn học sinh tạo ra hình tứ diện đều như sau: Đầu tiên, cô giáo l ấy một miếng bìa hình tam giác đều có c ạnh dài 10 cm. Tiếp đó, g ấp miếng bìa theo các đường kẻ nối trung điểm giữa các cạnh của miếng bìa (tham khảo hình vẽ). Sau đó, cô giáo dán các mép lại, chúng ta sẽ có một hình tứ diện đều (giả sử phần bìa tại các mép dán không đáng kể). Mỗi phát biểu sau là đúng hay sai? STT Phát biểu Đúng Sai 1 Độ dài c ạnh c ủa hình t ứ diện đ ều đư ợc t ạo ra bằng 10 cm. 2 Diện tích toàn ph ần của hình t ứ diện đều được tạo ra bằng 225 3 . cm 3 Thể tích của khối tứ diện đều được tạo thành bởi hình tứ diện đều nói trên bằng 3125 2 .12 cm STT Phát biểu Đúng Sai 1 Độ dài c ạnh c ủa hình t ứ diện đ ều đư ợc t ạo ra bằng 10 cm. X 2 Diện tích toàn ph ần của hình t ứ diện đều được tạo ra bằng 225 3 . cm X 3 Thể tích của khối tứ diện đều được tạo thành bởi hình tứ diện đều nói trên bằng 3125 2 .12 cm X",
+    "question_type": "true_false",
+    "options": [],
+    "correct_answer": null,
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000001",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+      "page_number": 2
+    },
+    "quality": {
+      "extraction_status": "needs_review",
+      "human_review_status": "pending",
+      "warnings": [
+        "layout_or_table_content_needs_review",
+        "missing_answer",
+        "visual_content_needs_review"
+      ],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      2
+    ],
+    "visual_assets": [
+      {
+        "asset_id": "HUST_TSA_LOCAL_000001_P002_VISUAL_01",
+        "kind": "question_visual_crop",
+        "page_number": 2,
+        "bbox": [
+          125.0,
+          173.0,
+          487.0,
+          318.0
+        ],
+        "path": "visuals/HUST_TSA_LOCAL_000001_page_002_VISUAL_01.png"
+      },
+      {
+        "asset_id": "HUST_TSA_LOCAL_000001_P002_VISUAL_02",
+        "kind": "question_visual_crop",
+        "page_number": 2,
+        "bbox": [
+          66.0,
+          326.6,
+          463.1,
+          669.8
+        ],
+        "path": "visuals/HUST_TSA_LOCAL_000001_page_002_VISUAL_02.png"
+      }
+    ],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000001_Q004",
+    "question_number": 4,
+    "stem": "(M2): Cho hàm số ( ) 3logf x x x=+ và biểu thức ( ) ( ) ( )1P xf x f x f= − − . Kéo ô thích hợp thả vào vị trí tương ứng để hoàn thành các câu sau: Giá trị của biểu thức P tại 1 27x= bằng [vị trí thả 1]. Số nghiệm nguyên thuộc đoạn  1;5 của bất phương trình 1P− là [vị trí thả 2]. Số nghiệm thực của phương trình 2P=− là [vị trí thả 3]. Giá trị của biểu thức P tại 1 27x= bằng . Số nghiệm nguyên thuộc đoạn  1;5 của bất phương trình 1P− là . Số nghiệm thực của phương trình 2P=− là .",
+    "question_type": "short_answer",
+    "options": [],
+    "correct_answer": null,
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000001",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+      "page_number": 3
+    },
+    "quality": {
+      "extraction_status": "needs_review",
+      "human_review_status": "pending",
+      "warnings": [
+        "missing_answer",
+        "visual_content_needs_review"
+      ],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      3
+    ],
+    "visual_assets": [
+      {
+        "asset_id": "HUST_TSA_LOCAL_000001_P003_VISUAL_01",
+        "kind": "question_visual_crop",
+        "page_number": 3,
+        "bbox": [
+          66.0,
+          188.8,
+          480.3,
+          367.0
+        ],
+        "path": "visuals/HUST_TSA_LOCAL_000001_page_003_VISUAL_01.png"
+      }
+    ],
+    "extra": {
+      "response_mode": "drag_drop"
+    }
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000001_Q005",
+    "question_number": 5,
+    "stem": "(M2): Một người dùng khi đăng nhập vào một trang web sẽ được cấp một mã kiểm tra là một dãy số gồm 5 chữ số. Giả sử mỗi chữ số trong mã được hệ thống tạo mã chọn ngẫu nhiên trong phạm vi từ 0 tới 9, xác suất để một mã kiểm tra tạo ra có ít nhất hai chữ số 0 là (Các kết quả làm tròn đến chữ số thập phân thứ tư).",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "0,0729"
+      },
+      {
+        "key": "B",
+        "text": "0,0815"
+      },
+      {
+        "key": "C",
+        "text": "0,9185"
+      },
+      {
+        "key": "D",
+        "text": "0,1000"
+      }
+    ],
+    "correct_answer": [
+      "B"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000001",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+      "page_number": 3
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      3
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000001_Q006",
+    "question_number": 6,
+    "stem": "(M2): Xét những tờ giấy hình chữ nhật, kẻ ca-rô cỡ 𝑚 × 𝑛 ô vuông, một cách phân chia “tốt” được xác định khi ta ch ỉ dùng những dòng kẻ có sẵn chia tờ giấy thành những phần bằng nhau sao cho mỗi phần đều là hình vuông cỡ 𝑝 × 𝑝 ô. Chẳng hạn, ở hình dưới, bằng những dòng kẻ được tô màu xanh, ta xác định một cách phân chia “tốt” với m = 9, n = 12, p = 3. 1 4 2 3 2 4 1 Số cách phân chia “tốt” đối với một tờ giấy ca-rô cỡ 120 × 300 là",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "12 cách."
+      },
+      {
+        "key": "B",
+        "text": "60 cách."
+      },
+      {
+        "key": "C",
+        "text": "30 cách."
+      },
+      {
+        "key": "D",
+        "text": "36000 cách."
+      }
+    ],
+    "correct_answer": [
+      "A"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000001",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+      "page_number": 3
+    },
+    "quality": {
+      "extraction_status": "needs_review",
+      "human_review_status": "pending",
+      "warnings": [
+        "visual_content_needs_review"
+      ],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      3,
+      4
+    ],
+    "visual_assets": [
+      {
+        "asset_id": "HUST_TSA_LOCAL_000001_P003_VISUAL_02",
+        "kind": "question_visual_crop",
+        "page_number": 3,
+        "bbox": [
+          0.0,
+          537.9,
+          612.0,
+          763.0
+        ],
+        "path": "visuals/HUST_TSA_LOCAL_000001_page_003_VISUAL_02.png"
+      },
+      {
+        "asset_id": "HUST_TSA_LOCAL_000001_P004_VISUAL_01",
+        "kind": "question_visual_crop",
+        "page_number": 4,
+        "bbox": [
+          225.0,
+          66.0,
+          387.0,
+          192.0
+        ],
+        "path": "visuals/HUST_TSA_LOCAL_000001_page_004_VISUAL_01.png"
+      }
+    ],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000001_Q007",
+    "question_number": 7,
+    "stem": "(M2): Tổng tất cả các nghiệm thuộc −  3;22 của phương trình xx+=sin cos2 0 bằng …….. (kết quả làm tròn đến chữ số thập phân thứ hai, biết π ≈ 3,14).",
+    "question_type": "numeric_input",
+    "options": [],
+    "correct_answer": [
+      "4,71"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000001",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+      "page_number": 4
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      4
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000001_Q008",
+    "question_number": 8,
+    "stem": "(M2): Biết rằng giá trị nhỏ nhất của hàm số ( ) 32 3f x x x m=− − + trên đoạn  1 ;1− bằng 1 thì giá trị của tham số m thuộc những khoảng nào trong các khoảng dưới đây?",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "(0; 4)"
+      },
+      {
+        "key": "B",
+        "text": "(1; 5)"
+      },
+      {
+        "key": "C",
+        "text": "(2; 6)"
+      },
+      {
+        "key": "D",
+        "text": "(3; 7)"
+      }
+    ],
+    "correct_answer": [
+      "C",
+      "D"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000001",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+      "page_number": 4
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      4
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000001_Q009",
+    "question_number": 9,
+    "stem": "(M3): Trong không gian Oxyz, cho hình chóp đ ều S.ABCD có ( ) ( ) ( )3;2;1 , 1 ;2;0 , 3;0;0S A C . Gọi E là trung điểm của BD. Gọi I là tâm mặt cầu (S) ngoại tiếp của hình chóp S.ABCD. Mỗi phát biểu sau là đúng hay sai? Phát biểu Đúng Sai I cách đều ba điểm S, A, C. I thuộc đường thẳng SE. I cách đều mặt đáy và mặt bên của hình chóp. Phương trình mặt cầu (S) là 2 2 2 11 5 5 11 6 6 6 4x y z     − + − + − =           . Phát biểu Đúng Sai I cách đều ba điểm S, A, C. X I thuộc đường thẳng SE. X I cách đều mặt đáy và mặt bên của hình chóp. X Phương trình mặt cầu (S) là 2 2 2 11 5 5 11 6 6 6 4x y z     − + − + − =           . X",
+    "question_type": "true_false",
+    "options": [],
+    "correct_answer": null,
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000001",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+      "page_number": 4
+    },
+    "quality": {
+      "extraction_status": "needs_review",
+      "human_review_status": "pending",
+      "warnings": [
+        "unexpected_option_order",
+        "layout_or_table_content_needs_review",
+        "missing_answer",
+        "visual_content_needs_review"
+      ],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      4,
+      5
+    ],
+    "visual_assets": [
+      {
+        "asset_id": "HUST_TSA_LOCAL_000001_P004_VISUAL_02",
+        "kind": "question_visual_crop",
+        "page_number": 4,
+        "bbox": [
+          66.0,
+          552.0,
+          502.3,
+          695.9
+        ],
+        "path": "visuals/HUST_TSA_LOCAL_000001_page_004_VISUAL_02.png"
+      },
+      {
+        "asset_id": "HUST_TSA_LOCAL_000001_P005_VISUAL_01",
+        "kind": "question_visual_crop",
+        "page_number": 5,
+        "bbox": [
+          66.0,
+          83.9,
+          502.3,
+          227.8
+        ],
+        "path": "visuals/HUST_TSA_LOCAL_000001_page_005_VISUAL_01.png"
+      }
+    ],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000001_Q010",
+    "question_number": 10,
+    "stem": "(M3): Xưởng gỗ Bách Mộc thiết kế một mẫu đồ chơi gồm một khối nón và một khối trụ có cùng bán kính đáy ch ồng lên nhau (như hình vẽ). Biết chiều cao của khối trụ và khối nón cùng bằng 2cm và bằng độ dài của đường kính đáy. Kéo ô thích hợp thả vào vị trí tương ứng để hoàn thành các câu sau: Thể tích gỗ cần dùng để làm khối đồ chơi gần bằng: [Vị trí thả 1] 3cm Một khách hàng muốn sơn khối đồ chơi đó bằng nhiều màu sắc khác nhau. Diện tích bề mặt gỗ cần sơn gần bằng: [Vị trí thả 2] 2cm . Nếu xưởng gỗ này muốn làm một chiếc hộp hình trụ bằng bìa cứng để đựng khối đồ chơi đó sao cho đỉnh của khối nón trùng với tâm mặt đáy trên của hộp và đáy khối trụ vừa khít với đáy dưới của hộp. Diện tích bìa cứng cần dùng gần bằng: [Vị trí thả 3] 2cm . (Các kết quả làm tròn đến chữ số thập phân thứ hai). Thể tích gỗ cần dùng để làm khối đồ chơi gần bằng: 3cm Một khách hàng mu ốn sơn khối đồ chơi đó bằng nhiều màu sắc khác nhau. Di ện tích bề mặt gỗ cần sơn gần bằng: 2cm Nếu xưởng gỗ này muốn làm một chiếc hộp hình trụ bằng bìa cứng để đựng khối đồ chơi đó sao cho đỉnh của khối nón trùng với tâm mặt đáy trên của hộp và đáy khối trụ vừa khít với đáy dưới của hộp. Diện tích bìa cứng cần dùng gần bằng: 2cm . (Các kết quả làm tròn đến chữ số thập phân thứ hai. 22,73 8,38 31,42 28,27 19,59 8,38 22,73 31,42",
+    "question_type": "short_answer",
+    "options": [],
+    "correct_answer": null,
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000001",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+      "page_number": 5
+    },
+    "quality": {
+      "extraction_status": "needs_review",
+      "human_review_status": "pending",
+      "warnings": [
+        "missing_answer",
+        "visual_content_needs_review"
+      ],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      5
+    ],
+    "visual_assets": [
+      {
+        "asset_id": "HUST_TSA_LOCAL_000001_P005_VISUAL_02",
+        "kind": "question_visual_crop",
+        "page_number": 5,
+        "bbox": [
+          66.0,
+          210.4,
+          552.0,
+          639.5
+        ],
+        "path": "visuals/HUST_TSA_LOCAL_000001_page_005_VISUAL_02.png"
+      }
+    ],
+    "extra": {
+      "response_mode": "drag_drop"
+    }
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000001_Q011",
+    "question_number": 11,
+    "stem": "(M3): Một người thợ nhôm kính nhận đơn đặt hàng làm một bể cá cảnh bằng kính dạng hình hộp chữ nhật không có nắp với thể tích bằng 33, 2 m và chiều cao của bể gấp 2 lần chiều rộng của đáy. Biết giá một mét vuông kính để làm bể cá là 1 triệu đồng. Để mua đủ mét vuông kính làm bể cá theo yêu cầu thì người thợ cần tối thiểu số tiền bằng ... triệu đồng. (Coi độ dày của kính là không đáng kể so với kích thước của bể).",
+    "question_type": "numeric_input",
+    "options": [],
+    "correct_answer": [
+      "12"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000001",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+      "page_number": 6
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      6
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000001_Q012",
+    "question_number": 12,
+    "stem": "(M3): Gọi 𝑆 là tập hợp tất cả các giá tr ị nguyên dương c ủa tham s ố m sao cho phương trình m x m x +=sin ( 2 )[] có đúng 11 nghiệm phân biệt. Tổng các phần tử của 𝑆 là",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "11"
+      },
+      {
+        "key": "B",
+        "text": "9"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "correct_answer": [
+      "A"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000001",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0001.pdf",
+      "page_number": 6
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      6
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q001",
+    "question_number": 1,
+    "stem": "Ý chính của bài viết là gì?",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "Các nguyên tắc tư duy thiết kế cơ bản để đổi mới sáng tạo ở doanh nghiệp"
+      },
+      {
+        "key": "B",
+        "text": "Vai trò của TS Seng Kiong Kok với tiến trình đổi mới sáng tạo ở doanh nghiệp"
+      },
+      {
+        "key": "C",
+        "text": "Vai trò và chức năng của doanh nghiệp trong tiến trình đổi mới sáng tạo"
+      },
+      {
+        "key": "D",
+        "text": "Giải pháp giúp doanh nghiệp mở rộng hoạt động đổi mới sáng tạo hiệu quả"
+      }
+    ],
+    "correct_answer": [
+      "D"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 2
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 1 đến 7: DOANH NGHIỆP VÀ ĐỔI MỚI SÁNG TẠO [0] (TBTCO) - Theo Tiến sĩ Seng Kiong Kok - Giảng viên Đại học RMIT, làm rõ vấn đề, lên ý tưởng, phát triển giải pháp và thực thi là những nguyên tắc tư duy thiết kế cơ bản để dẫn dắt quy trình đổi mới sáng tạo ở doanh nghiệp thuộc mọi quy mô, từ các “gã khổng lồ” đa quốc gia đến những công ty khởi nghiệp từ cộng đồng. Vấn đề cốt lõi để mở rộng hoạt động đổi mới. [1] Chia sẻ về những vấn đề liên quan đến hoạt động đổi mới sáng tạo, TS Seng Kiong Kok khẳng định, “đổi mới sáng tạo” hiện đang là cụm từ kích hoạt hành động trong thế giới doanh nghiệp. Dữ liệu khảo sát gần đây cho thấy, khái niệm này luôn nằm trong top 3 ưu tiên hàng đầu của các công ty. Ngoài ra, một số minh chứng cũng chỉ ra rằng, những doanh nghiệp đầu tư nhiều vào đổi mới trong giai đoạn đại dịch toàn cầu vừa qua đều có được kết quả kinh doanh cao hơn đối thủ. [2] Mặc dù đổi mới sáng tạo đang thu hút được khá nhiều sự quan tâm nhưng đây vẫn là một khái niệm khó định nghĩa, bởi ở mỗi nơi lại có hình thái khác. Nhưng một điều chắc chắn là rất ít doanh nghiệp muốn bị coi là đang đứng ngoài cuộc chơi đổi mới. Việc thiếu định nghĩa cơ bản như vậy có thể là lý do khiến các doanh nghiệp vẫn còn yếu kém trong việc mở rộng quy mô đầu tư đổi mới để tạo ra giá trị cho tổ chức. [3] Bên cạnh việc cho thấy những doanh nghiệp chú trọng đầu tư cho đổi mới sẽ kinh doanh tốt hơn sau giai đoạn Covid-19, nghiên cứu cũng chỉ ra rằng tỷ lệ các công ty có khả năng mở rộng quy mô đổi mới chỉ là 20%. Điều này đặt ra một câu hỏi đầy thách thức và cần được giải quyết. Dựa trên những nghiên cứu hiện có, có thể xác định ba vấn đề cốt lõi: thiếu văn hóa doanh nghiệp, ít coi trọng hợp tác trong và ngoài doanh nghiệp, không đánh giá cao và thiếu tuân thủ các mục tiêu của tổ chức. Nói một cách đơn giản, doanh nghiệp có chuyên môn và kiến thức kỹ thuật để đổi mới, nhưng họ thiếu năng lực lãnh đạo để điều phối, hướng dẫn và thúc đẩy các nguồn lực này nhằm đạt được mục tiêu. [4] Để giải quyết vấn đề trên, TS Seng Kiong Kok khuyến nghị 4 giải pháp. Theo đó, giải pháp thứ nhất là cần phải hướng tầm nhìn ra ngoài nội bộ tổ chức để tìm động lực đổi mới. Việc sử dụng và xây dựng các nguồn lực đổi mới trong nội bộ là điều tốt, nhưng nếu có thể tăng cường những hoạt động này bằng các cơ chế bên ngoài thì đây sẽ là động lực bổ sung để thu hẹp khoảng cách giữa đổi mới và các giá trị tạo ra. [5] Thứ hai, việc tìm hiểu về cơ cấu tổ chức sẽ giúp xác định cách khai thác những nguồn lực đổi mới có giá trị. Cơ cấu tổ chức ở đây bao gồm các cấu trúc hữu hình như mạng lưới chi nhánh và vị trí địa lý, cũng như các tổ hợp cấu trúc chính trị - xã hội ít hữu hình hơn như hệ thống lãnh đạo và quản trị. [6] Thứ ba, cần chú trọng trau dồi và hỗ trợ các nhóm khác nhau trong đội ngũ nhân sự. Đổi mới là một quá trình mang tính chất đột phá, đòi hỏi các tổ chức và nhân sự phải hiểu rõ hơn về những vấn đề hiện tại và loại bỏ những lối mòn trong tư duy. Một nhiệm vụ quan trọng trong quá trình đổi mới là tạo ra môi trường cho phép các cá nhân sáng tạo và đưa ra ý kiến không đồng thuận, cũng như hỗ trợ họ về mặt tâm lý khi phải đưa ra ý kiến. [7] Giải pháp thứ tư là cần hiểu rõ hành lang quy định để đảm bảo đổi mới sáng tạo phù hợp với các mục tiêu của tổ chức. Cần lưu ý rằng đổi mới thường chỉ thực sự diễn ra khi doanh nghiệp phải đối mặt với trở ngại, còn hành lang quy định trong và ngoài nước sẽ giúp xác định mức độ đổi mới thể chế. [8] “Những biện pháp can thiệp trên không chỉ giúp thu hẹp khoảng cách giữa giá trị tạo ra với hoạt động đổi mới của doanh nghiệp mà còn tác động đến các thế hệ tương lai, đặc biệt là những sinh viên đang học tập hoặc sắp tốt nghiệp, chuẩn bị tham gia vào thị trường lao động…” – TS Seng Kiong Kok nói. [9] Thông điệp đổi mới sáng tạo chung là cần quan tâm đến khả năng bổ trợ và khả năng thích ứng của các kỹ năng trong lực lượng lao động nhằm đón đầu những bước chuyển đổi số tiếp theo trong nền kinh tế. Các bộ kỹ năng truyền thống cần được bồi đắp để bắt kịp tốc độ chuyển đổi nhanh và doanh nghiệp cần nhận thức rõ lợi ích từ các cơ hội hợp tác. Mặc dù doanh nghiệp có thể tự mình đổi mới, nhưng hợp tác sẽ đem lại lợi ích chung lớn hơn. Nguồn: Tác giả Đỗ Doãn, Thời báo Tài chính, Bộ Tài chính Việt Nam, đăng ngày 04/01/2023",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_001",
+    "group_type": "passage",
+    "source_pages": [
+      1,
+      2
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q002",
+    "question_number": 2,
+    "stem": "Theo đoạn 1, “đổi mới sáng tạo” là biện pháp giúp các doanh nghiệp đạt được kết quả kinh doanh nằm trong top 3 trong giai đoạn đại dịch toàn cầu. Đúng hay sai?",
+    "question_type": "true_false",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đúng"
+      },
+      {
+        "key": "B",
+        "text": "Sai"
+      }
+    ],
+    "correct_answer": [
+      "B"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 2
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 1 đến 7: DOANH NGHIỆP VÀ ĐỔI MỚI SÁNG TẠO [0] (TBTCO) - Theo Tiến sĩ Seng Kiong Kok - Giảng viên Đại học RMIT, làm rõ vấn đề, lên ý tưởng, phát triển giải pháp và thực thi là những nguyên tắc tư duy thiết kế cơ bản để dẫn dắt quy trình đổi mới sáng tạo ở doanh nghiệp thuộc mọi quy mô, từ các “gã khổng lồ” đa quốc gia đến những công ty khởi nghiệp từ cộng đồng. Vấn đề cốt lõi để mở rộng hoạt động đổi mới. [1] Chia sẻ về những vấn đề liên quan đến hoạt động đổi mới sáng tạo, TS Seng Kiong Kok khẳng định, “đổi mới sáng tạo” hiện đang là cụm từ kích hoạt hành động trong thế giới doanh nghiệp. Dữ liệu khảo sát gần đây cho thấy, khái niệm này luôn nằm trong top 3 ưu tiên hàng đầu của các công ty. Ngoài ra, một số minh chứng cũng chỉ ra rằng, những doanh nghiệp đầu tư nhiều vào đổi mới trong giai đoạn đại dịch toàn cầu vừa qua đều có được kết quả kinh doanh cao hơn đối thủ. [2] Mặc dù đổi mới sáng tạo đang thu hút được khá nhiều sự quan tâm nhưng đây vẫn là một khái niệm khó định nghĩa, bởi ở mỗi nơi lại có hình thái khác. Nhưng một điều chắc chắn là rất ít doanh nghiệp muốn bị coi là đang đứng ngoài cuộc chơi đổi mới. Việc thiếu định nghĩa cơ bản như vậy có thể là lý do khiến các doanh nghiệp vẫn còn yếu kém trong việc mở rộng quy mô đầu tư đổi mới để tạo ra giá trị cho tổ chức. [3] Bên cạnh việc cho thấy những doanh nghiệp chú trọng đầu tư cho đổi mới sẽ kinh doanh tốt hơn sau giai đoạn Covid-19, nghiên cứu cũng chỉ ra rằng tỷ lệ các công ty có khả năng mở rộng quy mô đổi mới chỉ là 20%. Điều này đặt ra một câu hỏi đầy thách thức và cần được giải quyết. Dựa trên những nghiên cứu hiện có, có thể xác định ba vấn đề cốt lõi: thiếu văn hóa doanh nghiệp, ít coi trọng hợp tác trong và ngoài doanh nghiệp, không đánh giá cao và thiếu tuân thủ các mục tiêu của tổ chức. Nói một cách đơn giản, doanh nghiệp có chuyên môn và kiến thức kỹ thuật để đổi mới, nhưng họ thiếu năng lực lãnh đạo để điều phối, hướng dẫn và thúc đẩy các nguồn lực này nhằm đạt được mục tiêu. [4] Để giải quyết vấn đề trên, TS Seng Kiong Kok khuyến nghị 4 giải pháp. Theo đó, giải pháp thứ nhất là cần phải hướng tầm nhìn ra ngoài nội bộ tổ chức để tìm động lực đổi mới. Việc sử dụng và xây dựng các nguồn lực đổi mới trong nội bộ là điều tốt, nhưng nếu có thể tăng cường những hoạt động này bằng các cơ chế bên ngoài thì đây sẽ là động lực bổ sung để thu hẹp khoảng cách giữa đổi mới và các giá trị tạo ra. [5] Thứ hai, việc tìm hiểu về cơ cấu tổ chức sẽ giúp xác định cách khai thác những nguồn lực đổi mới có giá trị. Cơ cấu tổ chức ở đây bao gồm các cấu trúc hữu hình như mạng lưới chi nhánh và vị trí địa lý, cũng như các tổ hợp cấu trúc chính trị - xã hội ít hữu hình hơn như hệ thống lãnh đạo và quản trị. [6] Thứ ba, cần chú trọng trau dồi và hỗ trợ các nhóm khác nhau trong đội ngũ nhân sự. Đổi mới là một quá trình mang tính chất đột phá, đòi hỏi các tổ chức và nhân sự phải hiểu rõ hơn về những vấn đề hiện tại và loại bỏ những lối mòn trong tư duy. Một nhiệm vụ quan trọng trong quá trình đổi mới là tạo ra môi trường cho phép các cá nhân sáng tạo và đưa ra ý kiến không đồng thuận, cũng như hỗ trợ họ về mặt tâm lý khi phải đưa ra ý kiến. [7] Giải pháp thứ tư là cần hiểu rõ hành lang quy định để đảm bảo đổi mới sáng tạo phù hợp với các mục tiêu của tổ chức. Cần lưu ý rằng đổi mới thường chỉ thực sự diễn ra khi doanh nghiệp phải đối mặt với trở ngại, còn hành lang quy định trong và ngoài nước sẽ giúp xác định mức độ đổi mới thể chế. [8] “Những biện pháp can thiệp trên không chỉ giúp thu hẹp khoảng cách giữa giá trị tạo ra với hoạt động đổi mới của doanh nghiệp mà còn tác động đến các thế hệ tương lai, đặc biệt là những sinh viên đang học tập hoặc sắp tốt nghiệp, chuẩn bị tham gia vào thị trường lao động…” – TS Seng Kiong Kok nói. [9] Thông điệp đổi mới sáng tạo chung là cần quan tâm đến khả năng bổ trợ và khả năng thích ứng của các kỹ năng trong lực lượng lao động nhằm đón đầu những bước chuyển đổi số tiếp theo trong nền kinh tế. Các bộ kỹ năng truyền thống cần được bồi đắp để bắt kịp tốc độ chuyển đổi nhanh và doanh nghiệp cần nhận thức rõ lợi ích từ các cơ hội hợp tác. Mặc dù doanh nghiệp có thể tự mình đổi mới, nhưng hợp tác sẽ đem lại lợi ích chung lớn hơn. Nguồn: Tác giả Đỗ Doãn, Thời báo Tài chính, Bộ Tài chính Việt Nam, đăng ngày 04/01/2023",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_001",
+    "group_type": "passage",
+    "source_pages": [
+      1,
+      2,
+      3
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q003",
+    "question_number": 3,
+    "stem": "Từ thông tin của đoạn 3, hãy hoàn thành câu sau bằng cách kéo thả các từ vào đúng vị trí. Những khó khăn trong việc mở rộng quy mô đổi mới có thể bắt nguồn từ ba nguyên nhân sau:  Chưa xây dựng được [vị trí thả 1] công ty;  Chưa đề cao [vị trí thả 2] doanh nghiệp;  Không coi trọng và thực hiện nghiêm túc [vị trí thả 3] của doanh nghiệp. Ô kéo 1: văn hoá Ô kéo 2: hợp tác Ô kéo 3: mục tiêu Ô kéo 4: kế hoạch Vị trí thả 1: Vị trí thả 2: Vị trí thả 3:",
+    "question_type": "short_answer",
+    "options": [],
+    "correct_answer": null,
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 3
+    },
+    "quality": {
+      "extraction_status": "needs_review",
+      "human_review_status": "pending",
+      "warnings": [
+        "missing_answer"
+      ],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 1 đến 7: DOANH NGHIỆP VÀ ĐỔI MỚI SÁNG TẠO [0] (TBTCO) - Theo Tiến sĩ Seng Kiong Kok - Giảng viên Đại học RMIT, làm rõ vấn đề, lên ý tưởng, phát triển giải pháp và thực thi là những nguyên tắc tư duy thiết kế cơ bản để dẫn dắt quy trình đổi mới sáng tạo ở doanh nghiệp thuộc mọi quy mô, từ các “gã khổng lồ” đa quốc gia đến những công ty khởi nghiệp từ cộng đồng. Vấn đề cốt lõi để mở rộng hoạt động đổi mới. [1] Chia sẻ về những vấn đề liên quan đến hoạt động đổi mới sáng tạo, TS Seng Kiong Kok khẳng định, “đổi mới sáng tạo” hiện đang là cụm từ kích hoạt hành động trong thế giới doanh nghiệp. Dữ liệu khảo sát gần đây cho thấy, khái niệm này luôn nằm trong top 3 ưu tiên hàng đầu của các công ty. Ngoài ra, một số minh chứng cũng chỉ ra rằng, những doanh nghiệp đầu tư nhiều vào đổi mới trong giai đoạn đại dịch toàn cầu vừa qua đều có được kết quả kinh doanh cao hơn đối thủ. [2] Mặc dù đổi mới sáng tạo đang thu hút được khá nhiều sự quan tâm nhưng đây vẫn là một khái niệm khó định nghĩa, bởi ở mỗi nơi lại có hình thái khác. Nhưng một điều chắc chắn là rất ít doanh nghiệp muốn bị coi là đang đứng ngoài cuộc chơi đổi mới. Việc thiếu định nghĩa cơ bản như vậy có thể là lý do khiến các doanh nghiệp vẫn còn yếu kém trong việc mở rộng quy mô đầu tư đổi mới để tạo ra giá trị cho tổ chức. [3] Bên cạnh việc cho thấy những doanh nghiệp chú trọng đầu tư cho đổi mới sẽ kinh doanh tốt hơn sau giai đoạn Covid-19, nghiên cứu cũng chỉ ra rằng tỷ lệ các công ty có khả năng mở rộng quy mô đổi mới chỉ là 20%. Điều này đặt ra một câu hỏi đầy thách thức và cần được giải quyết. Dựa trên những nghiên cứu hiện có, có thể xác định ba vấn đề cốt lõi: thiếu văn hóa doanh nghiệp, ít coi trọng hợp tác trong và ngoài doanh nghiệp, không đánh giá cao và thiếu tuân thủ các mục tiêu của tổ chức. Nói một cách đơn giản, doanh nghiệp có chuyên môn và kiến thức kỹ thuật để đổi mới, nhưng họ thiếu năng lực lãnh đạo để điều phối, hướng dẫn và thúc đẩy các nguồn lực này nhằm đạt được mục tiêu. [4] Để giải quyết vấn đề trên, TS Seng Kiong Kok khuyến nghị 4 giải pháp. Theo đó, giải pháp thứ nhất là cần phải hướng tầm nhìn ra ngoài nội bộ tổ chức để tìm động lực đổi mới. Việc sử dụng và xây dựng các nguồn lực đổi mới trong nội bộ là điều tốt, nhưng nếu có thể tăng cường những hoạt động này bằng các cơ chế bên ngoài thì đây sẽ là động lực bổ sung để thu hẹp khoảng cách giữa đổi mới và các giá trị tạo ra. [5] Thứ hai, việc tìm hiểu về cơ cấu tổ chức sẽ giúp xác định cách khai thác những nguồn lực đổi mới có giá trị. Cơ cấu tổ chức ở đây bao gồm các cấu trúc hữu hình như mạng lưới chi nhánh và vị trí địa lý, cũng như các tổ hợp cấu trúc chính trị - xã hội ít hữu hình hơn như hệ thống lãnh đạo và quản trị. [6] Thứ ba, cần chú trọng trau dồi và hỗ trợ các nhóm khác nhau trong đội ngũ nhân sự. Đổi mới là một quá trình mang tính chất đột phá, đòi hỏi các tổ chức và nhân sự phải hiểu rõ hơn về những vấn đề hiện tại và loại bỏ những lối mòn trong tư duy. Một nhiệm vụ quan trọng trong quá trình đổi mới là tạo ra môi trường cho phép các cá nhân sáng tạo và đưa ra ý kiến không đồng thuận, cũng như hỗ trợ họ về mặt tâm lý khi phải đưa ra ý kiến. [7] Giải pháp thứ tư là cần hiểu rõ hành lang quy định để đảm bảo đổi mới sáng tạo phù hợp với các mục tiêu của tổ chức. Cần lưu ý rằng đổi mới thường chỉ thực sự diễn ra khi doanh nghiệp phải đối mặt với trở ngại, còn hành lang quy định trong và ngoài nước sẽ giúp xác định mức độ đổi mới thể chế. [8] “Những biện pháp can thiệp trên không chỉ giúp thu hẹp khoảng cách giữa giá trị tạo ra với hoạt động đổi mới của doanh nghiệp mà còn tác động đến các thế hệ tương lai, đặc biệt là những sinh viên đang học tập hoặc sắp tốt nghiệp, chuẩn bị tham gia vào thị trường lao động…” – TS Seng Kiong Kok nói. [9] Thông điệp đổi mới sáng tạo chung là cần quan tâm đến khả năng bổ trợ và khả năng thích ứng của các kỹ năng trong lực lượng lao động nhằm đón đầu những bước chuyển đổi số tiếp theo trong nền kinh tế. Các bộ kỹ năng truyền thống cần được bồi đắp để bắt kịp tốc độ chuyển đổi nhanh và doanh nghiệp cần nhận thức rõ lợi ích từ các cơ hội hợp tác. Mặc dù doanh nghiệp có thể tự mình đổi mới, nhưng hợp tác sẽ đem lại lợi ích chung lớn hơn. Nguồn: Tác giả Đỗ Doãn, Thời báo Tài chính, Bộ Tài chính Việt Nam, đăng ngày 04/01/2023",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_001",
+    "group_type": "passage",
+    "source_pages": [
+      1,
+      3
+    ],
+    "visual_assets": [],
+    "extra": {
+      "response_mode": "drag_drop"
+    }
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q004",
+    "question_number": 4,
+    "stem": "Theo đoạn 4, áp dụng các cơ chế bên ngoài đóng vai trò quan trọng nhất trong việc mở rộng hoạt động đổi mới sáng tạo. Đúng hay sai?",
+    "question_type": "true_false",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đúng"
+      },
+      {
+        "key": "B",
+        "text": "Sai"
+      }
+    ],
+    "correct_answer": [
+      "B"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 3
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 1 đến 7: DOANH NGHIỆP VÀ ĐỔI MỚI SÁNG TẠO [0] (TBTCO) - Theo Tiến sĩ Seng Kiong Kok - Giảng viên Đại học RMIT, làm rõ vấn đề, lên ý tưởng, phát triển giải pháp và thực thi là những nguyên tắc tư duy thiết kế cơ bản để dẫn dắt quy trình đổi mới sáng tạo ở doanh nghiệp thuộc mọi quy mô, từ các “gã khổng lồ” đa quốc gia đến những công ty khởi nghiệp từ cộng đồng. Vấn đề cốt lõi để mở rộng hoạt động đổi mới. [1] Chia sẻ về những vấn đề liên quan đến hoạt động đổi mới sáng tạo, TS Seng Kiong Kok khẳng định, “đổi mới sáng tạo” hiện đang là cụm từ kích hoạt hành động trong thế giới doanh nghiệp. Dữ liệu khảo sát gần đây cho thấy, khái niệm này luôn nằm trong top 3 ưu tiên hàng đầu của các công ty. Ngoài ra, một số minh chứng cũng chỉ ra rằng, những doanh nghiệp đầu tư nhiều vào đổi mới trong giai đoạn đại dịch toàn cầu vừa qua đều có được kết quả kinh doanh cao hơn đối thủ. [2] Mặc dù đổi mới sáng tạo đang thu hút được khá nhiều sự quan tâm nhưng đây vẫn là một khái niệm khó định nghĩa, bởi ở mỗi nơi lại có hình thái khác. Nhưng một điều chắc chắn là rất ít doanh nghiệp muốn bị coi là đang đứng ngoài cuộc chơi đổi mới. Việc thiếu định nghĩa cơ bản như vậy có thể là lý do khiến các doanh nghiệp vẫn còn yếu kém trong việc mở rộng quy mô đầu tư đổi mới để tạo ra giá trị cho tổ chức. [3] Bên cạnh việc cho thấy những doanh nghiệp chú trọng đầu tư cho đổi mới sẽ kinh doanh tốt hơn sau giai đoạn Covid-19, nghiên cứu cũng chỉ ra rằng tỷ lệ các công ty có khả năng mở rộng quy mô đổi mới chỉ là 20%. Điều này đặt ra một câu hỏi đầy thách thức và cần được giải quyết. Dựa trên những nghiên cứu hiện có, có thể xác định ba vấn đề cốt lõi: thiếu văn hóa doanh nghiệp, ít coi trọng hợp tác trong và ngoài doanh nghiệp, không đánh giá cao và thiếu tuân thủ các mục tiêu của tổ chức. Nói một cách đơn giản, doanh nghiệp có chuyên môn và kiến thức kỹ thuật để đổi mới, nhưng họ thiếu năng lực lãnh đạo để điều phối, hướng dẫn và thúc đẩy các nguồn lực này nhằm đạt được mục tiêu. [4] Để giải quyết vấn đề trên, TS Seng Kiong Kok khuyến nghị 4 giải pháp. Theo đó, giải pháp thứ nhất là cần phải hướng tầm nhìn ra ngoài nội bộ tổ chức để tìm động lực đổi mới. Việc sử dụng và xây dựng các nguồn lực đổi mới trong nội bộ là điều tốt, nhưng nếu có thể tăng cường những hoạt động này bằng các cơ chế bên ngoài thì đây sẽ là động lực bổ sung để thu hẹp khoảng cách giữa đổi mới và các giá trị tạo ra. [5] Thứ hai, việc tìm hiểu về cơ cấu tổ chức sẽ giúp xác định cách khai thác những nguồn lực đổi mới có giá trị. Cơ cấu tổ chức ở đây bao gồm các cấu trúc hữu hình như mạng lưới chi nhánh và vị trí địa lý, cũng như các tổ hợp cấu trúc chính trị - xã hội ít hữu hình hơn như hệ thống lãnh đạo và quản trị. [6] Thứ ba, cần chú trọng trau dồi và hỗ trợ các nhóm khác nhau trong đội ngũ nhân sự. Đổi mới là một quá trình mang tính chất đột phá, đòi hỏi các tổ chức và nhân sự phải hiểu rõ hơn về những vấn đề hiện tại và loại bỏ những lối mòn trong tư duy. Một nhiệm vụ quan trọng trong quá trình đổi mới là tạo ra môi trường cho phép các cá nhân sáng tạo và đưa ra ý kiến không đồng thuận, cũng như hỗ trợ họ về mặt tâm lý khi phải đưa ra ý kiến. [7] Giải pháp thứ tư là cần hiểu rõ hành lang quy định để đảm bảo đổi mới sáng tạo phù hợp với các mục tiêu của tổ chức. Cần lưu ý rằng đổi mới thường chỉ thực sự diễn ra khi doanh nghiệp phải đối mặt với trở ngại, còn hành lang quy định trong và ngoài nước sẽ giúp xác định mức độ đổi mới thể chế. [8] “Những biện pháp can thiệp trên không chỉ giúp thu hẹp khoảng cách giữa giá trị tạo ra với hoạt động đổi mới của doanh nghiệp mà còn tác động đến các thế hệ tương lai, đặc biệt là những sinh viên đang học tập hoặc sắp tốt nghiệp, chuẩn bị tham gia vào thị trường lao động…” – TS Seng Kiong Kok nói. [9] Thông điệp đổi mới sáng tạo chung là cần quan tâm đến khả năng bổ trợ và khả năng thích ứng của các kỹ năng trong lực lượng lao động nhằm đón đầu những bước chuyển đổi số tiếp theo trong nền kinh tế. Các bộ kỹ năng truyền thống cần được bồi đắp để bắt kịp tốc độ chuyển đổi nhanh và doanh nghiệp cần nhận thức rõ lợi ích từ các cơ hội hợp tác. Mặc dù doanh nghiệp có thể tự mình đổi mới, nhưng hợp tác sẽ đem lại lợi ích chung lớn hơn. Nguồn: Tác giả Đỗ Doãn, Thời báo Tài chính, Bộ Tài chính Việt Nam, đăng ngày 04/01/2023",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_001",
+    "group_type": "passage",
+    "source_pages": [
+      1,
+      3
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q005",
+    "question_number": 5,
+    "stem": "Hãy hoàn thành các câu sau bằng cách kéo thả các từ vào đúng vị trí: Giải pháp thứ ba [vị trí thả 1] sự khác biệt của mỗi cá thể trong bộ máy nhân sự, nhằm tránh đi theo những lối mòn trong suy nghĩ. Ngoài ra, mỗi cá nhân cần được [vị trí thả 2] để thoả sức sáng tạo và [vị trí thả 3] quan điểm bất đồng. Ô kéo 1: tôn trọng Ô kéo 2: tạo điều kiện Ô kéo 3: bày tỏ Ô kéo 4: cho phép văn hoá hợp tác mục tiêu kế hoạch văn hoá hợp tác mục tiêu tôn trọng tạo điều kiện bày tỏ cho phép Vị trí thả 1: Vị trí thả 2: Vị trí thả 3:",
+    "question_type": "short_answer",
+    "options": [],
+    "correct_answer": null,
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 3
+    },
+    "quality": {
+      "extraction_status": "needs_review",
+      "human_review_status": "pending",
+      "warnings": [
+        "missing_answer"
+      ],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 1 đến 7: DOANH NGHIỆP VÀ ĐỔI MỚI SÁNG TẠO [0] (TBTCO) - Theo Tiến sĩ Seng Kiong Kok - Giảng viên Đại học RMIT, làm rõ vấn đề, lên ý tưởng, phát triển giải pháp và thực thi là những nguyên tắc tư duy thiết kế cơ bản để dẫn dắt quy trình đổi mới sáng tạo ở doanh nghiệp thuộc mọi quy mô, từ các “gã khổng lồ” đa quốc gia đến những công ty khởi nghiệp từ cộng đồng. Vấn đề cốt lõi để mở rộng hoạt động đổi mới. [1] Chia sẻ về những vấn đề liên quan đến hoạt động đổi mới sáng tạo, TS Seng Kiong Kok khẳng định, “đổi mới sáng tạo” hiện đang là cụm từ kích hoạt hành động trong thế giới doanh nghiệp. Dữ liệu khảo sát gần đây cho thấy, khái niệm này luôn nằm trong top 3 ưu tiên hàng đầu của các công ty. Ngoài ra, một số minh chứng cũng chỉ ra rằng, những doanh nghiệp đầu tư nhiều vào đổi mới trong giai đoạn đại dịch toàn cầu vừa qua đều có được kết quả kinh doanh cao hơn đối thủ. [2] Mặc dù đổi mới sáng tạo đang thu hút được khá nhiều sự quan tâm nhưng đây vẫn là một khái niệm khó định nghĩa, bởi ở mỗi nơi lại có hình thái khác. Nhưng một điều chắc chắn là rất ít doanh nghiệp muốn bị coi là đang đứng ngoài cuộc chơi đổi mới. Việc thiếu định nghĩa cơ bản như vậy có thể là lý do khiến các doanh nghiệp vẫn còn yếu kém trong việc mở rộng quy mô đầu tư đổi mới để tạo ra giá trị cho tổ chức. [3] Bên cạnh việc cho thấy những doanh nghiệp chú trọng đầu tư cho đổi mới sẽ kinh doanh tốt hơn sau giai đoạn Covid-19, nghiên cứu cũng chỉ ra rằng tỷ lệ các công ty có khả năng mở rộng quy mô đổi mới chỉ là 20%. Điều này đặt ra một câu hỏi đầy thách thức và cần được giải quyết. Dựa trên những nghiên cứu hiện có, có thể xác định ba vấn đề cốt lõi: thiếu văn hóa doanh nghiệp, ít coi trọng hợp tác trong và ngoài doanh nghiệp, không đánh giá cao và thiếu tuân thủ các mục tiêu của tổ chức. Nói một cách đơn giản, doanh nghiệp có chuyên môn và kiến thức kỹ thuật để đổi mới, nhưng họ thiếu năng lực lãnh đạo để điều phối, hướng dẫn và thúc đẩy các nguồn lực này nhằm đạt được mục tiêu. [4] Để giải quyết vấn đề trên, TS Seng Kiong Kok khuyến nghị 4 giải pháp. Theo đó, giải pháp thứ nhất là cần phải hướng tầm nhìn ra ngoài nội bộ tổ chức để tìm động lực đổi mới. Việc sử dụng và xây dựng các nguồn lực đổi mới trong nội bộ là điều tốt, nhưng nếu có thể tăng cường những hoạt động này bằng các cơ chế bên ngoài thì đây sẽ là động lực bổ sung để thu hẹp khoảng cách giữa đổi mới và các giá trị tạo ra. [5] Thứ hai, việc tìm hiểu về cơ cấu tổ chức sẽ giúp xác định cách khai thác những nguồn lực đổi mới có giá trị. Cơ cấu tổ chức ở đây bao gồm các cấu trúc hữu hình như mạng lưới chi nhánh và vị trí địa lý, cũng như các tổ hợp cấu trúc chính trị - xã hội ít hữu hình hơn như hệ thống lãnh đạo và quản trị. [6] Thứ ba, cần chú trọng trau dồi và hỗ trợ các nhóm khác nhau trong đội ngũ nhân sự. Đổi mới là một quá trình mang tính chất đột phá, đòi hỏi các tổ chức và nhân sự phải hiểu rõ hơn về những vấn đề hiện tại và loại bỏ những lối mòn trong tư duy. Một nhiệm vụ quan trọng trong quá trình đổi mới là tạo ra môi trường cho phép các cá nhân sáng tạo và đưa ra ý kiến không đồng thuận, cũng như hỗ trợ họ về mặt tâm lý khi phải đưa ra ý kiến. [7] Giải pháp thứ tư là cần hiểu rõ hành lang quy định để đảm bảo đổi mới sáng tạo phù hợp với các mục tiêu của tổ chức. Cần lưu ý rằng đổi mới thường chỉ thực sự diễn ra khi doanh nghiệp phải đối mặt với trở ngại, còn hành lang quy định trong và ngoài nước sẽ giúp xác định mức độ đổi mới thể chế. [8] “Những biện pháp can thiệp trên không chỉ giúp thu hẹp khoảng cách giữa giá trị tạo ra với hoạt động đổi mới của doanh nghiệp mà còn tác động đến các thế hệ tương lai, đặc biệt là những sinh viên đang học tập hoặc sắp tốt nghiệp, chuẩn bị tham gia vào thị trường lao động…” – TS Seng Kiong Kok nói. [9] Thông điệp đổi mới sáng tạo chung là cần quan tâm đến khả năng bổ trợ và khả năng thích ứng của các kỹ năng trong lực lượng lao động nhằm đón đầu những bước chuyển đổi số tiếp theo trong nền kinh tế. Các bộ kỹ năng truyền thống cần được bồi đắp để bắt kịp tốc độ chuyển đổi nhanh và doanh nghiệp cần nhận thức rõ lợi ích từ các cơ hội hợp tác. Mặc dù doanh nghiệp có thể tự mình đổi mới, nhưng hợp tác sẽ đem lại lợi ích chung lớn hơn. Nguồn: Tác giả Đỗ Doãn, Thời báo Tài chính, Bộ Tài chính Việt Nam, đăng ngày 04/01/2023",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_001",
+    "group_type": "passage",
+    "source_pages": [
+      1,
+      3,
+      4
+    ],
+    "visual_assets": [],
+    "extra": {
+      "response_mode": "drag_drop"
+    }
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q006",
+    "question_number": 6,
+    "stem": "Hãy tìm một cụm từ không quá ba tiếng trong văn bản để hoàn thành nhận định sau: Theo TS Seng Kiong Kok, các biện pháp can thiệp vào hoạt động đổi mới sáng tạo tại các doanh nghiệp còn _________ đến sinh viên, lực lượng tiềm năng của thị trường lao động.",
+    "question_type": "short_answer",
+    "options": [],
+    "correct_answer": [
+      "tác động"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 4
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 1 đến 7: DOANH NGHIỆP VÀ ĐỔI MỚI SÁNG TẠO [0] (TBTCO) - Theo Tiến sĩ Seng Kiong Kok - Giảng viên Đại học RMIT, làm rõ vấn đề, lên ý tưởng, phát triển giải pháp và thực thi là những nguyên tắc tư duy thiết kế cơ bản để dẫn dắt quy trình đổi mới sáng tạo ở doanh nghiệp thuộc mọi quy mô, từ các “gã khổng lồ” đa quốc gia đến những công ty khởi nghiệp từ cộng đồng. Vấn đề cốt lõi để mở rộng hoạt động đổi mới. [1] Chia sẻ về những vấn đề liên quan đến hoạt động đổi mới sáng tạo, TS Seng Kiong Kok khẳng định, “đổi mới sáng tạo” hiện đang là cụm từ kích hoạt hành động trong thế giới doanh nghiệp. Dữ liệu khảo sát gần đây cho thấy, khái niệm này luôn nằm trong top 3 ưu tiên hàng đầu của các công ty. Ngoài ra, một số minh chứng cũng chỉ ra rằng, những doanh nghiệp đầu tư nhiều vào đổi mới trong giai đoạn đại dịch toàn cầu vừa qua đều có được kết quả kinh doanh cao hơn đối thủ. [2] Mặc dù đổi mới sáng tạo đang thu hút được khá nhiều sự quan tâm nhưng đây vẫn là một khái niệm khó định nghĩa, bởi ở mỗi nơi lại có hình thái khác. Nhưng một điều chắc chắn là rất ít doanh nghiệp muốn bị coi là đang đứng ngoài cuộc chơi đổi mới. Việc thiếu định nghĩa cơ bản như vậy có thể là lý do khiến các doanh nghiệp vẫn còn yếu kém trong việc mở rộng quy mô đầu tư đổi mới để tạo ra giá trị cho tổ chức. [3] Bên cạnh việc cho thấy những doanh nghiệp chú trọng đầu tư cho đổi mới sẽ kinh doanh tốt hơn sau giai đoạn Covid-19, nghiên cứu cũng chỉ ra rằng tỷ lệ các công ty có khả năng mở rộng quy mô đổi mới chỉ là 20%. Điều này đặt ra một câu hỏi đầy thách thức và cần được giải quyết. Dựa trên những nghiên cứu hiện có, có thể xác định ba vấn đề cốt lõi: thiếu văn hóa doanh nghiệp, ít coi trọng hợp tác trong và ngoài doanh nghiệp, không đánh giá cao và thiếu tuân thủ các mục tiêu của tổ chức. Nói một cách đơn giản, doanh nghiệp có chuyên môn và kiến thức kỹ thuật để đổi mới, nhưng họ thiếu năng lực lãnh đạo để điều phối, hướng dẫn và thúc đẩy các nguồn lực này nhằm đạt được mục tiêu. [4] Để giải quyết vấn đề trên, TS Seng Kiong Kok khuyến nghị 4 giải pháp. Theo đó, giải pháp thứ nhất là cần phải hướng tầm nhìn ra ngoài nội bộ tổ chức để tìm động lực đổi mới. Việc sử dụng và xây dựng các nguồn lực đổi mới trong nội bộ là điều tốt, nhưng nếu có thể tăng cường những hoạt động này bằng các cơ chế bên ngoài thì đây sẽ là động lực bổ sung để thu hẹp khoảng cách giữa đổi mới và các giá trị tạo ra. [5] Thứ hai, việc tìm hiểu về cơ cấu tổ chức sẽ giúp xác định cách khai thác những nguồn lực đổi mới có giá trị. Cơ cấu tổ chức ở đây bao gồm các cấu trúc hữu hình như mạng lưới chi nhánh và vị trí địa lý, cũng như các tổ hợp cấu trúc chính trị - xã hội ít hữu hình hơn như hệ thống lãnh đạo và quản trị. [6] Thứ ba, cần chú trọng trau dồi và hỗ trợ các nhóm khác nhau trong đội ngũ nhân sự. Đổi mới là một quá trình mang tính chất đột phá, đòi hỏi các tổ chức và nhân sự phải hiểu rõ hơn về những vấn đề hiện tại và loại bỏ những lối mòn trong tư duy. Một nhiệm vụ quan trọng trong quá trình đổi mới là tạo ra môi trường cho phép các cá nhân sáng tạo và đưa ra ý kiến không đồng thuận, cũng như hỗ trợ họ về mặt tâm lý khi phải đưa ra ý kiến. [7] Giải pháp thứ tư là cần hiểu rõ hành lang quy định để đảm bảo đổi mới sáng tạo phù hợp với các mục tiêu của tổ chức. Cần lưu ý rằng đổi mới thường chỉ thực sự diễn ra khi doanh nghiệp phải đối mặt với trở ngại, còn hành lang quy định trong và ngoài nước sẽ giúp xác định mức độ đổi mới thể chế. [8] “Những biện pháp can thiệp trên không chỉ giúp thu hẹp khoảng cách giữa giá trị tạo ra với hoạt động đổi mới của doanh nghiệp mà còn tác động đến các thế hệ tương lai, đặc biệt là những sinh viên đang học tập hoặc sắp tốt nghiệp, chuẩn bị tham gia vào thị trường lao động…” – TS Seng Kiong Kok nói. [9] Thông điệp đổi mới sáng tạo chung là cần quan tâm đến khả năng bổ trợ và khả năng thích ứng của các kỹ năng trong lực lượng lao động nhằm đón đầu những bước chuyển đổi số tiếp theo trong nền kinh tế. Các bộ kỹ năng truyền thống cần được bồi đắp để bắt kịp tốc độ chuyển đổi nhanh và doanh nghiệp cần nhận thức rõ lợi ích từ các cơ hội hợp tác. Mặc dù doanh nghiệp có thể tự mình đổi mới, nhưng hợp tác sẽ đem lại lợi ích chung lớn hơn. Nguồn: Tác giả Đỗ Doãn, Thời báo Tài chính, Bộ Tài chính Việt Nam, đăng ngày 04/01/2023",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_001",
+    "group_type": "passage",
+    "source_pages": [
+      1,
+      4
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q007",
+    "question_number": 7,
+    "stem": "Theo đoạn 8 và 9, để mở rộng hoạt động đổi mới sáng tạo hiệu quả, các doanh nghiệp cần chú trọng:",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gia tăng giá trị của hoạt động đổi mới trong doanh nghiệp và tăng cường đào tạo lực lượng lao động kế cận"
+      },
+      {
+        "key": "B",
+        "text": "Hoàn thiện các kỹ năng của lực lượng lao động và đẩy mạnh hợp tác trong và ngoài doanh nghiệp"
+      },
+      {
+        "key": "C",
+        "text": "Đào tạo các kỹ năng truyền thống của lực lượng lao động và đẩy mạnh quá trình chuyển đổi số trong doanh nghiệp"
+      },
+      {
+        "key": "D",
+        "text": "Tối ưu hóa các nguồn lực trong doanh nghiệp và thu hẹp khoảng cách đổi mới giữa các doanh nghiệp"
+      }
+    ],
+    "correct_answer": [
+      "B"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 4
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 1 đến 7: DOANH NGHIỆP VÀ ĐỔI MỚI SÁNG TẠO [0] (TBTCO) - Theo Tiến sĩ Seng Kiong Kok - Giảng viên Đại học RMIT, làm rõ vấn đề, lên ý tưởng, phát triển giải pháp và thực thi là những nguyên tắc tư duy thiết kế cơ bản để dẫn dắt quy trình đổi mới sáng tạo ở doanh nghiệp thuộc mọi quy mô, từ các “gã khổng lồ” đa quốc gia đến những công ty khởi nghiệp từ cộng đồng. Vấn đề cốt lõi để mở rộng hoạt động đổi mới. [1] Chia sẻ về những vấn đề liên quan đến hoạt động đổi mới sáng tạo, TS Seng Kiong Kok khẳng định, “đổi mới sáng tạo” hiện đang là cụm từ kích hoạt hành động trong thế giới doanh nghiệp. Dữ liệu khảo sát gần đây cho thấy, khái niệm này luôn nằm trong top 3 ưu tiên hàng đầu của các công ty. Ngoài ra, một số minh chứng cũng chỉ ra rằng, những doanh nghiệp đầu tư nhiều vào đổi mới trong giai đoạn đại dịch toàn cầu vừa qua đều có được kết quả kinh doanh cao hơn đối thủ. [2] Mặc dù đổi mới sáng tạo đang thu hút được khá nhiều sự quan tâm nhưng đây vẫn là một khái niệm khó định nghĩa, bởi ở mỗi nơi lại có hình thái khác. Nhưng một điều chắc chắn là rất ít doanh nghiệp muốn bị coi là đang đứng ngoài cuộc chơi đổi mới. Việc thiếu định nghĩa cơ bản như vậy có thể là lý do khiến các doanh nghiệp vẫn còn yếu kém trong việc mở rộng quy mô đầu tư đổi mới để tạo ra giá trị cho tổ chức. [3] Bên cạnh việc cho thấy những doanh nghiệp chú trọng đầu tư cho đổi mới sẽ kinh doanh tốt hơn sau giai đoạn Covid-19, nghiên cứu cũng chỉ ra rằng tỷ lệ các công ty có khả năng mở rộng quy mô đổi mới chỉ là 20%. Điều này đặt ra một câu hỏi đầy thách thức và cần được giải quyết. Dựa trên những nghiên cứu hiện có, có thể xác định ba vấn đề cốt lõi: thiếu văn hóa doanh nghiệp, ít coi trọng hợp tác trong và ngoài doanh nghiệp, không đánh giá cao và thiếu tuân thủ các mục tiêu của tổ chức. Nói một cách đơn giản, doanh nghiệp có chuyên môn và kiến thức kỹ thuật để đổi mới, nhưng họ thiếu năng lực lãnh đạo để điều phối, hướng dẫn và thúc đẩy các nguồn lực này nhằm đạt được mục tiêu. [4] Để giải quyết vấn đề trên, TS Seng Kiong Kok khuyến nghị 4 giải pháp. Theo đó, giải pháp thứ nhất là cần phải hướng tầm nhìn ra ngoài nội bộ tổ chức để tìm động lực đổi mới. Việc sử dụng và xây dựng các nguồn lực đổi mới trong nội bộ là điều tốt, nhưng nếu có thể tăng cường những hoạt động này bằng các cơ chế bên ngoài thì đây sẽ là động lực bổ sung để thu hẹp khoảng cách giữa đổi mới và các giá trị tạo ra. [5] Thứ hai, việc tìm hiểu về cơ cấu tổ chức sẽ giúp xác định cách khai thác những nguồn lực đổi mới có giá trị. Cơ cấu tổ chức ở đây bao gồm các cấu trúc hữu hình như mạng lưới chi nhánh và vị trí địa lý, cũng như các tổ hợp cấu trúc chính trị - xã hội ít hữu hình hơn như hệ thống lãnh đạo và quản trị. [6] Thứ ba, cần chú trọng trau dồi và hỗ trợ các nhóm khác nhau trong đội ngũ nhân sự. Đổi mới là một quá trình mang tính chất đột phá, đòi hỏi các tổ chức và nhân sự phải hiểu rõ hơn về những vấn đề hiện tại và loại bỏ những lối mòn trong tư duy. Một nhiệm vụ quan trọng trong quá trình đổi mới là tạo ra môi trường cho phép các cá nhân sáng tạo và đưa ra ý kiến không đồng thuận, cũng như hỗ trợ họ về mặt tâm lý khi phải đưa ra ý kiến. [7] Giải pháp thứ tư là cần hiểu rõ hành lang quy định để đảm bảo đổi mới sáng tạo phù hợp với các mục tiêu của tổ chức. Cần lưu ý rằng đổi mới thường chỉ thực sự diễn ra khi doanh nghiệp phải đối mặt với trở ngại, còn hành lang quy định trong và ngoài nước sẽ giúp xác định mức độ đổi mới thể chế. [8] “Những biện pháp can thiệp trên không chỉ giúp thu hẹp khoảng cách giữa giá trị tạo ra với hoạt động đổi mới của doanh nghiệp mà còn tác động đến các thế hệ tương lai, đặc biệt là những sinh viên đang học tập hoặc sắp tốt nghiệp, chuẩn bị tham gia vào thị trường lao động…” – TS Seng Kiong Kok nói. [9] Thông điệp đổi mới sáng tạo chung là cần quan tâm đến khả năng bổ trợ và khả năng thích ứng của các kỹ năng trong lực lượng lao động nhằm đón đầu những bước chuyển đổi số tiếp theo trong nền kinh tế. Các bộ kỹ năng truyền thống cần được bồi đắp để bắt kịp tốc độ chuyển đổi nhanh và doanh nghiệp cần nhận thức rõ lợi ích từ các cơ hội hợp tác. Mặc dù doanh nghiệp có thể tự mình đổi mới, nhưng hợp tác sẽ đem lại lợi ích chung lớn hơn. Nguồn: Tác giả Đỗ Doãn, Thời báo Tài chính, Bộ Tài chính Việt Nam, đăng ngày 04/01/2023",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_001",
+    "group_type": "passage",
+    "source_pages": [
+      1,
+      4
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q008",
+    "question_number": 8,
+    "stem": "Mục đích chính của bài viết là gì?",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lý giải tại sao mô hình nhận dạng tiếng nói mới chưa hiệu quả bằng mô hình cũ"
+      },
+      {
+        "key": "B",
+        "text": "Đề xuất hướng đi trong tương lai của công nghệ nhận dạng tiếng nói bằng hình ảnh"
+      },
+      {
+        "key": "C",
+        "text": "Phân tích điểm ưu việt của công nghệ nhận dạng tiếng nói mới đối với tiếng Anh"
+      },
+      {
+        "key": "D",
+        "text": "Giới thiệu mô hình học sâu ứng dụng trong nhận dạng tiếng nói nhiều ngôn ngữ"
+      }
+    ],
+    "correct_answer": [
+      "D"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 6
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 8 đến 14: CÔNG NGHỆ VSR [0] Trong những năm gần gây, các kỹ thuật học sâu đã đạt được những tiến bộ đáng chú ý trong nhiều tác vụ xử lý ngôn ngữ và hình ảnh. Những tiến bộ này bao gồm việc nhận dạng tiếng nói bằng hình ảnh (VSR) – một tác vụ đòi hỏi phải xác định được nội dung của lời nói chỉ bằng cách phân tích chuyển động môi. [1] Mặc dù một số thuật toán học sâu để thực hiện tác vụ VSR này đã đạt được những kết quả rất hứa hẹn, tuy nhiên, chúng hầu như chỉ được huấn luyện để nhận dạng tiếng nói là tiếng Anh, do hầu hết các bộ dữ liệu huấn luyện hiện nay không có các tiếng nói của các tôn trọng tạo điều kiện bày tỏ ngôn ngữ khác. Điều này khiến cho lượng người dùng tiềm năng của thuật toán bị giới hạn ở nhóm người sống hoặc làm việc ở môi trường nói tiếng Anh. [2] Mới đây, các nhà nghiên cứu tại Đại học Hoàng gia Luân Đôn đã phát triển một mô hình có thể thực hiện nhiệm vụ VSR với nhiều ngôn ngữ khác nhau. Trong bài báo mới được công bố trên tạp chí Nature Machine Intelligence, các tác giả đã cho thấy mô hình mới vượt trội hơn so với một số mô hình trước đây (dù các mô hình trước được huấn luyện trên những bộ dữ liệu lớn hơn nhiều). [3] “Trong quá trình làm luận án tiến sĩ, tôi đã nghiên cứu một số chủ đề, chẳng hạn như cách kết hợp thông tin hình ảnh với âm thanh để nhận dạng tiếng nói, cũng như cách nhận dạng tiếng nói bằng hình ảnh một cách độc lập với tư thế đầu của người tham gia. Và tôi nhận ra rằng phần lớn các tài liệu đã có chỉ xử lý tiếng nói là tiếng Anh mà thôi”, Pingchuan Ma – người nhận bằng tiến sĩ ở Đại học Hoàng gia và là tác giả chính của bài báo – cho biết. [4] Do đó, nghiên cứu của Ma và đồng nghiệp đặt mục tiêu huấn luyện một mô hình học sâu có khả năng nhận dạng tiếng nói trong nhiều ngôn ngữ khác nhau từ chuyển động môi của người nói, sau đó so sánh hiệu quả của mô hình mới này với các mô hình vốn được huấn luyện để nhận dạng tiếng nói tiếng Anh. Theo các tác giả, mô hình mới cũng giống như mô hình do các nhóm nghiên cứu khác giới thiệu trước đây, tuy nhiên điểm khác biệt nằm ở chỗ mô hình mới đã tối ưu hóa một số siêu tham số, đồng thời tăng cường bộ dữ liệu (bằng cách thêm các phiên bản dữ liệu tổng hợp, được sửa đổi một chút) và sử dụng thêm hàm mất mát (loss functions). [5] “Nghiên cứu của chúng tôi đã cho thấy có thể sử dụng các mô hình tương tự để huấn luyện các mô hình VSR với các ngôn ngữ khác”, Ma giải thích. “Mô hình của chúng tôi lấy hình ảnh thô làm dữ liệu đầu vào mà không trích xuất bất kỳ đặc điểm nào, sau đó mới tự động tìm hiểu những đặc điểm hữu ích cần trích xuất từ những hình ảnh này để hoàn thành các tác vụ VSR”. [6] Trong các đánh giá ban đầu, mô hình mới của nhóm hoạt động rất tốt, vượt trội so với các mô hình VSR khác vốn được huấn luyện trên những tập dữ liệu lớn hơn rất nhiều. Tuy nhiên, đúng như dự đoán, mô hình này hoạt động kém hiệu quả hơn so với các mô hình nhận dạng tiếng nói tiếng Anh, chủ yếu là do các tập dữ liệu sẵn có để huấn luyện ít hơn so với dữ liệu tiếng Anh. [7] Ma và các đồng nghiệp của ông đã chỉ ra rằng, việc thiết kế cẩn trọng các mô hình học sâu có thể giúp cho mô hình này đạt được hiệu quả cao nhất trong các tác vụ VSR, thay vì chỉ đơn giản là sử dụng các phiên bản mô hình lớn hơn hoặc thu thập nhiều dữ liệu huấn luyện hơn. Điều này có thể dẫn đến sự thay đổi trong hướng nghiên cứu để cải thiện các mô hình VSR tương lai. [8] “Một trong những lĩnh vực nghiên cứu chính mà tôi quan tâm là cách kết hợp các mô hình VSR với tính năng nhận dạng giọng nói (chỉ dựa trên âm thanh) hiện nay”, Ma nói thêm. “Tôi đặc biệt quan tâm đến việc làm thế nào để mô hình có thể hiểu chúng nên dựa vào mô hình nào tùy thuộc vào điều kiện tiếng ồn. Nói cách khác, trong môi trường ồn ào, mô hình nghe – nhìn nên dựa nhiều hơn vào thông tin hình ảnh. Ngược lại, khi vùng miệng của người nói bị che khuất thì mô hình này cần phụ thuộc nhiều hơn vào âm thanh. Tuy nhiên, các mô hình hiện nay về cơ bản là bị ‘đóng băng’ sau khi được huấn luyện và không thể thích ứng với những thay đổi trong môi trường như vậy”. Nguồn: Mỹ Hạnh (lược dịch) - đăng ngày 13/12/2022, Tạp chí Tia sáng, Bộ Khoa học và Công nghệ.",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_002",
+    "group_type": "passage",
+    "source_pages": [
+      4,
+      6
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q009",
+    "question_number": 9,
+    "stem": "Hãy kéo từ trong các ô dưới đây thả vào vị trí phù hợp. Mục đích của đoạn 1 là nêu lý do tại sao [vị trí thả 1] tiềm năng [vị trí thả 2] mặc dù các thuật toán học sâu để thực hiện tác vụ VSR đã đạt được nhiều [vị trí thả 3]. Vị trí thả 1: Vị trí thả 2: Vị trí thả 3: thành công không giới hạn lượng người dùng bị hạn chế lượng người dùng bị hạn chế thành công",
+    "question_type": "short_answer",
+    "options": [],
+    "correct_answer": null,
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 6
+    },
+    "quality": {
+      "extraction_status": "needs_review",
+      "human_review_status": "pending",
+      "warnings": [
+        "missing_answer"
+      ],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 8 đến 14: CÔNG NGHỆ VSR [0] Trong những năm gần gây, các kỹ thuật học sâu đã đạt được những tiến bộ đáng chú ý trong nhiều tác vụ xử lý ngôn ngữ và hình ảnh. Những tiến bộ này bao gồm việc nhận dạng tiếng nói bằng hình ảnh (VSR) – một tác vụ đòi hỏi phải xác định được nội dung của lời nói chỉ bằng cách phân tích chuyển động môi. [1] Mặc dù một số thuật toán học sâu để thực hiện tác vụ VSR này đã đạt được những kết quả rất hứa hẹn, tuy nhiên, chúng hầu như chỉ được huấn luyện để nhận dạng tiếng nói là tiếng Anh, do hầu hết các bộ dữ liệu huấn luyện hiện nay không có các tiếng nói của các tôn trọng tạo điều kiện bày tỏ ngôn ngữ khác. Điều này khiến cho lượng người dùng tiềm năng của thuật toán bị giới hạn ở nhóm người sống hoặc làm việc ở môi trường nói tiếng Anh. [2] Mới đây, các nhà nghiên cứu tại Đại học Hoàng gia Luân Đôn đã phát triển một mô hình có thể thực hiện nhiệm vụ VSR với nhiều ngôn ngữ khác nhau. Trong bài báo mới được công bố trên tạp chí Nature Machine Intelligence, các tác giả đã cho thấy mô hình mới vượt trội hơn so với một số mô hình trước đây (dù các mô hình trước được huấn luyện trên những bộ dữ liệu lớn hơn nhiều). [3] “Trong quá trình làm luận án tiến sĩ, tôi đã nghiên cứu một số chủ đề, chẳng hạn như cách kết hợp thông tin hình ảnh với âm thanh để nhận dạng tiếng nói, cũng như cách nhận dạng tiếng nói bằng hình ảnh một cách độc lập với tư thế đầu của người tham gia. Và tôi nhận ra rằng phần lớn các tài liệu đã có chỉ xử lý tiếng nói là tiếng Anh mà thôi”, Pingchuan Ma – người nhận bằng tiến sĩ ở Đại học Hoàng gia và là tác giả chính của bài báo – cho biết. [4] Do đó, nghiên cứu của Ma và đồng nghiệp đặt mục tiêu huấn luyện một mô hình học sâu có khả năng nhận dạng tiếng nói trong nhiều ngôn ngữ khác nhau từ chuyển động môi của người nói, sau đó so sánh hiệu quả của mô hình mới này với các mô hình vốn được huấn luyện để nhận dạng tiếng nói tiếng Anh. Theo các tác giả, mô hình mới cũng giống như mô hình do các nhóm nghiên cứu khác giới thiệu trước đây, tuy nhiên điểm khác biệt nằm ở chỗ mô hình mới đã tối ưu hóa một số siêu tham số, đồng thời tăng cường bộ dữ liệu (bằng cách thêm các phiên bản dữ liệu tổng hợp, được sửa đổi một chút) và sử dụng thêm hàm mất mát (loss functions). [5] “Nghiên cứu của chúng tôi đã cho thấy có thể sử dụng các mô hình tương tự để huấn luyện các mô hình VSR với các ngôn ngữ khác”, Ma giải thích. “Mô hình của chúng tôi lấy hình ảnh thô làm dữ liệu đầu vào mà không trích xuất bất kỳ đặc điểm nào, sau đó mới tự động tìm hiểu những đặc điểm hữu ích cần trích xuất từ những hình ảnh này để hoàn thành các tác vụ VSR”. [6] Trong các đánh giá ban đầu, mô hình mới của nhóm hoạt động rất tốt, vượt trội so với các mô hình VSR khác vốn được huấn luyện trên những tập dữ liệu lớn hơn rất nhiều. Tuy nhiên, đúng như dự đoán, mô hình này hoạt động kém hiệu quả hơn so với các mô hình nhận dạng tiếng nói tiếng Anh, chủ yếu là do các tập dữ liệu sẵn có để huấn luyện ít hơn so với dữ liệu tiếng Anh. [7] Ma và các đồng nghiệp của ông đã chỉ ra rằng, việc thiết kế cẩn trọng các mô hình học sâu có thể giúp cho mô hình này đạt được hiệu quả cao nhất trong các tác vụ VSR, thay vì chỉ đơn giản là sử dụng các phiên bản mô hình lớn hơn hoặc thu thập nhiều dữ liệu huấn luyện hơn. Điều này có thể dẫn đến sự thay đổi trong hướng nghiên cứu để cải thiện các mô hình VSR tương lai. [8] “Một trong những lĩnh vực nghiên cứu chính mà tôi quan tâm là cách kết hợp các mô hình VSR với tính năng nhận dạng giọng nói (chỉ dựa trên âm thanh) hiện nay”, Ma nói thêm. “Tôi đặc biệt quan tâm đến việc làm thế nào để mô hình có thể hiểu chúng nên dựa vào mô hình nào tùy thuộc vào điều kiện tiếng ồn. Nói cách khác, trong môi trường ồn ào, mô hình nghe – nhìn nên dựa nhiều hơn vào thông tin hình ảnh. Ngược lại, khi vùng miệng của người nói bị che khuất thì mô hình này cần phụ thuộc nhiều hơn vào âm thanh. Tuy nhiên, các mô hình hiện nay về cơ bản là bị ‘đóng băng’ sau khi được huấn luyện và không thể thích ứng với những thay đổi trong môi trường như vậy”. Nguồn: Mỹ Hạnh (lược dịch) - đăng ngày 13/12/2022, Tạp chí Tia sáng, Bộ Khoa học và Công nghệ.",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_002",
+    "group_type": "passage",
+    "source_pages": [
+      4,
+      6
+    ],
+    "visual_assets": [],
+    "extra": {
+      "response_mode": "drag_drop"
+    }
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q010",
+    "question_number": 10,
+    "stem": "Tiến sĩ Ma và đồng nghiệp đang cố gắng phát triển một mô hình học sâu phát hiện tiếng nói qua hình ảnh bằng cách xác định vị trí của đầu. Đúng hay Sai?",
+    "question_type": "true_false",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đúng"
+      },
+      {
+        "key": "B",
+        "text": "Sai"
+      }
+    ],
+    "correct_answer": [
+      "B"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 7
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 8 đến 14: CÔNG NGHỆ VSR [0] Trong những năm gần gây, các kỹ thuật học sâu đã đạt được những tiến bộ đáng chú ý trong nhiều tác vụ xử lý ngôn ngữ và hình ảnh. Những tiến bộ này bao gồm việc nhận dạng tiếng nói bằng hình ảnh (VSR) – một tác vụ đòi hỏi phải xác định được nội dung của lời nói chỉ bằng cách phân tích chuyển động môi. [1] Mặc dù một số thuật toán học sâu để thực hiện tác vụ VSR này đã đạt được những kết quả rất hứa hẹn, tuy nhiên, chúng hầu như chỉ được huấn luyện để nhận dạng tiếng nói là tiếng Anh, do hầu hết các bộ dữ liệu huấn luyện hiện nay không có các tiếng nói của các tôn trọng tạo điều kiện bày tỏ ngôn ngữ khác. Điều này khiến cho lượng người dùng tiềm năng của thuật toán bị giới hạn ở nhóm người sống hoặc làm việc ở môi trường nói tiếng Anh. [2] Mới đây, các nhà nghiên cứu tại Đại học Hoàng gia Luân Đôn đã phát triển một mô hình có thể thực hiện nhiệm vụ VSR với nhiều ngôn ngữ khác nhau. Trong bài báo mới được công bố trên tạp chí Nature Machine Intelligence, các tác giả đã cho thấy mô hình mới vượt trội hơn so với một số mô hình trước đây (dù các mô hình trước được huấn luyện trên những bộ dữ liệu lớn hơn nhiều). [3] “Trong quá trình làm luận án tiến sĩ, tôi đã nghiên cứu một số chủ đề, chẳng hạn như cách kết hợp thông tin hình ảnh với âm thanh để nhận dạng tiếng nói, cũng như cách nhận dạng tiếng nói bằng hình ảnh một cách độc lập với tư thế đầu của người tham gia. Và tôi nhận ra rằng phần lớn các tài liệu đã có chỉ xử lý tiếng nói là tiếng Anh mà thôi”, Pingchuan Ma – người nhận bằng tiến sĩ ở Đại học Hoàng gia và là tác giả chính của bài báo – cho biết. [4] Do đó, nghiên cứu của Ma và đồng nghiệp đặt mục tiêu huấn luyện một mô hình học sâu có khả năng nhận dạng tiếng nói trong nhiều ngôn ngữ khác nhau từ chuyển động môi của người nói, sau đó so sánh hiệu quả của mô hình mới này với các mô hình vốn được huấn luyện để nhận dạng tiếng nói tiếng Anh. Theo các tác giả, mô hình mới cũng giống như mô hình do các nhóm nghiên cứu khác giới thiệu trước đây, tuy nhiên điểm khác biệt nằm ở chỗ mô hình mới đã tối ưu hóa một số siêu tham số, đồng thời tăng cường bộ dữ liệu (bằng cách thêm các phiên bản dữ liệu tổng hợp, được sửa đổi một chút) và sử dụng thêm hàm mất mát (loss functions). [5] “Nghiên cứu của chúng tôi đã cho thấy có thể sử dụng các mô hình tương tự để huấn luyện các mô hình VSR với các ngôn ngữ khác”, Ma giải thích. “Mô hình của chúng tôi lấy hình ảnh thô làm dữ liệu đầu vào mà không trích xuất bất kỳ đặc điểm nào, sau đó mới tự động tìm hiểu những đặc điểm hữu ích cần trích xuất từ những hình ảnh này để hoàn thành các tác vụ VSR”. [6] Trong các đánh giá ban đầu, mô hình mới của nhóm hoạt động rất tốt, vượt trội so với các mô hình VSR khác vốn được huấn luyện trên những tập dữ liệu lớn hơn rất nhiều. Tuy nhiên, đúng như dự đoán, mô hình này hoạt động kém hiệu quả hơn so với các mô hình nhận dạng tiếng nói tiếng Anh, chủ yếu là do các tập dữ liệu sẵn có để huấn luyện ít hơn so với dữ liệu tiếng Anh. [7] Ma và các đồng nghiệp của ông đã chỉ ra rằng, việc thiết kế cẩn trọng các mô hình học sâu có thể giúp cho mô hình này đạt được hiệu quả cao nhất trong các tác vụ VSR, thay vì chỉ đơn giản là sử dụng các phiên bản mô hình lớn hơn hoặc thu thập nhiều dữ liệu huấn luyện hơn. Điều này có thể dẫn đến sự thay đổi trong hướng nghiên cứu để cải thiện các mô hình VSR tương lai. [8] “Một trong những lĩnh vực nghiên cứu chính mà tôi quan tâm là cách kết hợp các mô hình VSR với tính năng nhận dạng giọng nói (chỉ dựa trên âm thanh) hiện nay”, Ma nói thêm. “Tôi đặc biệt quan tâm đến việc làm thế nào để mô hình có thể hiểu chúng nên dựa vào mô hình nào tùy thuộc vào điều kiện tiếng ồn. Nói cách khác, trong môi trường ồn ào, mô hình nghe – nhìn nên dựa nhiều hơn vào thông tin hình ảnh. Ngược lại, khi vùng miệng của người nói bị che khuất thì mô hình này cần phụ thuộc nhiều hơn vào âm thanh. Tuy nhiên, các mô hình hiện nay về cơ bản là bị ‘đóng băng’ sau khi được huấn luyện và không thể thích ứng với những thay đổi trong môi trường như vậy”. Nguồn: Mỹ Hạnh (lược dịch) - đăng ngày 13/12/2022, Tạp chí Tia sáng, Bộ Khoa học và Công nghệ.",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_002",
+    "group_type": "passage",
+    "source_pages": [
+      4,
+      7
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q011",
+    "question_number": 11,
+    "stem": "Hãy điền một cụm từ không quá ba tiếng vào chỗ trống để hoàn thành nhận định sau. Theo đoạn 4, nghiên cứu của nhóm tác giả tại Đại học Hoàng gia Luân Đôn chỉ ra một trong số những yếu tố quyết định thành công của mô hình thực hiện nhiệm vụ VSR là việc sử dụng ________ lớn hơn. Các đáp án khác được chấp nhận: Dữ liệu, Các dữ liệu",
+    "question_type": "short_answer",
+    "options": [],
+    "correct_answer": [
+      "Bộ dữ liệu"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 7
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 8 đến 14: CÔNG NGHỆ VSR [0] Trong những năm gần gây, các kỹ thuật học sâu đã đạt được những tiến bộ đáng chú ý trong nhiều tác vụ xử lý ngôn ngữ và hình ảnh. Những tiến bộ này bao gồm việc nhận dạng tiếng nói bằng hình ảnh (VSR) – một tác vụ đòi hỏi phải xác định được nội dung của lời nói chỉ bằng cách phân tích chuyển động môi. [1] Mặc dù một số thuật toán học sâu để thực hiện tác vụ VSR này đã đạt được những kết quả rất hứa hẹn, tuy nhiên, chúng hầu như chỉ được huấn luyện để nhận dạng tiếng nói là tiếng Anh, do hầu hết các bộ dữ liệu huấn luyện hiện nay không có các tiếng nói của các tôn trọng tạo điều kiện bày tỏ ngôn ngữ khác. Điều này khiến cho lượng người dùng tiềm năng của thuật toán bị giới hạn ở nhóm người sống hoặc làm việc ở môi trường nói tiếng Anh. [2] Mới đây, các nhà nghiên cứu tại Đại học Hoàng gia Luân Đôn đã phát triển một mô hình có thể thực hiện nhiệm vụ VSR với nhiều ngôn ngữ khác nhau. Trong bài báo mới được công bố trên tạp chí Nature Machine Intelligence, các tác giả đã cho thấy mô hình mới vượt trội hơn so với một số mô hình trước đây (dù các mô hình trước được huấn luyện trên những bộ dữ liệu lớn hơn nhiều). [3] “Trong quá trình làm luận án tiến sĩ, tôi đã nghiên cứu một số chủ đề, chẳng hạn như cách kết hợp thông tin hình ảnh với âm thanh để nhận dạng tiếng nói, cũng như cách nhận dạng tiếng nói bằng hình ảnh một cách độc lập với tư thế đầu của người tham gia. Và tôi nhận ra rằng phần lớn các tài liệu đã có chỉ xử lý tiếng nói là tiếng Anh mà thôi”, Pingchuan Ma – người nhận bằng tiến sĩ ở Đại học Hoàng gia và là tác giả chính của bài báo – cho biết. [4] Do đó, nghiên cứu của Ma và đồng nghiệp đặt mục tiêu huấn luyện một mô hình học sâu có khả năng nhận dạng tiếng nói trong nhiều ngôn ngữ khác nhau từ chuyển động môi của người nói, sau đó so sánh hiệu quả của mô hình mới này với các mô hình vốn được huấn luyện để nhận dạng tiếng nói tiếng Anh. Theo các tác giả, mô hình mới cũng giống như mô hình do các nhóm nghiên cứu khác giới thiệu trước đây, tuy nhiên điểm khác biệt nằm ở chỗ mô hình mới đã tối ưu hóa một số siêu tham số, đồng thời tăng cường bộ dữ liệu (bằng cách thêm các phiên bản dữ liệu tổng hợp, được sửa đổi một chút) và sử dụng thêm hàm mất mát (loss functions). [5] “Nghiên cứu của chúng tôi đã cho thấy có thể sử dụng các mô hình tương tự để huấn luyện các mô hình VSR với các ngôn ngữ khác”, Ma giải thích. “Mô hình của chúng tôi lấy hình ảnh thô làm dữ liệu đầu vào mà không trích xuất bất kỳ đặc điểm nào, sau đó mới tự động tìm hiểu những đặc điểm hữu ích cần trích xuất từ những hình ảnh này để hoàn thành các tác vụ VSR”. [6] Trong các đánh giá ban đầu, mô hình mới của nhóm hoạt động rất tốt, vượt trội so với các mô hình VSR khác vốn được huấn luyện trên những tập dữ liệu lớn hơn rất nhiều. Tuy nhiên, đúng như dự đoán, mô hình này hoạt động kém hiệu quả hơn so với các mô hình nhận dạng tiếng nói tiếng Anh, chủ yếu là do các tập dữ liệu sẵn có để huấn luyện ít hơn so với dữ liệu tiếng Anh. [7] Ma và các đồng nghiệp của ông đã chỉ ra rằng, việc thiết kế cẩn trọng các mô hình học sâu có thể giúp cho mô hình này đạt được hiệu quả cao nhất trong các tác vụ VSR, thay vì chỉ đơn giản là sử dụng các phiên bản mô hình lớn hơn hoặc thu thập nhiều dữ liệu huấn luyện hơn. Điều này có thể dẫn đến sự thay đổi trong hướng nghiên cứu để cải thiện các mô hình VSR tương lai. [8] “Một trong những lĩnh vực nghiên cứu chính mà tôi quan tâm là cách kết hợp các mô hình VSR với tính năng nhận dạng giọng nói (chỉ dựa trên âm thanh) hiện nay”, Ma nói thêm. “Tôi đặc biệt quan tâm đến việc làm thế nào để mô hình có thể hiểu chúng nên dựa vào mô hình nào tùy thuộc vào điều kiện tiếng ồn. Nói cách khác, trong môi trường ồn ào, mô hình nghe – nhìn nên dựa nhiều hơn vào thông tin hình ảnh. Ngược lại, khi vùng miệng của người nói bị che khuất thì mô hình này cần phụ thuộc nhiều hơn vào âm thanh. Tuy nhiên, các mô hình hiện nay về cơ bản là bị ‘đóng băng’ sau khi được huấn luyện và không thể thích ứng với những thay đổi trong môi trường như vậy”. Nguồn: Mỹ Hạnh (lược dịch) - đăng ngày 13/12/2022, Tạp chí Tia sáng, Bộ Khoa học và Công nghệ.",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_002",
+    "group_type": "passage",
+    "source_pages": [
+      4,
+      7
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q012",
+    "question_number": 12,
+    "stem": "Phát biểu nào dưới đây KHÔNG đúng với nội dung của đoạn 5 và đoạn 6?",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mô hình của Ma lấy hình ảnh chưa qua xử lý làm dữ liệu đầu vào."
+      },
+      {
+        "key": "B",
+        "text": "Mô hình của Ma không trích xuất đặc điểm nào từ hình ảnh thô."
+      },
+      {
+        "key": "C",
+        "text": "Mô hình của Ma có khả năng tự phát hiện những đặc điểm cần thiết từ hình ảnh."
+      },
+      {
+        "key": "D",
+        "text": "Mô hình của Ma dùng dữ liệu của mô hình trước để nhận dạng các ngôn ngữ khác."
+      }
+    ],
+    "correct_answer": [
+      "D"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 7
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 8 đến 14: CÔNG NGHỆ VSR [0] Trong những năm gần gây, các kỹ thuật học sâu đã đạt được những tiến bộ đáng chú ý trong nhiều tác vụ xử lý ngôn ngữ và hình ảnh. Những tiến bộ này bao gồm việc nhận dạng tiếng nói bằng hình ảnh (VSR) – một tác vụ đòi hỏi phải xác định được nội dung của lời nói chỉ bằng cách phân tích chuyển động môi. [1] Mặc dù một số thuật toán học sâu để thực hiện tác vụ VSR này đã đạt được những kết quả rất hứa hẹn, tuy nhiên, chúng hầu như chỉ được huấn luyện để nhận dạng tiếng nói là tiếng Anh, do hầu hết các bộ dữ liệu huấn luyện hiện nay không có các tiếng nói của các tôn trọng tạo điều kiện bày tỏ ngôn ngữ khác. Điều này khiến cho lượng người dùng tiềm năng của thuật toán bị giới hạn ở nhóm người sống hoặc làm việc ở môi trường nói tiếng Anh. [2] Mới đây, các nhà nghiên cứu tại Đại học Hoàng gia Luân Đôn đã phát triển một mô hình có thể thực hiện nhiệm vụ VSR với nhiều ngôn ngữ khác nhau. Trong bài báo mới được công bố trên tạp chí Nature Machine Intelligence, các tác giả đã cho thấy mô hình mới vượt trội hơn so với một số mô hình trước đây (dù các mô hình trước được huấn luyện trên những bộ dữ liệu lớn hơn nhiều). [3] “Trong quá trình làm luận án tiến sĩ, tôi đã nghiên cứu một số chủ đề, chẳng hạn như cách kết hợp thông tin hình ảnh với âm thanh để nhận dạng tiếng nói, cũng như cách nhận dạng tiếng nói bằng hình ảnh một cách độc lập với tư thế đầu của người tham gia. Và tôi nhận ra rằng phần lớn các tài liệu đã có chỉ xử lý tiếng nói là tiếng Anh mà thôi”, Pingchuan Ma – người nhận bằng tiến sĩ ở Đại học Hoàng gia và là tác giả chính của bài báo – cho biết. [4] Do đó, nghiên cứu của Ma và đồng nghiệp đặt mục tiêu huấn luyện một mô hình học sâu có khả năng nhận dạng tiếng nói trong nhiều ngôn ngữ khác nhau từ chuyển động môi của người nói, sau đó so sánh hiệu quả của mô hình mới này với các mô hình vốn được huấn luyện để nhận dạng tiếng nói tiếng Anh. Theo các tác giả, mô hình mới cũng giống như mô hình do các nhóm nghiên cứu khác giới thiệu trước đây, tuy nhiên điểm khác biệt nằm ở chỗ mô hình mới đã tối ưu hóa một số siêu tham số, đồng thời tăng cường bộ dữ liệu (bằng cách thêm các phiên bản dữ liệu tổng hợp, được sửa đổi một chút) và sử dụng thêm hàm mất mát (loss functions). [5] “Nghiên cứu của chúng tôi đã cho thấy có thể sử dụng các mô hình tương tự để huấn luyện các mô hình VSR với các ngôn ngữ khác”, Ma giải thích. “Mô hình của chúng tôi lấy hình ảnh thô làm dữ liệu đầu vào mà không trích xuất bất kỳ đặc điểm nào, sau đó mới tự động tìm hiểu những đặc điểm hữu ích cần trích xuất từ những hình ảnh này để hoàn thành các tác vụ VSR”. [6] Trong các đánh giá ban đầu, mô hình mới của nhóm hoạt động rất tốt, vượt trội so với các mô hình VSR khác vốn được huấn luyện trên những tập dữ liệu lớn hơn rất nhiều. Tuy nhiên, đúng như dự đoán, mô hình này hoạt động kém hiệu quả hơn so với các mô hình nhận dạng tiếng nói tiếng Anh, chủ yếu là do các tập dữ liệu sẵn có để huấn luyện ít hơn so với dữ liệu tiếng Anh. [7] Ma và các đồng nghiệp của ông đã chỉ ra rằng, việc thiết kế cẩn trọng các mô hình học sâu có thể giúp cho mô hình này đạt được hiệu quả cao nhất trong các tác vụ VSR, thay vì chỉ đơn giản là sử dụng các phiên bản mô hình lớn hơn hoặc thu thập nhiều dữ liệu huấn luyện hơn. Điều này có thể dẫn đến sự thay đổi trong hướng nghiên cứu để cải thiện các mô hình VSR tương lai. [8] “Một trong những lĩnh vực nghiên cứu chính mà tôi quan tâm là cách kết hợp các mô hình VSR với tính năng nhận dạng giọng nói (chỉ dựa trên âm thanh) hiện nay”, Ma nói thêm. “Tôi đặc biệt quan tâm đến việc làm thế nào để mô hình có thể hiểu chúng nên dựa vào mô hình nào tùy thuộc vào điều kiện tiếng ồn. Nói cách khác, trong môi trường ồn ào, mô hình nghe – nhìn nên dựa nhiều hơn vào thông tin hình ảnh. Ngược lại, khi vùng miệng của người nói bị che khuất thì mô hình này cần phụ thuộc nhiều hơn vào âm thanh. Tuy nhiên, các mô hình hiện nay về cơ bản là bị ‘đóng băng’ sau khi được huấn luyện và không thể thích ứng với những thay đổi trong môi trường như vậy”. Nguồn: Mỹ Hạnh (lược dịch) - đăng ngày 13/12/2022, Tạp chí Tia sáng, Bộ Khoa học và Công nghệ.",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_002",
+    "group_type": "passage",
+    "source_pages": [
+      4,
+      7
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q013",
+    "question_number": 13,
+    "stem": "Theo Tiến sĩ Ma, lĩnh vực nghiên cứu chính mà ông quan tâm theo đuổi là đưa tính năng nhận dạng giọng nói vào kết hợp với mô hình VSR. Đúng hay sai?",
+    "question_type": "true_false",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đúng"
+      },
+      {
+        "key": "B",
+        "text": "Sai"
+      }
+    ],
+    "correct_answer": [
+      "A"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 7
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 8 đến 14: CÔNG NGHỆ VSR [0] Trong những năm gần gây, các kỹ thuật học sâu đã đạt được những tiến bộ đáng chú ý trong nhiều tác vụ xử lý ngôn ngữ và hình ảnh. Những tiến bộ này bao gồm việc nhận dạng tiếng nói bằng hình ảnh (VSR) – một tác vụ đòi hỏi phải xác định được nội dung của lời nói chỉ bằng cách phân tích chuyển động môi. [1] Mặc dù một số thuật toán học sâu để thực hiện tác vụ VSR này đã đạt được những kết quả rất hứa hẹn, tuy nhiên, chúng hầu như chỉ được huấn luyện để nhận dạng tiếng nói là tiếng Anh, do hầu hết các bộ dữ liệu huấn luyện hiện nay không có các tiếng nói của các tôn trọng tạo điều kiện bày tỏ ngôn ngữ khác. Điều này khiến cho lượng người dùng tiềm năng của thuật toán bị giới hạn ở nhóm người sống hoặc làm việc ở môi trường nói tiếng Anh. [2] Mới đây, các nhà nghiên cứu tại Đại học Hoàng gia Luân Đôn đã phát triển một mô hình có thể thực hiện nhiệm vụ VSR với nhiều ngôn ngữ khác nhau. Trong bài báo mới được công bố trên tạp chí Nature Machine Intelligence, các tác giả đã cho thấy mô hình mới vượt trội hơn so với một số mô hình trước đây (dù các mô hình trước được huấn luyện trên những bộ dữ liệu lớn hơn nhiều). [3] “Trong quá trình làm luận án tiến sĩ, tôi đã nghiên cứu một số chủ đề, chẳng hạn như cách kết hợp thông tin hình ảnh với âm thanh để nhận dạng tiếng nói, cũng như cách nhận dạng tiếng nói bằng hình ảnh một cách độc lập với tư thế đầu của người tham gia. Và tôi nhận ra rằng phần lớn các tài liệu đã có chỉ xử lý tiếng nói là tiếng Anh mà thôi”, Pingchuan Ma – người nhận bằng tiến sĩ ở Đại học Hoàng gia và là tác giả chính của bài báo – cho biết. [4] Do đó, nghiên cứu của Ma và đồng nghiệp đặt mục tiêu huấn luyện một mô hình học sâu có khả năng nhận dạng tiếng nói trong nhiều ngôn ngữ khác nhau từ chuyển động môi của người nói, sau đó so sánh hiệu quả của mô hình mới này với các mô hình vốn được huấn luyện để nhận dạng tiếng nói tiếng Anh. Theo các tác giả, mô hình mới cũng giống như mô hình do các nhóm nghiên cứu khác giới thiệu trước đây, tuy nhiên điểm khác biệt nằm ở chỗ mô hình mới đã tối ưu hóa một số siêu tham số, đồng thời tăng cường bộ dữ liệu (bằng cách thêm các phiên bản dữ liệu tổng hợp, được sửa đổi một chút) và sử dụng thêm hàm mất mát (loss functions). [5] “Nghiên cứu của chúng tôi đã cho thấy có thể sử dụng các mô hình tương tự để huấn luyện các mô hình VSR với các ngôn ngữ khác”, Ma giải thích. “Mô hình của chúng tôi lấy hình ảnh thô làm dữ liệu đầu vào mà không trích xuất bất kỳ đặc điểm nào, sau đó mới tự động tìm hiểu những đặc điểm hữu ích cần trích xuất từ những hình ảnh này để hoàn thành các tác vụ VSR”. [6] Trong các đánh giá ban đầu, mô hình mới của nhóm hoạt động rất tốt, vượt trội so với các mô hình VSR khác vốn được huấn luyện trên những tập dữ liệu lớn hơn rất nhiều. Tuy nhiên, đúng như dự đoán, mô hình này hoạt động kém hiệu quả hơn so với các mô hình nhận dạng tiếng nói tiếng Anh, chủ yếu là do các tập dữ liệu sẵn có để huấn luyện ít hơn so với dữ liệu tiếng Anh. [7] Ma và các đồng nghiệp của ông đã chỉ ra rằng, việc thiết kế cẩn trọng các mô hình học sâu có thể giúp cho mô hình này đạt được hiệu quả cao nhất trong các tác vụ VSR, thay vì chỉ đơn giản là sử dụng các phiên bản mô hình lớn hơn hoặc thu thập nhiều dữ liệu huấn luyện hơn. Điều này có thể dẫn đến sự thay đổi trong hướng nghiên cứu để cải thiện các mô hình VSR tương lai. [8] “Một trong những lĩnh vực nghiên cứu chính mà tôi quan tâm là cách kết hợp các mô hình VSR với tính năng nhận dạng giọng nói (chỉ dựa trên âm thanh) hiện nay”, Ma nói thêm. “Tôi đặc biệt quan tâm đến việc làm thế nào để mô hình có thể hiểu chúng nên dựa vào mô hình nào tùy thuộc vào điều kiện tiếng ồn. Nói cách khác, trong môi trường ồn ào, mô hình nghe – nhìn nên dựa nhiều hơn vào thông tin hình ảnh. Ngược lại, khi vùng miệng của người nói bị che khuất thì mô hình này cần phụ thuộc nhiều hơn vào âm thanh. Tuy nhiên, các mô hình hiện nay về cơ bản là bị ‘đóng băng’ sau khi được huấn luyện và không thể thích ứng với những thay đổi trong môi trường như vậy”. Nguồn: Mỹ Hạnh (lược dịch) - đăng ngày 13/12/2022, Tạp chí Tia sáng, Bộ Khoa học và Công nghệ.",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_002",
+    "group_type": "passage",
+    "source_pages": [
+      4,
+      7
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q014",
+    "question_number": 14,
+    "stem": "Hãy điền một cụm từ không quá bốn tiếng để hoàn thành đoạn sau. Ma và các đồng nghiệp đang cố gắng nghiên cứu tập trung đến việc giúp mô hình tự động nhận biết và chuyển chế độ để nhận dạng dựa vào âm thanh hay hình ảnh nhiều hơn. Việc tự động nhận biết và chuyển chế độ để nhận dạng này được quyết định bởi ____________.",
+    "question_type": "short_answer",
+    "options": [],
+    "correct_answer": [
+      "tiếng ồn/ điều kiện tiếng ồn/ mức độ tiếng ồn/"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 7
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 8 đến 14: CÔNG NGHỆ VSR [0] Trong những năm gần gây, các kỹ thuật học sâu đã đạt được những tiến bộ đáng chú ý trong nhiều tác vụ xử lý ngôn ngữ và hình ảnh. Những tiến bộ này bao gồm việc nhận dạng tiếng nói bằng hình ảnh (VSR) – một tác vụ đòi hỏi phải xác định được nội dung của lời nói chỉ bằng cách phân tích chuyển động môi. [1] Mặc dù một số thuật toán học sâu để thực hiện tác vụ VSR này đã đạt được những kết quả rất hứa hẹn, tuy nhiên, chúng hầu như chỉ được huấn luyện để nhận dạng tiếng nói là tiếng Anh, do hầu hết các bộ dữ liệu huấn luyện hiện nay không có các tiếng nói của các tôn trọng tạo điều kiện bày tỏ ngôn ngữ khác. Điều này khiến cho lượng người dùng tiềm năng của thuật toán bị giới hạn ở nhóm người sống hoặc làm việc ở môi trường nói tiếng Anh. [2] Mới đây, các nhà nghiên cứu tại Đại học Hoàng gia Luân Đôn đã phát triển một mô hình có thể thực hiện nhiệm vụ VSR với nhiều ngôn ngữ khác nhau. Trong bài báo mới được công bố trên tạp chí Nature Machine Intelligence, các tác giả đã cho thấy mô hình mới vượt trội hơn so với một số mô hình trước đây (dù các mô hình trước được huấn luyện trên những bộ dữ liệu lớn hơn nhiều). [3] “Trong quá trình làm luận án tiến sĩ, tôi đã nghiên cứu một số chủ đề, chẳng hạn như cách kết hợp thông tin hình ảnh với âm thanh để nhận dạng tiếng nói, cũng như cách nhận dạng tiếng nói bằng hình ảnh một cách độc lập với tư thế đầu của người tham gia. Và tôi nhận ra rằng phần lớn các tài liệu đã có chỉ xử lý tiếng nói là tiếng Anh mà thôi”, Pingchuan Ma – người nhận bằng tiến sĩ ở Đại học Hoàng gia và là tác giả chính của bài báo – cho biết. [4] Do đó, nghiên cứu của Ma và đồng nghiệp đặt mục tiêu huấn luyện một mô hình học sâu có khả năng nhận dạng tiếng nói trong nhiều ngôn ngữ khác nhau từ chuyển động môi của người nói, sau đó so sánh hiệu quả của mô hình mới này với các mô hình vốn được huấn luyện để nhận dạng tiếng nói tiếng Anh. Theo các tác giả, mô hình mới cũng giống như mô hình do các nhóm nghiên cứu khác giới thiệu trước đây, tuy nhiên điểm khác biệt nằm ở chỗ mô hình mới đã tối ưu hóa một số siêu tham số, đồng thời tăng cường bộ dữ liệu (bằng cách thêm các phiên bản dữ liệu tổng hợp, được sửa đổi một chút) và sử dụng thêm hàm mất mát (loss functions). [5] “Nghiên cứu của chúng tôi đã cho thấy có thể sử dụng các mô hình tương tự để huấn luyện các mô hình VSR với các ngôn ngữ khác”, Ma giải thích. “Mô hình của chúng tôi lấy hình ảnh thô làm dữ liệu đầu vào mà không trích xuất bất kỳ đặc điểm nào, sau đó mới tự động tìm hiểu những đặc điểm hữu ích cần trích xuất từ những hình ảnh này để hoàn thành các tác vụ VSR”. [6] Trong các đánh giá ban đầu, mô hình mới của nhóm hoạt động rất tốt, vượt trội so với các mô hình VSR khác vốn được huấn luyện trên những tập dữ liệu lớn hơn rất nhiều. Tuy nhiên, đúng như dự đoán, mô hình này hoạt động kém hiệu quả hơn so với các mô hình nhận dạng tiếng nói tiếng Anh, chủ yếu là do các tập dữ liệu sẵn có để huấn luyện ít hơn so với dữ liệu tiếng Anh. [7] Ma và các đồng nghiệp của ông đã chỉ ra rằng, việc thiết kế cẩn trọng các mô hình học sâu có thể giúp cho mô hình này đạt được hiệu quả cao nhất trong các tác vụ VSR, thay vì chỉ đơn giản là sử dụng các phiên bản mô hình lớn hơn hoặc thu thập nhiều dữ liệu huấn luyện hơn. Điều này có thể dẫn đến sự thay đổi trong hướng nghiên cứu để cải thiện các mô hình VSR tương lai. [8] “Một trong những lĩnh vực nghiên cứu chính mà tôi quan tâm là cách kết hợp các mô hình VSR với tính năng nhận dạng giọng nói (chỉ dựa trên âm thanh) hiện nay”, Ma nói thêm. “Tôi đặc biệt quan tâm đến việc làm thế nào để mô hình có thể hiểu chúng nên dựa vào mô hình nào tùy thuộc vào điều kiện tiếng ồn. Nói cách khác, trong môi trường ồn ào, mô hình nghe – nhìn nên dựa nhiều hơn vào thông tin hình ảnh. Ngược lại, khi vùng miệng của người nói bị che khuất thì mô hình này cần phụ thuộc nhiều hơn vào âm thanh. Tuy nhiên, các mô hình hiện nay về cơ bản là bị ‘đóng băng’ sau khi được huấn luyện và không thể thích ứng với những thay đổi trong môi trường như vậy”. Nguồn: Mỹ Hạnh (lược dịch) - đăng ngày 13/12/2022, Tạp chí Tia sáng, Bộ Khoa học và Công nghệ.",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_002",
+    "group_type": "passage",
+    "source_pages": [
+      4,
+      7
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q015",
+    "question_number": 15,
+    "stem": "Nhân vật “tôi” cho rằng người đàn bà bị nạn giả vờ đau đớn bởi vì anh đã chứng kiến người đàn bà này ngã từ từ xuống đất. Đúng hay sai?",
+    "question_type": "true_false",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đúng"
+      },
+      {
+        "key": "B",
+        "text": "Sai"
+      }
+    ],
+    "correct_answer": [
+      "A"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 9
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 15 đến 19: MẨU CHUYỆN NHỎ (LỖ TẤN) [1] Tôi bỏ quê nhà lên Bắc Kinh thấm thoắt đã sáu năm rồi. Trong thời gian đó, những việc gọi là “quốc gia đại sự”, mắt thấy tai nghe, kể cũng không phải ít, nhưng chẳng để lại một tí dấu vết nào trong lòng tôi cả. Giá bảo tìm xem có ảnh hưởng gì đến tôi không thì phải nói, chỉ làm cho tôi càng thêm gàn dở, mà thành thực hơn thì phải nói, chỉ làm cho tôi càng thêm khinh người. [2] Nhưng có một việc tầm thường đối với tôi lại có ý nghĩa, khiến tôi phải bỏ tính gàn dở đi, và cho đến nay,vẫn không hề quên. [3] Ấy là vào mùa đông năm Dân quốc thứ 6 1. Gió bấc thổi mạnh lắm, nhưng vì sinh kế, vừa sáng sớm,tôi đã phải ra đường. Dọc đường, hầu như không gặp ai cả. Vất vả lắm mới thuê được một chiếc xe kéo, bảo kéo đến cửa S. Một lát, gió dịu dần. Mặt đường không còn một hạt bụi, sạch bóng, trắng xóa. Anh xe chạy càng nhanh. Gần đến cửa S, bỗng một người nào vướng phải càng xe, rồi ngã dần dần xuống. [4] Đó là một người đàn bà, tóc hoa râm, áo quần rách rưới. Bà ta từ bên kia lề đường thình lình chạy qua chiếc xe, anh xe đã tránh rồi, nhưng cái áo bông bà ta không cài khuy, gió thổi lật lên, vướng vào càng xe. May mà anh xe đã bước chậm lại rồi, không thì đã ngã lộn nhào đến vỡ đầu mất! [5] Bà ta vẫn nằm phục dưới đất, anh xe cũng vừa dừng lại. Tôi đoán bà ta chẳng bị thương tích gì, và cũng không có trông thấy. Tôi trách anh xe đến đa sự, tự chuốc lấy việc lôi thôi vào mình làm tôi phải đi trễ. [6] Tôi nói: – Không việc gì đâu mà! Kéo đi thôi! Anh xe chẳng để ý lời tôi nói, hoặc giả không nghe thấy chăng, cứ đặt xe xuống, đi lại dìu bà kia dậy, đỡ lấy cánh tay cho bà ta đứng vững, rồi hỏi: – Có làm sao không? – Ngã đau lắm. [7] Tôi nghĩ bụng: “Chính mắt tôi trông thấy bà ta ngã dần dần xuống kia mà, làm sao lại có thể đau được! Chỉ được cái làm bộ thôi. Thật đáng ghét. Còn anh, cũng đa sự, tự chuốc lấy phiền não vào thân, bây giờ mặc kệ anh, anh xoay xở lấy”. [8] Anh xe nghe bà kia nói thế, nhưng không chần chừ tí nào, vẫn đỡ lấy cánh tay bà ta, dìu đi từng bước một về phía trước. Tôi hơi lấy làm ngạc nhiên, vội nhìn về phía trước. Thì ra, phía trước là một cái đồn cảnh sát. Sau trận gió lớn, không thấy ai đứng gác ở ngoài. Chính anh xe đang dìu bà đi tới cổng cái đồn ấy. [9] Lúc bấy giờ, tôi vụt có một cảm giác rất lạ: cái bóng anh xe, người đầy cát bụi kia, nhìn từ phía sau, bỗng to dần ra. Anh càng bước tới, cái bóng càng to thêm, phải ngước lên mới nhìn thấy được, và dần dần cơ hồ biến thành một sức nặng đè lên người tôi đến nỗi làm cho cái “thằng tôi nhỏ nhen”, che giấu dưới làn áo da, như muốn lòi ra ngoài. [10] Sức sống của tôi lúc đó như ngừng trệ lại. Tôi cứ ngồi lì trên xe, không nhúc nhích, cũng không suy nghĩ, cho tới khi thấy một người cảnh sát từ trong đồn đi ra, tôi mới bước xuống. Người cảnh sát đến gần nói: – Anh thuê xe khác mà đi. Anh xe không kéo được cho ông nữa. 1 Năm 1917 Không nghĩ ngợi, tôi lấy một nắm xu trong túi áo ngoài đưa cho người cảnh sát nói: – Bác đưa lại cho anh xe hộ tôi. [11] Gió lặng hẳn. Đường vẫn vắng. Tôi vừa đi vừa nghĩ, nhưng hình như lại sợ không dám nghĩ đến con người tôi. Thôi thì hẵng tạm không nói đến việc xảy ra vừa rồi, nhưng cái nắm xu kia là có ý gì? Thưởng cho anh ta phải không? Tôi mà xứng đáng để thưởng cho một người như anh xe kia ư? Tôi không thể tự trả lời được. [12] Mẩu chuyện này, đến bây giờ, tôi thường vẫn nhớ tới, và do đó, cảm thấy đau khổ vô cùng và cố gắng suy nghĩ về con người tôi. Mấy năm lại đây, bao nhiêu chuyện văn trị võ công2 tôi đều quên hết, như đã quên những câu “Tử viết Thi vân” hồi còn nhỏ. Duy chỉ có mẩu chuyện này cứ hiện lên trước mắt, có lúc còn rất rõ ràng, khiến tôi hết sức xấu hổ, thúc giục tôi phải tự sửa mình, và cũng làm cho tôi càng thêm can đảm, càng thêm hi vọng. (Truyện ngắn Lỗ Tấn, Trương Chính dịch, NXB Văn học, 2000, tr.68-70)",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_003",
+    "group_type": "passage",
+    "source_pages": [
+      7,
+      9
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q016",
+    "question_number": 16,
+    "stem": "Lí do quan trọng nhất khiến nhân vật “tôi” không muốn anh xe dừng lại khi người đàn bà bị vướng vào càng xe và ngã xuống là gì?",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vì lo anh xe tự chuốc việc lôi thôi vào mình"
+      },
+      {
+        "key": "B",
+        "text": "Vì không muốn bản thân mình bị muộn giờ"
+      },
+      {
+        "key": "C",
+        "text": "Vì cho rằng người đàn bà chỉ đang làm bộ"
+      },
+      {
+        "key": "D",
+        "text": "Vì thấy không có cảnh sát đứng gác ở đồn"
+      }
+    ],
+    "correct_answer": [
+      "B"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 9
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 15 đến 19: MẨU CHUYỆN NHỎ (LỖ TẤN) [1] Tôi bỏ quê nhà lên Bắc Kinh thấm thoắt đã sáu năm rồi. Trong thời gian đó, những việc gọi là “quốc gia đại sự”, mắt thấy tai nghe, kể cũng không phải ít, nhưng chẳng để lại một tí dấu vết nào trong lòng tôi cả. Giá bảo tìm xem có ảnh hưởng gì đến tôi không thì phải nói, chỉ làm cho tôi càng thêm gàn dở, mà thành thực hơn thì phải nói, chỉ làm cho tôi càng thêm khinh người. [2] Nhưng có một việc tầm thường đối với tôi lại có ý nghĩa, khiến tôi phải bỏ tính gàn dở đi, và cho đến nay,vẫn không hề quên. [3] Ấy là vào mùa đông năm Dân quốc thứ 6 1. Gió bấc thổi mạnh lắm, nhưng vì sinh kế, vừa sáng sớm,tôi đã phải ra đường. Dọc đường, hầu như không gặp ai cả. Vất vả lắm mới thuê được một chiếc xe kéo, bảo kéo đến cửa S. Một lát, gió dịu dần. Mặt đường không còn một hạt bụi, sạch bóng, trắng xóa. Anh xe chạy càng nhanh. Gần đến cửa S, bỗng một người nào vướng phải càng xe, rồi ngã dần dần xuống. [4] Đó là một người đàn bà, tóc hoa râm, áo quần rách rưới. Bà ta từ bên kia lề đường thình lình chạy qua chiếc xe, anh xe đã tránh rồi, nhưng cái áo bông bà ta không cài khuy, gió thổi lật lên, vướng vào càng xe. May mà anh xe đã bước chậm lại rồi, không thì đã ngã lộn nhào đến vỡ đầu mất! [5] Bà ta vẫn nằm phục dưới đất, anh xe cũng vừa dừng lại. Tôi đoán bà ta chẳng bị thương tích gì, và cũng không có trông thấy. Tôi trách anh xe đến đa sự, tự chuốc lấy việc lôi thôi vào mình làm tôi phải đi trễ. [6] Tôi nói: – Không việc gì đâu mà! Kéo đi thôi! Anh xe chẳng để ý lời tôi nói, hoặc giả không nghe thấy chăng, cứ đặt xe xuống, đi lại dìu bà kia dậy, đỡ lấy cánh tay cho bà ta đứng vững, rồi hỏi: – Có làm sao không? – Ngã đau lắm. [7] Tôi nghĩ bụng: “Chính mắt tôi trông thấy bà ta ngã dần dần xuống kia mà, làm sao lại có thể đau được! Chỉ được cái làm bộ thôi. Thật đáng ghét. Còn anh, cũng đa sự, tự chuốc lấy phiền não vào thân, bây giờ mặc kệ anh, anh xoay xở lấy”. [8] Anh xe nghe bà kia nói thế, nhưng không chần chừ tí nào, vẫn đỡ lấy cánh tay bà ta, dìu đi từng bước một về phía trước. Tôi hơi lấy làm ngạc nhiên, vội nhìn về phía trước. Thì ra, phía trước là một cái đồn cảnh sát. Sau trận gió lớn, không thấy ai đứng gác ở ngoài. Chính anh xe đang dìu bà đi tới cổng cái đồn ấy. [9] Lúc bấy giờ, tôi vụt có một cảm giác rất lạ: cái bóng anh xe, người đầy cát bụi kia, nhìn từ phía sau, bỗng to dần ra. Anh càng bước tới, cái bóng càng to thêm, phải ngước lên mới nhìn thấy được, và dần dần cơ hồ biến thành một sức nặng đè lên người tôi đến nỗi làm cho cái “thằng tôi nhỏ nhen”, che giấu dưới làn áo da, như muốn lòi ra ngoài. [10] Sức sống của tôi lúc đó như ngừng trệ lại. Tôi cứ ngồi lì trên xe, không nhúc nhích, cũng không suy nghĩ, cho tới khi thấy một người cảnh sát từ trong đồn đi ra, tôi mới bước xuống. Người cảnh sát đến gần nói: – Anh thuê xe khác mà đi. Anh xe không kéo được cho ông nữa. 1 Năm 1917 Không nghĩ ngợi, tôi lấy một nắm xu trong túi áo ngoài đưa cho người cảnh sát nói: – Bác đưa lại cho anh xe hộ tôi. [11] Gió lặng hẳn. Đường vẫn vắng. Tôi vừa đi vừa nghĩ, nhưng hình như lại sợ không dám nghĩ đến con người tôi. Thôi thì hẵng tạm không nói đến việc xảy ra vừa rồi, nhưng cái nắm xu kia là có ý gì? Thưởng cho anh ta phải không? Tôi mà xứng đáng để thưởng cho một người như anh xe kia ư? Tôi không thể tự trả lời được. [12] Mẩu chuyện này, đến bây giờ, tôi thường vẫn nhớ tới, và do đó, cảm thấy đau khổ vô cùng và cố gắng suy nghĩ về con người tôi. Mấy năm lại đây, bao nhiêu chuyện văn trị võ công2 tôi đều quên hết, như đã quên những câu “Tử viết Thi vân” hồi còn nhỏ. Duy chỉ có mẩu chuyện này cứ hiện lên trước mắt, có lúc còn rất rõ ràng, khiến tôi hết sức xấu hổ, thúc giục tôi phải tự sửa mình, và cũng làm cho tôi càng thêm can đảm, càng thêm hi vọng. (Truyện ngắn Lỗ Tấn, Trương Chính dịch, NXB Văn học, 2000, tr.68-70)",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_003",
+    "group_type": "passage",
+    "source_pages": [
+      7,
+      9
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q017",
+    "question_number": 17,
+    "stem": "Ở đoạn 9, vì sao nhân vật “tôi” có cảm giác \"cái bóng của anh xe, người đầy cát bụi kia, nhìn từ phía sau, bỗng to dần ra”? (Chọn hai đáp án đúng.)",
+    "question_type": "multiple_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vì băn khoăn, khó hiểu trước cách ứng xử của anh xe"
+      },
+      {
+        "key": "B",
+        "text": "Vì cảm thấy xấu hổ trước sự nhỏ nhen, ích kỉ của bản thân"
+      },
+      {
+        "key": "C",
+        "text": "Vì quá lo lắng về việc anh xe có thể gặp rắc rối ở đồn cảnh sát"
+      },
+      {
+        "key": "D",
+        "text": "Vì bất ngờ, ngưỡng mộ trước vẻ đẹp nhân cách của anh xe"
+      }
+    ],
+    "correct_answer": [
+      "B",
+      "D"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 9
+    },
+    "quality": {
+      "extraction_status": "needs_review",
+      "human_review_status": "pending",
+      "warnings": [
+        "footnote_removed_from_option"
+      ],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 15 đến 19: MẨU CHUYỆN NHỎ (LỖ TẤN) [1] Tôi bỏ quê nhà lên Bắc Kinh thấm thoắt đã sáu năm rồi. Trong thời gian đó, những việc gọi là “quốc gia đại sự”, mắt thấy tai nghe, kể cũng không phải ít, nhưng chẳng để lại một tí dấu vết nào trong lòng tôi cả. Giá bảo tìm xem có ảnh hưởng gì đến tôi không thì phải nói, chỉ làm cho tôi càng thêm gàn dở, mà thành thực hơn thì phải nói, chỉ làm cho tôi càng thêm khinh người. [2] Nhưng có một việc tầm thường đối với tôi lại có ý nghĩa, khiến tôi phải bỏ tính gàn dở đi, và cho đến nay,vẫn không hề quên. [3] Ấy là vào mùa đông năm Dân quốc thứ 6 1. Gió bấc thổi mạnh lắm, nhưng vì sinh kế, vừa sáng sớm,tôi đã phải ra đường. Dọc đường, hầu như không gặp ai cả. Vất vả lắm mới thuê được một chiếc xe kéo, bảo kéo đến cửa S. Một lát, gió dịu dần. Mặt đường không còn một hạt bụi, sạch bóng, trắng xóa. Anh xe chạy càng nhanh. Gần đến cửa S, bỗng một người nào vướng phải càng xe, rồi ngã dần dần xuống. [4] Đó là một người đàn bà, tóc hoa râm, áo quần rách rưới. Bà ta từ bên kia lề đường thình lình chạy qua chiếc xe, anh xe đã tránh rồi, nhưng cái áo bông bà ta không cài khuy, gió thổi lật lên, vướng vào càng xe. May mà anh xe đã bước chậm lại rồi, không thì đã ngã lộn nhào đến vỡ đầu mất! [5] Bà ta vẫn nằm phục dưới đất, anh xe cũng vừa dừng lại. Tôi đoán bà ta chẳng bị thương tích gì, và cũng không có trông thấy. Tôi trách anh xe đến đa sự, tự chuốc lấy việc lôi thôi vào mình làm tôi phải đi trễ. [6] Tôi nói: – Không việc gì đâu mà! Kéo đi thôi! Anh xe chẳng để ý lời tôi nói, hoặc giả không nghe thấy chăng, cứ đặt xe xuống, đi lại dìu bà kia dậy, đỡ lấy cánh tay cho bà ta đứng vững, rồi hỏi: – Có làm sao không? – Ngã đau lắm. [7] Tôi nghĩ bụng: “Chính mắt tôi trông thấy bà ta ngã dần dần xuống kia mà, làm sao lại có thể đau được! Chỉ được cái làm bộ thôi. Thật đáng ghét. Còn anh, cũng đa sự, tự chuốc lấy phiền não vào thân, bây giờ mặc kệ anh, anh xoay xở lấy”. [8] Anh xe nghe bà kia nói thế, nhưng không chần chừ tí nào, vẫn đỡ lấy cánh tay bà ta, dìu đi từng bước một về phía trước. Tôi hơi lấy làm ngạc nhiên, vội nhìn về phía trước. Thì ra, phía trước là một cái đồn cảnh sát. Sau trận gió lớn, không thấy ai đứng gác ở ngoài. Chính anh xe đang dìu bà đi tới cổng cái đồn ấy. [9] Lúc bấy giờ, tôi vụt có một cảm giác rất lạ: cái bóng anh xe, người đầy cát bụi kia, nhìn từ phía sau, bỗng to dần ra. Anh càng bước tới, cái bóng càng to thêm, phải ngước lên mới nhìn thấy được, và dần dần cơ hồ biến thành một sức nặng đè lên người tôi đến nỗi làm cho cái “thằng tôi nhỏ nhen”, che giấu dưới làn áo da, như muốn lòi ra ngoài. [10] Sức sống của tôi lúc đó như ngừng trệ lại. Tôi cứ ngồi lì trên xe, không nhúc nhích, cũng không suy nghĩ, cho tới khi thấy một người cảnh sát từ trong đồn đi ra, tôi mới bước xuống. Người cảnh sát đến gần nói: – Anh thuê xe khác mà đi. Anh xe không kéo được cho ông nữa. 1 Năm 1917 Không nghĩ ngợi, tôi lấy một nắm xu trong túi áo ngoài đưa cho người cảnh sát nói: – Bác đưa lại cho anh xe hộ tôi. [11] Gió lặng hẳn. Đường vẫn vắng. Tôi vừa đi vừa nghĩ, nhưng hình như lại sợ không dám nghĩ đến con người tôi. Thôi thì hẵng tạm không nói đến việc xảy ra vừa rồi, nhưng cái nắm xu kia là có ý gì? Thưởng cho anh ta phải không? Tôi mà xứng đáng để thưởng cho một người như anh xe kia ư? Tôi không thể tự trả lời được. [12] Mẩu chuyện này, đến bây giờ, tôi thường vẫn nhớ tới, và do đó, cảm thấy đau khổ vô cùng và cố gắng suy nghĩ về con người tôi. Mấy năm lại đây, bao nhiêu chuyện văn trị võ công2 tôi đều quên hết, như đã quên những câu “Tử viết Thi vân” hồi còn nhỏ. Duy chỉ có mẩu chuyện này cứ hiện lên trước mắt, có lúc còn rất rõ ràng, khiến tôi hết sức xấu hổ, thúc giục tôi phải tự sửa mình, và cũng làm cho tôi càng thêm can đảm, càng thêm hi vọng. (Truyện ngắn Lỗ Tấn, Trương Chính dịch, NXB Văn học, 2000, tr.68-70)",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_003",
+    "group_type": "passage",
+    "source_pages": [
+      7,
+      9
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q018",
+    "question_number": 18,
+    "stem": "Dòng nào sau đây nêu KHÔNG đúng thông điệp mà văn bản mang lại cho người đọc?",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cần phải sống nhân ái, vị tha, sẵn lòng giúp đỡ những người xung quanh"
+      },
+      {
+        "key": "B",
+        "text": "Cần biết tự vấn lương tâm, tự nhìn nhận lại bản thân để sửa mình, hướng đến hoàn thiện nhân cách"
+      },
+      {
+        "key": "C",
+        "text": "Có thể học những bài học lớn về đạo đức, nhân cách làm người từ những người lao động nghèo khổ"
+      },
+      {
+        "key": "D",
+        "text": "Cần cẩn trọng trước khi giúp đỡ người khác vì đôi khi lòng tốt có thể bị lợi dụng"
+      }
+    ],
+    "correct_answer": [
+      "D"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 10
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 15 đến 19: MẨU CHUYỆN NHỎ (LỖ TẤN) [1] Tôi bỏ quê nhà lên Bắc Kinh thấm thoắt đã sáu năm rồi. Trong thời gian đó, những việc gọi là “quốc gia đại sự”, mắt thấy tai nghe, kể cũng không phải ít, nhưng chẳng để lại một tí dấu vết nào trong lòng tôi cả. Giá bảo tìm xem có ảnh hưởng gì đến tôi không thì phải nói, chỉ làm cho tôi càng thêm gàn dở, mà thành thực hơn thì phải nói, chỉ làm cho tôi càng thêm khinh người. [2] Nhưng có một việc tầm thường đối với tôi lại có ý nghĩa, khiến tôi phải bỏ tính gàn dở đi, và cho đến nay,vẫn không hề quên. [3] Ấy là vào mùa đông năm Dân quốc thứ 6 1. Gió bấc thổi mạnh lắm, nhưng vì sinh kế, vừa sáng sớm,tôi đã phải ra đường. Dọc đường, hầu như không gặp ai cả. Vất vả lắm mới thuê được một chiếc xe kéo, bảo kéo đến cửa S. Một lát, gió dịu dần. Mặt đường không còn một hạt bụi, sạch bóng, trắng xóa. Anh xe chạy càng nhanh. Gần đến cửa S, bỗng một người nào vướng phải càng xe, rồi ngã dần dần xuống. [4] Đó là một người đàn bà, tóc hoa râm, áo quần rách rưới. Bà ta từ bên kia lề đường thình lình chạy qua chiếc xe, anh xe đã tránh rồi, nhưng cái áo bông bà ta không cài khuy, gió thổi lật lên, vướng vào càng xe. May mà anh xe đã bước chậm lại rồi, không thì đã ngã lộn nhào đến vỡ đầu mất! [5] Bà ta vẫn nằm phục dưới đất, anh xe cũng vừa dừng lại. Tôi đoán bà ta chẳng bị thương tích gì, và cũng không có trông thấy. Tôi trách anh xe đến đa sự, tự chuốc lấy việc lôi thôi vào mình làm tôi phải đi trễ. [6] Tôi nói: – Không việc gì đâu mà! Kéo đi thôi! Anh xe chẳng để ý lời tôi nói, hoặc giả không nghe thấy chăng, cứ đặt xe xuống, đi lại dìu bà kia dậy, đỡ lấy cánh tay cho bà ta đứng vững, rồi hỏi: – Có làm sao không? – Ngã đau lắm. [7] Tôi nghĩ bụng: “Chính mắt tôi trông thấy bà ta ngã dần dần xuống kia mà, làm sao lại có thể đau được! Chỉ được cái làm bộ thôi. Thật đáng ghét. Còn anh, cũng đa sự, tự chuốc lấy phiền não vào thân, bây giờ mặc kệ anh, anh xoay xở lấy”. [8] Anh xe nghe bà kia nói thế, nhưng không chần chừ tí nào, vẫn đỡ lấy cánh tay bà ta, dìu đi từng bước một về phía trước. Tôi hơi lấy làm ngạc nhiên, vội nhìn về phía trước. Thì ra, phía trước là một cái đồn cảnh sát. Sau trận gió lớn, không thấy ai đứng gác ở ngoài. Chính anh xe đang dìu bà đi tới cổng cái đồn ấy. [9] Lúc bấy giờ, tôi vụt có một cảm giác rất lạ: cái bóng anh xe, người đầy cát bụi kia, nhìn từ phía sau, bỗng to dần ra. Anh càng bước tới, cái bóng càng to thêm, phải ngước lên mới nhìn thấy được, và dần dần cơ hồ biến thành một sức nặng đè lên người tôi đến nỗi làm cho cái “thằng tôi nhỏ nhen”, che giấu dưới làn áo da, như muốn lòi ra ngoài. [10] Sức sống của tôi lúc đó như ngừng trệ lại. Tôi cứ ngồi lì trên xe, không nhúc nhích, cũng không suy nghĩ, cho tới khi thấy một người cảnh sát từ trong đồn đi ra, tôi mới bước xuống. Người cảnh sát đến gần nói: – Anh thuê xe khác mà đi. Anh xe không kéo được cho ông nữa. 1 Năm 1917 Không nghĩ ngợi, tôi lấy một nắm xu trong túi áo ngoài đưa cho người cảnh sát nói: – Bác đưa lại cho anh xe hộ tôi. [11] Gió lặng hẳn. Đường vẫn vắng. Tôi vừa đi vừa nghĩ, nhưng hình như lại sợ không dám nghĩ đến con người tôi. Thôi thì hẵng tạm không nói đến việc xảy ra vừa rồi, nhưng cái nắm xu kia là có ý gì? Thưởng cho anh ta phải không? Tôi mà xứng đáng để thưởng cho một người như anh xe kia ư? Tôi không thể tự trả lời được. [12] Mẩu chuyện này, đến bây giờ, tôi thường vẫn nhớ tới, và do đó, cảm thấy đau khổ vô cùng và cố gắng suy nghĩ về con người tôi. Mấy năm lại đây, bao nhiêu chuyện văn trị võ công2 tôi đều quên hết, như đã quên những câu “Tử viết Thi vân” hồi còn nhỏ. Duy chỉ có mẩu chuyện này cứ hiện lên trước mắt, có lúc còn rất rõ ràng, khiến tôi hết sức xấu hổ, thúc giục tôi phải tự sửa mình, và cũng làm cho tôi càng thêm can đảm, càng thêm hi vọng. (Truyện ngắn Lỗ Tấn, Trương Chính dịch, NXB Văn học, 2000, tr.68-70)",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_003",
+    "group_type": "passage",
+    "source_pages": [
+      7,
+      10
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000002_Q019",
+    "question_number": 19,
+    "stem": "Sử dụng thông tin về nhân vật đã giúp nhân vật “tôi” thay đổi nhận thức, hãy điền cụm từ phù hợp (không quá bốn tiếng) vào chỗ trống để có một nhan đề khác cho văn bản này. “Chuyện về _________”",
+    "question_type": "short_answer",
+    "options": [],
+    "correct_answer": [
+      "anh kéo xe/người kéo xe/anh xe"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000002",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0002.pdf",
+      "page_number": 10
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": "Đọc văn bản sau và trả lời các câu hỏi từ 15 đến 19: MẨU CHUYỆN NHỎ (LỖ TẤN) [1] Tôi bỏ quê nhà lên Bắc Kinh thấm thoắt đã sáu năm rồi. Trong thời gian đó, những việc gọi là “quốc gia đại sự”, mắt thấy tai nghe, kể cũng không phải ít, nhưng chẳng để lại một tí dấu vết nào trong lòng tôi cả. Giá bảo tìm xem có ảnh hưởng gì đến tôi không thì phải nói, chỉ làm cho tôi càng thêm gàn dở, mà thành thực hơn thì phải nói, chỉ làm cho tôi càng thêm khinh người. [2] Nhưng có một việc tầm thường đối với tôi lại có ý nghĩa, khiến tôi phải bỏ tính gàn dở đi, và cho đến nay,vẫn không hề quên. [3] Ấy là vào mùa đông năm Dân quốc thứ 6 1. Gió bấc thổi mạnh lắm, nhưng vì sinh kế, vừa sáng sớm,tôi đã phải ra đường. Dọc đường, hầu như không gặp ai cả. Vất vả lắm mới thuê được một chiếc xe kéo, bảo kéo đến cửa S. Một lát, gió dịu dần. Mặt đường không còn một hạt bụi, sạch bóng, trắng xóa. Anh xe chạy càng nhanh. Gần đến cửa S, bỗng một người nào vướng phải càng xe, rồi ngã dần dần xuống. [4] Đó là một người đàn bà, tóc hoa râm, áo quần rách rưới. Bà ta từ bên kia lề đường thình lình chạy qua chiếc xe, anh xe đã tránh rồi, nhưng cái áo bông bà ta không cài khuy, gió thổi lật lên, vướng vào càng xe. May mà anh xe đã bước chậm lại rồi, không thì đã ngã lộn nhào đến vỡ đầu mất! [5] Bà ta vẫn nằm phục dưới đất, anh xe cũng vừa dừng lại. Tôi đoán bà ta chẳng bị thương tích gì, và cũng không có trông thấy. Tôi trách anh xe đến đa sự, tự chuốc lấy việc lôi thôi vào mình làm tôi phải đi trễ. [6] Tôi nói: – Không việc gì đâu mà! Kéo đi thôi! Anh xe chẳng để ý lời tôi nói, hoặc giả không nghe thấy chăng, cứ đặt xe xuống, đi lại dìu bà kia dậy, đỡ lấy cánh tay cho bà ta đứng vững, rồi hỏi: – Có làm sao không? – Ngã đau lắm. [7] Tôi nghĩ bụng: “Chính mắt tôi trông thấy bà ta ngã dần dần xuống kia mà, làm sao lại có thể đau được! Chỉ được cái làm bộ thôi. Thật đáng ghét. Còn anh, cũng đa sự, tự chuốc lấy phiền não vào thân, bây giờ mặc kệ anh, anh xoay xở lấy”. [8] Anh xe nghe bà kia nói thế, nhưng không chần chừ tí nào, vẫn đỡ lấy cánh tay bà ta, dìu đi từng bước một về phía trước. Tôi hơi lấy làm ngạc nhiên, vội nhìn về phía trước. Thì ra, phía trước là một cái đồn cảnh sát. Sau trận gió lớn, không thấy ai đứng gác ở ngoài. Chính anh xe đang dìu bà đi tới cổng cái đồn ấy. [9] Lúc bấy giờ, tôi vụt có một cảm giác rất lạ: cái bóng anh xe, người đầy cát bụi kia, nhìn từ phía sau, bỗng to dần ra. Anh càng bước tới, cái bóng càng to thêm, phải ngước lên mới nhìn thấy được, và dần dần cơ hồ biến thành một sức nặng đè lên người tôi đến nỗi làm cho cái “thằng tôi nhỏ nhen”, che giấu dưới làn áo da, như muốn lòi ra ngoài. [10] Sức sống của tôi lúc đó như ngừng trệ lại. Tôi cứ ngồi lì trên xe, không nhúc nhích, cũng không suy nghĩ, cho tới khi thấy một người cảnh sát từ trong đồn đi ra, tôi mới bước xuống. Người cảnh sát đến gần nói: – Anh thuê xe khác mà đi. Anh xe không kéo được cho ông nữa. 1 Năm 1917 Không nghĩ ngợi, tôi lấy một nắm xu trong túi áo ngoài đưa cho người cảnh sát nói: – Bác đưa lại cho anh xe hộ tôi. [11] Gió lặng hẳn. Đường vẫn vắng. Tôi vừa đi vừa nghĩ, nhưng hình như lại sợ không dám nghĩ đến con người tôi. Thôi thì hẵng tạm không nói đến việc xảy ra vừa rồi, nhưng cái nắm xu kia là có ý gì? Thưởng cho anh ta phải không? Tôi mà xứng đáng để thưởng cho một người như anh xe kia ư? Tôi không thể tự trả lời được. [12] Mẩu chuyện này, đến bây giờ, tôi thường vẫn nhớ tới, và do đó, cảm thấy đau khổ vô cùng và cố gắng suy nghĩ về con người tôi. Mấy năm lại đây, bao nhiêu chuyện văn trị võ công2 tôi đều quên hết, như đã quên những câu “Tử viết Thi vân” hồi còn nhỏ. Duy chỉ có mẩu chuyện này cứ hiện lên trước mắt, có lúc còn rất rõ ràng, khiến tôi hết sức xấu hổ, thúc giục tôi phải tự sửa mình, và cũng làm cho tôi càng thêm can đảm, càng thêm hi vọng. (Truyện ngắn Lỗ Tấn, Trương Chính dịch, NXB Văn học, 2000, tr.68-70)",
+    "group_id": "HUST_TSA_LOCAL_000002_GROUP_003",
+    "group_type": "passage",
+    "source_pages": [
+      7,
+      10
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000003_Q001",
+    "question_number": 1,
+    "stem": "Điền từ/cụm từ thích hợp vào chỗ trống. Khi cân NaOH rắn thì thấy nếu kéo dài thời gian cân thì khối lượng đọc trên cân sẽ tăng dần sau đó không đổi là do NaOH ……………",
+    "question_type": "short_answer",
+    "options": [],
+    "correct_answer": [
+      "Dễ hút ẩm"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000003",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0003.pdf",
+      "page_number": 2
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      2
+    ],
+    "visual_assets": [],
+    "extra": {
+      "response_mode": "drag_drop"
+    }
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000003_Q002",
+    "question_number": 2,
+    "stem": "Hãy cho biết thể tích dung dịch HCl 0,05M đã phản ứng vừa đủ với dung dịch NaOH trong thí nghiệm trên?",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "10,0 mL."
+      },
+      {
+        "key": "B",
+        "text": "10,2 mL."
+      },
+      {
+        "key": "C",
+        "text": "9,8 mL."
+      },
+      {
+        "key": "D",
+        "text": "15,0 mL."
+      }
+    ],
+    "correct_answer": [
+      "A"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000003",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0003.pdf",
+      "page_number": 2
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      2
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000003_Q003",
+    "question_number": 3,
+    "stem": "Tính khối lượng nước đã hấp thụ trong lượng NaOH rắn cân trong thí nghiệm.",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "0,0015 g"
+      },
+      {
+        "key": "B",
+        "text": "0,4015 g"
+      },
+      {
+        "key": "C",
+        "text": "0,1015 g"
+      },
+      {
+        "key": "D",
+        "text": "2,000g"
+      }
+    ],
+    "correct_answer": [
+      "A"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000003",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0003.pdf",
+      "page_number": 2
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      2
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000003_Q004",
+    "question_number": 4,
+    "stem": "Từ Hình 2, hãy cho biết khoảng giá trị pH nào của dung dịch mà ở đó sự thay đổi thể tích của dung dịch HCl là không đáng kể (sự chênh lệch thể tích không vượt quá 0,2 mL)?",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "4-10"
+      },
+      {
+        "key": "B",
+        "text": "3-10"
+      },
+      {
+        "key": "C",
+        "text": "4-11"
+      },
+      {
+        "key": "D",
+        "text": "2-12 0 2 4 6 8 10 12 14 0 5 10 15 20 pH V Ví dụ 2. Sử dụng các thông tin trong văn bản sau để trả lời các câu hỏi từ 5 đến 8: Đầu năm 2022, tại Hội nghị Khoa học phòng chống ung thư thường niên lần thứ 9 đã báo cáo về số liệu mới nhất từ Tổ chức Ung thư toàn cầu (Globocan 2020). Theo đó, tỉ lệ mắc ung thư mới của Việt Nam đã tăng lên 9 bậc xếp thứ 90/185 quốc gia, từ 165.000 ca mới vào năm 2018 tăng lên 182.000 ca mới vào năm 2020, và tỉ lệ tử vong do ung thư tăng 6 bậc, xếp 50/185 sau hai năm. Theo Tổ chức Y tế thế giới (WHO), năm 2021 là năm mà cả thế giới đã vượt qua một ngưỡng mới nghiêm trọng hơn khi ước tính đã có khoảng 20 triệu người được chẩn đoán mắc bệnh ung thư, đã có 10 triệu người tử vong do ung thư. Đại dịch Covid-19 lại càng tác động xấu hơn đối với việc chăm sóc và điều trị bệnh nhân ung thư. Theo Globocan, có 5 loại ung thư phổ biến nhất tại Việt Nam trong năm 2020 thể hiện trong biểu đồ sau: Hình 2. Tỷ lệ các loại ung thư mắc mới tại Việt Nam theo số liệu cập nhật năm 2020. (Nguồn: IARC) Năm 2018, WHO xác định Việt Nam là quốc gia có tỷ lệ mắc ung thư gan theo giới tính nam cao thứ ba thế giới, chỉ đứng sau Mông Cổ và Lào. Bốn nguyên nhân chính gây ung thư gan khiến người Việt có tỷ lệ mắc và chết cao thứ tư thế giới là: xơ gan, viêm gan B và viêm gan C, rượu bia, thừa sắt."
+      }
+    ],
+    "correct_answer": [
+      "A"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000003",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0003.pdf",
+      "page_number": 2
+    },
+    "quality": {
+      "extraction_status": "needs_review",
+      "human_review_status": "pending",
+      "warnings": [
+        "visual_content_needs_review"
+      ],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      2,
+      3,
+      4
+    ],
+    "visual_assets": [
+      {
+        "asset_id": "HUST_TSA_LOCAL_000003_P002_VISUAL_01",
+        "kind": "question_visual_crop",
+        "page_number": 2,
+        "bbox": [
+          0.0,
+          615.6,
+          612.0,
+          763.0
+        ],
+        "path": "visuals/HUST_TSA_LOCAL_000003_page_002_VISUAL_01.png"
+      },
+      {
+        "asset_id": "HUST_TSA_LOCAL_000003_P003_VISUAL_01",
+        "kind": "question_visual_crop",
+        "page_number": 3,
+        "bbox": [
+          64.6,
+          90.7,
+          547.4,
+          622.0
+        ],
+        "path": "visuals/HUST_TSA_LOCAL_000003_page_003_VISUAL_01.png"
+      }
+    ],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000003_Q005",
+    "question_number": 5,
+    "stem": "Loại ung thư nào sau đây chiếm tỉ lệ cao nhất ở Việt Nam?",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ung thư phổi."
+      },
+      {
+        "key": "B",
+        "text": "Ung thư gan."
+      },
+      {
+        "key": "C",
+        "text": "Ung thư dạ dày."
+      },
+      {
+        "key": "D",
+        "text": "Ung thư vú."
+      }
+    ],
+    "correct_answer": [
+      "B"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000003",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0003.pdf",
+      "page_number": 4
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      4
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000003_Q006",
+    "question_number": 6,
+    "stem": "Những nguyên nhân nào sau đây dẫn đến số ca ung thư ở Việt Nam tăng cao? (1) Già hóa dân số. (2) Sử dụng nhiều rượu, bia, thuốc lá. (3) Ô nhiễm môi trường. (4) Tiêm nhiều loại vaccine. (5) Chế độ ăn uống không hợp lí.",
+    "question_type": "single_choice",
+    "options": [
+      {
+        "key": "A",
+        "text": "1, 2, 3 và 4."
+      },
+      {
+        "key": "B",
+        "text": "2, 3, 4 và 5."
+      },
+      {
+        "key": "C",
+        "text": "1, 2, 3 và 5."
+      },
+      {
+        "key": "D",
+        "text": "1, 3, 4, 5."
+      }
+    ],
+    "correct_answer": [
+      "C"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000003",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0003.pdf",
+      "page_number": 4
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      4
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000003_Q007",
+    "question_number": 7,
+    "stem": "Điền từ/cụm từ thích hợp vào chỗ trống. Thuật ngữ thường được sử dụng trong y học để nói về sự di chuyển của các tế bào ung thư sang các bộ phận, khu vực khác trong cơ thể là ……………",
+    "question_type": "short_answer",
+    "options": [],
+    "correct_answer": [
+      "di căn"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000003",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0003.pdf",
+      "page_number": 4
+    },
+    "quality": {
+      "extraction_status": "extracted",
+      "human_review_status": "pending",
+      "warnings": [],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      4
+    ],
+    "visual_assets": [],
+    "extra": {}
+  },
+  {
+    "question_id": "HUST_TSA_LOCAL_000003_Q008",
+    "question_number": 8,
+    "stem": "Tỉ lệ nam giới mắc ung thư gan cao hơn nữ giới, đúng hay sai?",
+    "question_type": "true_false",
+    "options": [],
+    "correct_answer": [
+      "Đúng"
+    ],
+    "explanation": null,
+    "metadata": {
+      "exam": "TSA",
+      "section": null,
+      "competency": null,
+      "domain": null,
+      "topic": null,
+      "skill": null,
+      "cognitive_level": null,
+      "proficiency_level": null,
+      "difficulty": {
+        "planned": null,
+        "empirical": null
+      }
+    },
+    "provenance": {
+      "document_id": "HUST_TSA_LOCAL_000003",
+      "source": "HUST_TSA",
+      "source_url": "file:///D:/TTDN/competency_assessment_and_analysis/crawler/data/raw/tsa/document_0003.pdf",
+      "page_number": 4
+    },
+    "quality": {
+      "extraction_status": "needs_review",
+      "human_review_status": "pending",
+      "warnings": [
+        "layout_or_table_content_needs_review"
+      ],
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    "passage": null,
+    "group_id": null,
+    "group_type": null,
+    "source_pages": [
+      4
+    ],
+    "visual_assets": [],
+    "extra": {}
+  }
+]

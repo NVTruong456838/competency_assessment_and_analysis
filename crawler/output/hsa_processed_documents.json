@@ -1,0 +1,13 @@
+[
+  {
+    "document_id": "VNU_HSA_000001",
+    "source": "VNU_HSA",
+    "source_url": "https://idt.vnu.edu.vn/api/media/file/De%20thi%20tham%20khao%20HSA%20nam%202025-1.pdf",
+    "title": "De thi tham khao HSA nam 2025-1.pdf",
+    "document_type": "sample_exam",
+    "local_path": "crawler\\data\\raw\\hsa\\document_0001.pdf",
+    "processed_path": "crawler\\data\\processed\\hsa\\VNU_HSA_000001.json",
+    "sha256": "699703c1f8e2d2a15bc3801cd859aad28da3fec19fca2f4569d18fd07710ac4d",
+    "status": "processed"
+  }
+]
