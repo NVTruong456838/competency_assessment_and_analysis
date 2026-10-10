@@ -1,6 +1,50 @@
-# TSA/HSA Crawler va Question Bank
+# Smart Assessment AI — TSA/HSA Crawler va Question Bank
 
 ## 1. Muc dich
+
+Du an gom ung dung web Next.js, backend API Spring Boot, PostgreSQL va mot pipeline crawler/question-bank Python doc lap. Cac phan khong nam trong `crawler/` phuc vu giao dien, API, xac thuc, truy cap database hoac cong cu chuyen du lieu; crawler duoc giu tach rieng va khong bi thay doi boi backend.
+
+### Kien truc ung dung hien tai
+
+```text
+Trinh duyet
+  -> Next.js (giao dien Student/Teacher/Admin va API proxy)
+  -> Spring Boot (REST API, JWT, RBAC, JPA)
+  -> PostgreSQL: smart_assessment_ai
+
+Crawler Python
+  -> crawler/data/raw, crawler/data/processed, crawler/output
+```
+
+- `app/` va `components/`: cac trang Next.js, form dang nhap/dang ky va khung dashboard theo role.
+- `backend/`: ung dung Java 21/Spring Boot; Spring Data JPA validate schema co san, khong tu tao/sua bang (`ddl-auto: validate`).
+- `database/smart_assessment_ai.sql`: DDL va seed du lieu role; schema PostgreSQL la nguon chuan.
+- `prisma/` va `scripts/migrate-local-users.ts`: Prisma chi con duoc dung boi script chuyen tai khoan local mot lan; cac request web duoc chuyen qua Spring Boot.
+- `crawler/`: luong thu thap tai lieu, trich xuat, chuan hoa va kiem duyet Question Bank, doc lap voi luong web.
+
+### Khoi dong ung dung
+
+Can PostgreSQL `smart_assessment_ai` da duoc tao theo `database/smart_assessment_ai.sql` va JDK 21+. Maven Wrapper se tai Maven 3.9.9 trong lan chay dau tien. Cau hinh cac bien moi truong `SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, `SPRING_DATASOURCE_PASSWORD` va `APP_JWT_SECRET_BASE64` (secret Base64 phai giai ma thanh it nhat 32 byte); backend va `SPRING_API_URL` mac dinh dung cong `8081`.
+
+Chay backend tu thu muc repository:
+
+```powershell
+$env:SPRING_DATASOURCE_URL = "jdbc:postgresql://localhost:5432/smart_assessment_ai"
+$env:SPRING_DATASOURCE_USERNAME = "postgres"
+$env:SPRING_DATASOURCE_PASSWORD = "<mat-khau-postgres>"
+$bytes = [byte[]]::new(32)
+[Security.Cryptography.RandomNumberGenerator]::Fill($bytes)
+$env:APP_JWT_SECRET_BASE64 = [Convert]::ToBase64String($bytes)
+npm run backend:run
+```
+
+Trong terminal khac, dat `SPRING_API_URL=http://localhost:8081` trong cau hinh Next.js va chay `npm run dev`. Endpoint `http://localhost:3000/api/health` kiem tra PostgreSQL thong qua backend. Dang ky chi tao tai khoan STUDENT; cac role STUDENT/TEACHER/ADMIN phai co san trong bang `roles`.
+
+Pham vi backend hien tai la nen tang, health check va Identity/RBAC (users, roles, user_roles, classes, class_members); cac dashboard va nghiep vu bai thi/analytics/AI van dang cho cac giai doan tiep theo. Spring Boot phat JWT; Next.js luu JWT trong cookie HttpOnly, dung endpoint `/api/auth/me` de xac thuc cac dashboard va xoa cookie khi dang xuat. Chua co API nghiep vu cho Question Bank, Test Engine, Analytics hoac AI.
+
+Cac lenh kiem tra: `npm run build` (frontend), `npm run typecheck`, `npm run lint`, `npm test` (backend) va `npm run test:crawler` (Python crawler).
+
+---
 
 Du an thu thap trang thong tin tu cac nguon tuyen sinh, tai va parse tai lieu PDF, sau do nhan dien cau hoi co cau truc de tao Question Bank dang JSON. He thong tach rieng du lieu raw, du lieu processed, metadata crawl va bao cao validation.
 
@@ -39,7 +83,15 @@ Du lieu duoc tach theo muc dich: `data/raw` la nguon PDF, `data/processed` la Re
 competency_assessment_and_analysis/
 |-- README.md
 |-- requirements.txt
-`-- crawler/
+|-- package.json
+|-- app/                             # Next.js pages va API proxy
+|-- components/                      # UI dung chung
+|-- lib/                             # session, API proxy va migration DB client
+|-- backend/                         # Spring Boot REST API
+|-- database/                        # PostgreSQL DDL va seed
+|-- prisma/                          # ORM chi dung boi script import tai khoan
+|-- scripts/                         # cong cu import du lieu local
+`-- crawler/                         # pipeline Python TSA/HSA doc lap
 	|-- main.py
 	|-- test_downloader.py
 	|-- test_extracted_questions.py

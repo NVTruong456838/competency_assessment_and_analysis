@@ -1,0 +1,53 @@
+{
+    "name":  "competency_assessment_and_analysis",
+    "version":  "1.0.0",
+    "description":  "Nen tang danh gia nang luc TSA/HSA gom Next.js, Spring Boot, PostgreSQL va pipeline Question Bank Python.",
+    "scripts":  {
+                    "dev":  "next dev",
+                    "build":  "next build",
+                    "start":  "next start",
+                    "lint":  "eslint .",
+                    "typecheck":  "tsc --noEmit",
+                    "test":  "npm run test:backend",
+                    "test:backend":  "cmd /c backend\\\\mvnw.cmd -f backend\\\\pom.xml test",
+                    "test:crawler":  "python -m unittest discover -s crawler -p \"test_*.py\"",
+                    "build:backend":  "cmd /c backend\\\\mvnw.cmd -f backend\\\\pom.xml package",
+                    "backend:run":  "cmd /c backend\\\\mvnw.cmd -f backend\\\\pom.xml spring-boot:run",
+                    "migrate:local-users":  "tsx scripts/migrate-local-users.ts"
+                },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/NVTruong456838/competency_assessment_and_analysis.git"
+                   },
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "type":  "module",
+    "bugs":  {
+                 "url":  "https://github.com/NVTruong456838/competency_assessment_and_analysis/issues"
+             },
+    "homepage":  "https://github.com/NVTruong456838/competency_assessment_and_analysis#readme",
+    "dependencies":  {
+                         "@prisma/client":  "6.19.2",
+                         "lucide-react":  "^1.52.0",
+                         "next":  "^16.3.8",
+                         "react":  "^19.3.0",
+                         "react-dom":  "^19.3.0",
+                         "recharts":  "^3.10.1"
+                     },
+    "devDependencies":  {
+                            "@types/node":  "^26.6.4",
+                            "@types/react":  "^19.3.0",
+                            "@types/react-dom":  "^19.3.0",
+                            "autoprefixer":  "^10.6.1",
+                            "eslint":  "^9.39.5",
+                            "eslint-config-next":  "^16.3.8",
+                            "postcss":  "^8.5.28",
+                            "prisma":  "6.19.2",
+                            "tailwindcss":  "^3.4.17",
+                            "tsx":  "^4.23.15",
+                            "typescript":  "^6.0.3"
+                        }
+}
