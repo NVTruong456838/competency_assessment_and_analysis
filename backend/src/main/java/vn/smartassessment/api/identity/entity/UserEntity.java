@@ -21,8 +21,11 @@ public class UserEntity {
     @Column(name = "username", nullable = false, unique = true, length = 100)
     private String username;
 
-    @Column(name = "email", nullable = false, unique = true, length = 255)
+    @Column(name = "email", unique = true, length = 255)
     private String email;
+
+    @Column(name = "phone_number", unique = true, length = 20)
+    private String phoneNumber;
 
     @Column(name = "password_hash", nullable = false, columnDefinition = "text")
     private String passwordHash;
@@ -38,9 +41,10 @@ public class UserEntity {
 
     protected UserEntity() {}
 
-    public UserEntity(String username, String email, String passwordHash, String fullName) {
+    public UserEntity(String username, String email, String phoneNumber, String passwordHash, String fullName) {
         this.username = username;
         this.email = email;
+        this.phoneNumber = phoneNumber;
         this.passwordHash = passwordHash;
         this.fullName = fullName;
         this.status = "ACTIVE";
@@ -56,6 +60,10 @@ public class UserEntity {
 
     public String getEmail() {
         return email;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
     public String getPasswordHash() {

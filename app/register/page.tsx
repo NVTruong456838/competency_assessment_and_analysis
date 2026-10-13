@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation';
 
 export default function RegisterPage() {
   const router = useRouter();
+  const [registerMethod, setRegisterMethod] = useState<'email' | 'phone'>('email');
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -16,7 +17,9 @@ export default function RegisterPage() {
 
     const form = new FormData(event.currentTarget);
     const fullName = String(form.get('fullName') ?? '').trim();
-    const email = String(form.get('email') ?? '').trim();
+    const contactValue = String(form.get('contactValue') ?? '').trim();
+    const email = registerMethod === 'email' ? contactValue : null;
+    const phoneNumber = registerMethod === 'phone' ? contactValue : null;
     const password = String(form.get('password') ?? '');
     const confirmPassword = String(form.get('confirmPassword') ?? '');
 
@@ -30,7 +33,7 @@ export default function RegisterPage() {
       const response = await fetch('/api/auth/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ fullName, email, password }),
+        body: JSON.stringify({ fullName, email, phoneNumber, password }),
       });
       const data = await response.json();
 
@@ -56,9 +59,6 @@ export default function RegisterPage() {
             TYL Smart Assessment
           </p>
           <h1 className="mt-3 text-4xl font-bold text-blue-950">Tạo tài khoản</h1>
-          <p className="mt-3 text-sm text-slate-600">
-            Đăng ký tài khoản học sinh miễn phí để bắt đầu theo dõi lộ trình học tập.
-          </p>
         </header>
 
         <form onSubmit={handleSubmit} className="space-y-5">
@@ -80,18 +80,41 @@ export default function RegisterPage() {
           </div>
 
           <div>
-            <label htmlFor="email" className="mb-2 block text-sm font-medium text-slate-700">
-              Email
+            <fieldset>
+              <legend className="mb-2 block text-sm font-medium text-slate-700">Đăng ký bằng</legend>
+              <div className="grid grid-cols-2 gap-2 rounded-2xl bg-blue-50 p-1">
+                {(['email', 'phone'] as const).map((method) => (
+                  <button
+                    key={method}
+                    type="button"
+                    aria-pressed={registerMethod === method}
+                    onClick={() => setRegisterMethod(method)}
+                    className={`rounded-xl px-4 py-2 text-sm font-semibold transition ${
+                      registerMethod === method
+                        ? 'bg-white text-blue-700 shadow-sm'
+                        : 'text-slate-600 hover:text-blue-700'
+                    }`}
+                  >
+                    {method === 'email' ? 'Email' : 'Số điện thoại'}
+                  </button>
+                ))}
+              </div>
+            </fieldset>
+            <label htmlFor="contactValue" className="mb-2 mt-4 block text-sm font-medium text-slate-700">
+              {registerMethod === 'email' ? 'Email' : 'Số điện thoại'}
             </label>
             <input
-              id="email"
-              name="email"
-              type="email"
-              autoComplete="email"
-              maxLength={255}
+              key={registerMethod}
+              id="contactValue"
+              name="contactValue"
+              type={registerMethod === 'email' ? 'email' : 'tel'}
+              inputMode={registerMethod === 'phone' ? 'tel' : undefined}
+              autoComplete={registerMethod === 'email' ? 'email' : 'tel'}
+              maxLength={registerMethod === 'email' ? 255 : 20}
+              pattern={registerMethod === 'phone' ? '^\\+?[0-9][0-9 .()-]{6,18}[0-9]$' : undefined}
               required
               className="w-full rounded-2xl border border-blue-200 bg-white px-4 py-3 text-slate-900 outline-none transition focus:border-blue-500 focus:ring-4 focus:ring-blue-100"
-              placeholder="ban@example.com"
+              placeholder={registerMethod === 'email' ? 'ban@example.com' : '+84 912 345 678'}
             />
           </div>
 

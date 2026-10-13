@@ -4,7 +4,7 @@ import type { Role } from './user-types';
 
 export type SessionUser = {
   id: number;
-  email: string;
+  email: string | null;
   fullName: string;
   role: Role;
   username: string;
@@ -59,7 +59,7 @@ function isSessionUser(value: unknown): value is SessionUser {
   const user = value as Partial<SessionUser>;
   return (
     Number.isSafeInteger(user.id) &&
-    typeof user.email === 'string' &&
+    (user.email === null || typeof user.email === 'string') &&
     typeof user.fullName === 'string' &&
     typeof user.username === 'string' &&
     (user.role === 'STUDENT' || user.role === 'TEACHER' || user.role === 'ADMIN')

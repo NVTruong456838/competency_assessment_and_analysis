@@ -1,0 +1,2 @@
+﻿INSERT INTO roles (name) VALUES ('STUDENT'), ('TEACHER'), ('ADMIN')
+ON CONFLICT (name) DO NOTHING;

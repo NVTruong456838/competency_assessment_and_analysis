@@ -70,7 +70,7 @@ function isAuthResponse(value: unknown): value is AuthResponse {
     typeof candidate.accessToken === 'string' &&
     !!user &&
     Number.isSafeInteger(user.id) &&
-    typeof user.email === 'string' &&
+    (user.email === null || typeof user.email === 'string') &&
     typeof user.fullName === 'string' &&
     typeof user.username === 'string' &&
     isRole(user.role)

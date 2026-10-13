@@ -1,68 +1,252 @@
-# Smart Assessment AI — TSA/HSA Crawler va Question Bank
+# Smart Assessment AI — Nền tảng đánh giá năng lực TSA/HSA
 
-## 1. Muc dich
+Smart Assessment AI là đồ án phát triển nền tảng hỗ trợ đánh giá năng lực học sinh theo định hướng các kỳ thi TSA và HSA. Repository hiện gồm ứng dụng web, REST API, PostgreSQL và các pipeline Python độc lập để thu thập, trích xuất, chuẩn hóa và kiểm duyệt ngân hàng câu hỏi.
 
-Du an gom ung dung web Next.js, backend API Spring Boot, PostgreSQL va mot pipeline crawler/question-bank Python doc lap. Cac phan khong nam trong `crawler/` phuc vu giao dien, API, xac thuc, truy cap database hoac cong cu chuyen du lieu; crawler duoc giu tach rieng va khong bi thay doi boi backend.
+> **Lưu ý về trạng thái:** README phân biệt chức năng đã có trong mã nguồn với phần mới là thiết kế hoặc roadmap. Việc một bảng đã tồn tại trong PostgreSQL không có nghĩa API nghiệp vụ tương ứng đã được triển khai.
 
-### Kien truc ung dung hien tai
+## 1. Tổng quan sản phẩm
+
+### Người dùng và trải nghiệm hiện có
+
+- **Học sinh (`STUDENT`):** đăng ký bằng email *hoặc* số điện thoại, đăng nhập bằng phương thức đã chọn và xem dashboard cá nhân.
+- **Giáo viên (`TEACHER`):** đăng nhập và xem dashboard tổng quan lớp học, học sinh và bài đánh giá do mình phụ trách.
+- **Quản trị viên (`ADMIN`):** đăng nhập và xem dashboard thống kê tài khoản, lớp, câu hỏi và bài đánh giá.
+- Trang chủ chuyển người dùng chưa đăng nhập đến trang đăng nhập; người đã đăng nhập được chuyển đến dashboard theo role.
+- Các dashboard hiện đọc số liệu từ backend/PostgreSQL. Trang có thể hiển thị thông báo lỗi tải dữ liệu khi backend không sẵn sàng.
+
+**Chưa có trong ứng dụng web/API hiện tại:** luồng làm bài hoàn chỉnh, quản lý lớp học CRUD, trình tạo đề, quản trị câu hỏi, quản lý khung năng lực, chấm điểm, phân tích kết quả, đề xuất học tập và tích hợp AI. Dashboard có thể hiển thị thống kê từ các bảng này khi có dữ liệu, nhưng đó không phải là các API nghiệp vụ để tạo/quản lý chúng.
+
+### Kiến trúc hiện tại
 
 ```text
-Trinh duyet
-  -> Next.js (giao dien Student/Teacher/Admin va API proxy)
-  -> Spring Boot (REST API, JWT, RBAC, JPA)
-  -> PostgreSQL: smart_assessment_ai
+Trình duyệt
+  -> Next.js App Router (trang, session cookie, API proxy)
+  -> Spring Boot REST API (xác thực JWT, phân quyền, nghiệp vụ hiện có)
+  -> PostgreSQL (database smart_assessment_ai)
 
-Crawler Python
-  -> crawler/data/raw, crawler/data/processed, crawler/output
+Crawler / Question Bank CLI Python (luồng riêng)
+  -> website/tài liệu công khai hoặc PDF local đã được phép sử dụng
+  -> JSON raw/processed, hình crop và báo cáo validation
 ```
 
-- `app/` va `components/`: cac trang Next.js, form dang nhap/dang ky va khung dashboard theo role.
-- `backend/`: ung dung Java 21/Spring Boot; Spring Data JPA validate schema co san, khong tu tao/sua bang (`ddl-auto: validate`).
-- `database/smart_assessment_ai.sql`: DDL va seed du lieu role; schema PostgreSQL la nguon chuan.
-- `prisma/` va `scripts/migrate-local-users.ts`: Prisma chi con duoc dung boi script chuyen tai khoan local mot lan; cac request web duoc chuyen qua Spring Boot.
-- `crawler/`: luong thu thap tai lieu, trich xuat, chuan hoa va kiem duyet Question Bank, doc lap voi luong web.
+Next.js gọi Spring Boot qua các route API nội bộ cho xác thực và health check. Spring Boot là backend của các request ứng dụng; Prisma chỉ còn xuất hiện trong công cụ chuyển tài khoản local một lần, không phải lớp truy cập database của API Spring. Crawler chạy riêng, hiện lưu pipeline output dạng file; chưa tự đồng bộ Question Bank sang PostgreSQL.
 
-### Khoi dong ung dung
+### Các thành phần và trách nhiệm
 
-Can PostgreSQL `smart_assessment_ai` da duoc tao theo `database/smart_assessment_ai.sql` va JDK 21+. Maven Wrapper se tai Maven 3.9.9 trong lan chay dau tien. Cau hinh cac bien moi truong `SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, `SPRING_DATASOURCE_PASSWORD` va `APP_JWT_SECRET_BASE64` (secret Base64 phai giai ma thanh it nhat 32 byte); backend va `SPRING_API_URL` mac dinh dung cong `8081`.
+| Thành phần | Công nghệ | Trách nhiệm hiện có |
+|---|---|---|
+| Giao diện web | Next.js App Router, React, TypeScript, Tailwind CSS | Đăng nhập/đăng ký, session, trang student/teacher/admin và các dashboard |
+| API proxy/session | Route Handlers và thư viện trong `lib/` | Chuyển tiếp xác thực đến Spring, đặt/xóa cookie phiên `HttpOnly`, gọi API dashboard và health |
+| Backend | Java 21, Spring Boot 3.5, Spring Web, Spring Security, Spring Data JPA, `JdbcTemplate` | Auth/JWT, endpoint hồ sơ, health check, endpoint kiểm thử role và dữ liệu dashboard |
+| Database | PostgreSQL 16 | Lưu identity/RBAC và schema đánh giá, Question Bank, bài thi, kết quả, analytics, AI |
+| Crawler | Python, Requests, BeautifulSoup, pypdf, PyMuPDF | Lấy metadata nguồn, xử lý PDF, trích câu hỏi, chuẩn hóa, taxonomy mapping, validation, review và xuất snapshot |
 
-Chay backend tu thu muc repository:
+## 2. Các luồng ứng dụng hiện có
+
+### Đăng ký và đăng nhập
+
+1. Người dùng chọn đăng ký bằng **Email** hoặc **Số điện thoại** trên giao diện.
+2. Frontend gửi `fullName`, `password` cùng duy nhất trường liên hệ đã chọn đến `/api/auth/register`.
+3. Backend chuẩn hóa email hoặc số điện thoại, kiểm tra trùng, băm mật khẩu bằng BCrypt và gán role `STUDENT`.
+4. Khi đăng nhập, backend tra cứu người dùng bằng email hoặc số điện thoại, xác minh mật khẩu/trạng thái, sau đó phát JWT.
+5. Next.js lưu JWT vào cookie `HttpOnly`; các trang được bảo vệ xác minh phiên qua `/api/auth/me`. Đăng xuất xóa cookie phiên.
+
+Email và số điện thoại là tùy chọn riêng trong schema; mỗi tài khoản cần ít nhất một phương thức liên hệ. Số điện thoại được chuẩn hóa bằng cách bỏ dấu cách, ngoặc, dấu chấm và gạch nối; dạng lưu là dấu `+` tùy chọn cùng 8–15 chữ số. Username nội bộ vẫn tồn tại do schema yêu cầu, nhưng không phải lựa chọn đăng nhập trên giao diện.
+
+### Dashboard
+
+- Dashboard học sinh tổng hợp lượt thi, trạng thái hoàn thành/đang làm và độ chính xác trung bình nếu đã có kết quả. Hiện không có luồng làm bài hoàn chỉnh nên dữ liệu có thể bằng 0.
+- Dashboard giáo viên tổng hợp lớp đang hoạt động, học sinh và bài đánh giá đã tạo/phát hành.
+- Dashboard quản trị tổng hợp tài khoản theo role, lớp, câu hỏi và bài đánh giá.
+- Các con số là thống kê backend, không đồng nghĩa giao diện đã cung cấp thao tác quản trị các loại dữ liệu đó.
+
+## 3. API hiện đã có
+
+Backend mặc định lắng nghe cổng `8081`. API proxy Next.js chạy cùng frontend mặc định trên cổng `3000`.
+
+| Phương thức | Đường dẫn | Mục đích | Quyền truy cập |
+|---|---|---|---|
+| `GET` | `/api/health` | Health check; kiểm tra backend và kết nối database | Công khai |
+| `POST` | `/api/auth/register` | Tạo tài khoản học sinh | Công khai |
+| `POST` | `/api/auth/login` | Đăng nhập bằng email hoặc điện thoại | Công khai |
+| `GET` | `/api/auth/me` | Lấy hồ sơ tài khoản từ JWT hiện tại | Đã đăng nhập |
+| `GET` | `/api/users/me` | Endpoint hồ sơ hiện tại tương đương | Đã đăng nhập |
+| `GET` | `/api/student/dashboard` | Số liệu dashboard học sinh | `STUDENT` |
+| `GET` | `/api/teacher/dashboard` | Số liệu dashboard giáo viên | `TEACHER` hoặc `ADMIN` |
+| `GET` | `/api/admin/dashboard` | Số liệu dashboard quản trị | `ADMIN` |
+| `GET` | `/api/test/student` | Endpoint kiểm tra phân quyền | `STUDENT` |
+| `GET` | `/api/test/teacher` | Endpoint kiểm tra phân quyền | `TEACHER` |
+| `GET` | `/api/test/admin` | Endpoint kiểm tra phân quyền | `ADMIN` |
+
+Các role trong bảng là `STUDENT`, `TEACHER`, `ADMIN`; hệ thống không tự tạo role mới. Route khác chưa có matcher role cụ thể sẽ theo cấu hình Spring Security tổng quát và yêu cầu xác thực. API **Competency Framework và Question Bank chưa được triển khai**.
+
+## 4. Bảo mật và xử lý lỗi
+
+- Spring Security chạy stateless, dùng JWT ký HS256; thời hạn và issuer có thể cấu hình qua biến môi trường.
+- Khóa JWT Base64 phải giải mã thành tối thiểu 32 byte. Mỗi môi trường cần dùng secret riêng được quản lý an toàn; không đưa secret thật vào README, Git hoặc log.
+- Mật khẩu được lưu dưới dạng BCrypt hash, không lưu văn bản thuần.
+- Next.js dùng cookie phiên `HttpOnly`, `SameSite=Lax`; cookie bật `Secure` khi chạy production.
+- CORS hiện cho phép các origin local frontend `localhost:3000` và `127.0.0.1:3000`; cần cấu hình lại cho môi trường triển khai.
+- Backend trả lỗi 401 cho yêu cầu chưa xác thực, 403 cho thiếu quyền. Validation và lỗi nghiệp vụ được xử lý tập trung; unique violation có thể trả 409.
+- Phân quyền backend là ranh giới bảo mật chính; ẩn hoặc khóa nút trên giao diện không thay thế kiểm tra quyền tại API.
+- Cấu hình hiện có giá trị JWT dự phòng phục vụ phát triển local. Không dùng cấu hình mặc định, mật khẩu trong Compose hoặc database local này cho môi trường chia sẻ/production.
+
+## 5. PostgreSQL và mô hình dữ liệu
+
+### Nguồn schema
+
+- Schema chuẩn khởi tạo nằm trong [`database/smart_assessment_ai.sql`](database/smart_assessment_ai.sql).
+- Hướng dẫn database và migration thủ công nằm trong [`database/README.md`](database/README.md) và [`database/migrations/`](database/migrations/).
+- Schema dùng `BIGINT` identity keys, các khóa ngoại, unique/check constraints, index và một số trigger cập nhật thời gian.
+- Spring JPA hiện dùng `spring.jpa.hibernate.ddl-auto=validate`: xác thực mapping với schema, không tự tạo hoặc sửa cấu trúc.
+- Không cấu hình Flyway/Liquibase trong backend hiện tại; không có `flyway_schema_history` trong database. Migration hiện tại là SQL được áp dụng thủ công, không có lịch sử migration tự động.
+- Khi triển khai schema mới, kiểm tra database đích và sao lưu trước. Không chạy lại toàn bộ DDL trên database có dữ liệu; thay đổi cấu trúc phải được bàn giao bằng migration có kiểm soát.
+
+### Nhóm bảng chính
+
+| Nhóm | Các bảng tiêu biểu | Vai trò |
+|---|---|---|
+| Identity/RBAC | `users`, `roles`, `user_roles` | Tài khoản, role và phân quyền |
+| Lớp học | `classes`, `class_members` | Giáo viên, lớp và thành viên |
+| Kỳ thi/khung năng lực | `exams`, `exam_versions`, `sections`, `competencies`, `section_competencies`, `domains`, `topics`, `skills` | TSA/HSA, phiên bản/phần thi và cây năng lực |
+| Question Bank | `passages`, `questions`, `question_versions`, `question_options`, `question_answers`, `question_competency_map`, `question_review`, `question_psychometric`, `visual_asset` | Định danh câu hỏi, phiên bản nội dung, đáp án, mapping, review và media |
+| Bài thi/lượt làm | `tests`, `test_versions`, `test_sections`, `test_items`, `attempts`, `attempt_answers`, `attempt_selected_options`, `attempt_events` | Phiên bản bài thi, tham chiếu phiên bản câu hỏi và lịch sử làm bài |
+| Kết quả/analytics | `attempt_results`, `section_results`, `question_results`, `skill_performances`, `competency_profiles`, `error_analyses`, `recommendations`, `learning_plans`, `learning_plan_items` | Kết quả, hồ sơ năng lực và gợi ý học tập |
+| AI | `ai_models`, `prompt_templates`, `prompt_versions`, `ai_generations`, `ai_generation_inputs`, `ai_generation_outputs`, `ai_validations` | Cấu hình và audit tạo/kiểm chứng nội dung AI |
+| Audit | `audit_logs` | Lịch sử hoạt động hệ thống |
+
+Thiết kế Question Bank tách `questions` (định danh logic) khỏi `question_versions` (nội dung theo phiên bản). `test_items` tham chiếu `question_version_id` cụ thể; các bảng lượt làm có khóa ngoại ghép để duy trì tính nhất quán với phiên bản đề/câu hỏi. Các FK và index bảo vệ một phần quy tắc quan hệ/versioning, nhưng schema không tự đảm bảo toàn bộ nghiệp vụ duyệt hoặc tính bất biến. Những nghiệp vụ đó phải được thực thi và kiểm thử ở tầng ứng dụng trước khi mở API ghi.
+
+### Trạng thái dữ liệu được kiểm tra gần nhất
+
+Trong lần kiểm tra PostgreSQL ngày 12-10-2026: có 47 bảng, 469 cột và 73 khóa ngoại; đã có định danh kỳ thi TSA/HSA nhưng chưa có exam version, section, competency, domain, topic, skill hoặc dữ liệu câu hỏi trong các bảng quan trọng. Số liệu phản ánh thời điểm kiểm tra, không phải số đếm động.
+
+Các API đọc Competency Framework là giai đoạn tiếp theo. Không tạo bảng mới hoặc tự đưa taxonomy vào database nếu chưa có dữ liệu đã được thống nhất/duyệt.
+
+## 6. Cấu hình và chạy ứng dụng
+
+### Yêu cầu
+
+- Windows PowerShell (các lệnh bên dưới dùng cú pháp Windows).
+- Node.js tương thích với Next.js trong `package.json` (khuyến nghị Node.js LTS hiện hành).
+- Docker Desktop với Docker Compose, hoặc PostgreSQL 16 cài sẵn.
+- JDK 21; Maven Wrapper tải Maven khi chạy lần đầu.
+- Python 3 để chạy crawler và test Python.
+
+### Chạy stack bằng Docker Compose
+
+Từ thư mục gốc:
 
 ```powershell
-$env:SPRING_DATASOURCE_URL = "jdbc:postgresql://localhost:5432/smart_assessment_ai"
-$env:SPRING_DATASOURCE_USERNAME = "postgres"
-$env:SPRING_DATASOURCE_PASSWORD = "<mat-khau-postgres>"
+Set-Location 'D:\TTDN\competency_assessment_and_analysis'
+docker compose -f infra\docker-compose.yml up -d postgres
+```
+
+Compose hiện chỉ phù hợp chạy local: không khai báo volume bền vững cho PostgreSQL và dùng cấu hình phát triển mặc định. Dừng container thì dữ liệu còn trong container; xóa/tạo lại container có thể làm mất dữ liệu. Không xóa container nếu cần giữ database; hãy thiết lập lưu trữ và backup trước.
+
+Database trống cần được khởi tạo bằng schema chuẩn một lần:
+
+```powershell
+Get-Content -Raw .\database\smart_assessment_ai.sql |
+    docker compose -f infra\docker-compose.yml exec -T postgres `
+        psql -U postgres -d smart_assessment_ai -v ON_ERROR_STOP=1
+```
+
+**Không chạy lệnh khởi tạo trên database đang có dữ liệu.** Với database hiện hữu, kiểm tra schema và dùng migration/hướng dẫn phù hợp; schema này không tự chạy migration khi container khởi động.
+
+Package backend trước vì Dockerfile copy JAR đã build:
+
+```powershell
+.\backend\mvnw.cmd -f .\backend\pom.xml package
+docker compose -f infra\docker-compose.yml up -d --build backend
+docker compose -f infra\docker-compose.yml ps
+```
+
+Health check:
+
+```powershell
+Invoke-WebRequest -UseBasicParsing http://localhost:8081/api/health
+```
+
+### Chạy Next.js
+
+Mở terminal khác ở thư mục gốc:
+
+```powershell
+npm ci
+$env:SPRING_API_URL = 'http://localhost:8081'
+npm run dev
+```
+
+Mở `http://localhost:3000`. Server Next.js mặc định dùng `http://localhost:8081` nếu không đặt `SPRING_API_URL`. Cổng `3000` phục vụ giao diện và proxy `/api/auth/*`, `/api/health`.
+
+### Chạy backend ngoài Docker
+
+Đảm bảo PostgreSQL đã chạy, schema đã được khởi tạo và đặt các biến cấu hình trong terminal hiện tại:
+
+```powershell
+$env:SPRING_DATASOURCE_URL = 'jdbc:postgresql://localhost:5432/smart_assessment_ai'
+$env:SPRING_DATASOURCE_USERNAME = 'postgres'
+$env:SPRING_DATASOURCE_PASSWORD = '<mat-khau-database>'
 $bytes = [byte[]]::new(32)
 [Security.Cryptography.RandomNumberGenerator]::Fill($bytes)
 $env:APP_JWT_SECRET_BASE64 = [Convert]::ToBase64String($bytes)
-npm run backend:run
+.\backend\mvnw.cmd -f .\backend\pom.xml spring-boot:run
 ```
 
-Trong terminal khac, dat `SPRING_API_URL=http://localhost:8081` trong cau hinh Next.js va chay `npm run dev`. Endpoint `http://localhost:3000/api/health` kiem tra PostgreSQL thong qua backend. Dang ky chi tao tai khoan STUDENT; cac role STUDENT/TEACHER/ADMIN phai co san trong bang `roles`.
+Không dùng secret ví dụ cố định cho môi trường thật. Không ghi mật khẩu/secret vào README, source hoặc lệnh được commit.
 
-Pham vi backend hien tai la nen tang, health check va Identity/RBAC (users, roles, user_roles, classes, class_members); cac dashboard va nghiep vu bai thi/analytics/AI van dang cho cac giai doan tiep theo. Spring Boot phat JWT; Next.js luu JWT trong cookie HttpOnly, dung endpoint `/api/auth/me` de xac thuc cac dashboard va xoa cookie khi dang xuat. Chua co API nghiep vu cho Question Bank, Test Engine, Analytics hoac AI.
+### Kiểm tra trạng thái dịch vụ
 
-Cac lenh kiem tra: `npm run build` (frontend), `npm run typecheck`, `npm run lint`, `npm test` (backend) va `npm run test:crawler` (Python crawler).
+```powershell
+docker compose -f infra\docker-compose.yml ps
+Invoke-WebRequest -UseBasicParsing http://localhost:8081/api/health
+Invoke-WebRequest -UseBasicParsing http://localhost:3000/api/health
+```
 
----
+## 7. Lệnh build, kiểm tra và test
 
-Du an thu thap trang thong tin tu cac nguon tuyen sinh, tai va parse tai lieu PDF, sau do nhan dien cau hoi co cau truc de tao Question Bank dang JSON. He thong tach rieng du lieu raw, du lieu processed, metadata crawl va bao cao validation.
+Chạy từ thư mục gốc, trừ khi có ghi chú khác:
+
+| Lệnh | Mục đích |
+|---|---|
+| `npm run dev` | Chạy Next.js development server |
+| `npm run build` | Build production frontend |
+| `npm run start` | Chạy frontend đã build |
+| `npm run typecheck` | TypeScript type check |
+| `npm run lint` | ESLint toàn repository |
+| `npm run test:backend` | Test backend bằng Maven Wrapper |
+| `npm run test:crawler` | Test crawler bằng Python unittest |
+| `npm run build:backend` | Package Spring Boot backend |
+| `npm run backend:run` | Chạy Spring Boot qua Maven |
+| `npm run migrate:local-users` | Chạy công cụ chuyển người dùng local một lần; chỉ dùng khi hiểu và kiểm tra nguồn/đích |
+
+Các lệnh trực tiếp tương đương:
+
+```powershell
+.\backend\mvnw.cmd -f .\backend\pom.xml test
+python -m unittest discover -s crawler -p "test_*.py" -v
+```
+
+Các test backend hiện tập trung vào Authentication/UserService; test crawler bao phủ downloader, parser, extractor, normalizer, validator, taxonomy, lifecycle, visuals và pipelines. Không xem build thành công là bằng chứng các chức năng nghiệp vụ chưa triển khai đã hoạt động.
+
+## 8. Crawler và Question Bank
+
+Crawler là pipeline dữ liệu độc lập với web/API. Nó thu thập metadata nguồn, tải tài liệu được phép, parse PDF/HTML, trích xuất câu hỏi, chuẩn hóa Question Bank JSON, quản lý taxonomy/mapping, phát hiện ứng viên trùng, kiểm định chất lượng và xuất snapshot approved versioned.
 
 Luong xu ly chinh cho PDF TSA:
 
 ```text
 PDF cong khai / PDF local
-	-> crawler/data/raw/tsa/
-	-> DocumentParser (pypdf + PyMuPDF page renders)
-	-> QuestionExtractor
-	-> tsa_extracted_questions.json
-	-> QuestionNormalizer
-	-> Normalized Question Bank
+    -> crawler/data/raw/tsa/
+    -> DocumentParser (pypdf + PyMuPDF page renders)
+    -> QuestionExtractor
+    -> tsa_extracted_questions.json
+    -> QuestionNormalizer
+    -> Normalized Question Bank
 ```
 
-Pipeline tao ca extracted records va Question Bank da chuan hoa. Vung co anh/ve vector duoc cat theo ranh gioi cau hoi hoac cue bang/so do, roi gan tham chieu vao cau; trang scan/khong co text duoc dua vao danh sach can OCR/review.
-
-Crawler HTML HUST la luong rieng: no luu metadata trang vao `crawler/output/tsa_documents.json`. Cac trang HTML duoc parse thanh Reference Documents, nhung khong tu dong tro thanh cau hoi neu khong co cau hoi va lua chon theo mau ma extractor nhan dang.
+Pipeline tao ca extracted records va Question Bank da chuan hoa. Vung co anh/net vector co the duoc cat theo ranh gioi cau hoi hoac cue bang/so do, roi gan tham chieu vao cau; trang scan/it text duoc dua vao danh sach can OCR/review. Crawler HTML HUST la luong rieng, luu metadata trang vao `crawler/output/tsa_documents.json`; trang HTML khong tu dong tro thanh cau hoi neu extractor khong nhan dang duoc cau hoi va lua chon.
 
 ### Chuc nang va luong xu ly
 
@@ -77,78 +261,54 @@ Chuong trinh gom cac luong doc lap, co the chay online de thu thap tai lieu cong
 
 Du lieu duoc tach theo muc dich: `data/raw` la nguon PDF, `data/processed` la Reference Document/question bank/crop PNG, con `output` la metadata crawl va validation report. Local mode khong can truy cap mang; online mode tao request ra cac website va phai tuan thu robots/quyen su dung.
 
-## 2. Cau truc thu muc
+## 9. Cấu trúc repository
 
 ```text
 competency_assessment_and_analysis/
 |-- README.md
-|-- requirements.txt
 |-- package.json
-|-- app/                             # Next.js pages va API proxy
+|-- app/                             # Next.js pages, layouts va API routes
 |-- components/                      # UI dung chung
-|-- lib/                             # session, API proxy va migration DB client
-|-- backend/                         # Spring Boot REST API
-|-- database/                        # PostgreSQL DDL va seed
-|-- prisma/                          # ORM chi dung boi script import tai khoan
-|-- scripts/                         # cong cu import du lieu local
+|-- lib/                             # session, API client va helper
+|-- backend/
+|   |-- src/main/java/vn/smartassessment/api/
+|   |   |-- identity/                # auth, profile, user/role va repository
+|   |   |-- config/                  # Spring Security va JWT
+|   |   |-- dashboard/               # API, DTO va truy van dashboard
+|   |   |-- health/                  # health check
+|   |   `-- common/                  # xu ly loi dung chung
+|   |-- src/main/resources/          # cau hinh Spring
+|   `-- src/test/                    # unit tests backend
+|-- database/
+|   |-- smart_assessment_ai.sql      # schema PostgreSQL chuan
+|   |-- migrations/                  # migration SQL thu cong
+|   `-- seeds/                       # seed co ban
+|-- infra/docker-compose.yml         # PostgreSQL va backend local
+|-- prisma/                          # schema cho script migration tai khoan cu
+|-- scripts/                         # cong cu migration local
+|-- requirements.txt                 # Python dependencies crawler
 `-- crawler/                         # pipeline Python TSA/HSA doc lap
 	|-- main.py
-	|-- test_downloader.py
-	|-- test_extracted_questions.py
-	|-- test_hsa_pipeline.py
-	|-- test_parser.py
-	|-- test_question_extractor.py
-	|-- test_tsa_pipeline.py
-	|-- test_question_normalizer.py
-	|-- test_question_validator.py
-	|-- test_question_visuals.py
-	|-- test_question_lifecycle.py
-	|-- test_taxonomy.py
+	|-- test_*.py
 	|-- common/
-	|   |-- document_downloader.py
-	|   |-- document_parser.py
-	|   |-- document_utils.py
-	|   |-- http_client.py
-	|   |-- duplicate_detector.py
-	|   |-- processed_storage.py
-	|   |-- question_bank_publisher.py
-	|   |-- question_extractor.py
-	|   |-- question_mapper.py
-	|   |-- question_normalizer.py
-	|   |-- question_schema.py
-	|   |-- question_visuals.py
-	|   |-- review_audit.py
-	|   |-- robots.py
-	|   `-- storage.py
+	|   `-- downloader/parser/extractor/normalizer/publisher...
 	|-- data/
 	|   |-- raw/
-	|   |   |-- tsa/                  # PDF TSA dau vao, can giu
-	|   |   `-- hsa/                  # PDF HSA duoc phep xu ly
+	|   |   |-- tsa/                  # PDF TSA dau vao duoc phep xu ly
+	|   |   `-- hsa/                  # PDF HSA da duoc chap thuan
 	|   `-- processed/
-	|       |-- tsa/                  # JSON TSA, Question Bank va visual crops
-	|       `-- hsa/                  # JSON HSA, Question Bank va visual crops
-	|-- output/                       # Metadata crawl va report
+	|       |-- tsa/
+	|       `-- hsa/                  # Question Bank JSON va visual crops
+	|-- output/                       # Metadata crawl va validation reports
 	|-- pipelines/
-	|   |-- hsa_pipeline.py
-	|   |-- question_bank_lifecycle.py
-	|   `-- tsa_pipeline.py
-	|-- taxonomy/
-	|   |-- cognitive_levels.json
-	|   |-- competency_framework.json
-	|   `-- *_draft.md
-	|-- sources/
-	|   |-- hust_tsa.py
-	|   `-- vnu_hsa.py
-	`-- validation/
-	    |-- hsa_validator.py
-	    |-- question_validator.py
-	    |-- taxonomy_validator.py
-	    `-- tsa_validator.py
+	|-- sources/                       # HUST TSA va VNU HSA metadata crawlers
+	|-- taxonomy/                      # taxonomy/cognitive-level drafts
+	`-- validation/                    # document/question/taxonomy validators
 ```
 
-`crawler/` va `crawler/pipelines/` khong can `__init__.py`: Python 3 ho tro namespace package, nen cac lenh `python -m crawler...` van chay duoc tu thu muc goc. Cac thu muc con khac co `__init__.py` chuan.
+`crawler/` va `crawler/pipelines/` khong can `__init__.py`: Python 3 ho tro namespace package, nen cac lenh `python -m crawler...` van chay duoc tu thu muc goc. Cac thu muc con khac co `__init__.py` chuan. Crawler la mot cong cu rieng, khong duoc Next.js/Spring Boot goi truc tiep.
 
-## 3. Vai tro cac module
+## 10. Vai tro cac module crawler
 
 ### `crawler/common/`
 
@@ -197,9 +357,9 @@ CLI tao mapping templates `pending`, quet duplicate candidates, audit schema/tax
 - `question_validator.py` kiem tra cau hoi da chuan hoa: truong bat buoc, loai cau, options/answer, provenance, quality va passage group. Validator khong xac minh dap an dung ve mat hoc thuat.
 - `taxonomy_validator.py` kiem tra framework taxonomy TSA/HSA, cognitive levels va cau hinh cau truc HSA 2026.
 
-## 4. Du lieu hien co
+## 11. Du lieu crawler hien co
 
-Tai thoi diem viet tai lieu:
+Snapshot file crawler duoi day duoc ghi nhan trong README ngay 12-10-2026; hay chay lai validator de biet ket qua hien tai truoc khi su dung:
 
 - `crawler/data/raw/tsa/` co 3 PDF minh hoa TSA cong khai: Toan, Tu duy Doc hieu va Tu duy Khoa hoc/Giai quyet van de.
 - `crawler/data/processed/tsa/` co JSON tu PDF local va HTML cu; pipeline cap nhat `tsa_extracted_questions.json` va `tsa_question_bank.json` khi chay.
@@ -215,7 +375,7 @@ File trong `data/raw/tsa` la nguon goc quan trong. Cac file processed, summary v
 
 Khong nen xoa rieng mot file processed neu summary tuong ung van con tham chieu toi `processed_path`; validator se danh dau tai lieu thieu processed file. Cac PNG trong `visuals/` cung duoc tham chieu tu truong `visual_assets` trong document/question JSON.
 
-## 5. Cai dat va chay
+## 12. Cai dat va chay crawler
 
 Chay cac lenh tu thu muc goc du an trong PowerShell.
 
@@ -346,7 +506,7 @@ Mapping record co ca `cognitive_level_id` va `proficiency_level_id`; chi dung mo
 
 Publisher tao `crawler/data/processed/<exam>/approved/<exam>_question_bank_approved_v0001.json` va publication manifest cung version. Moi cau phai co `metadata.difficulty` gom `planned` va `empirical`; empirical null cho den khi co response data. Snapshot cu khong bi ghi de. `competency_framework.json` hien con `status: draft`, Question Bank TSA con record can sua/review va chua co mapping da duyet; vi vay publish hien tai se bi tu choi. Chi doi framework sang `approved` sau khi co sign-off taxonomic thuc te, khong doi de vuot gate.
 
-## 6. Dinh dang du lieu
+## 13. Dinh dang du lieu crawler
 
 ### Reference Document
 
@@ -380,7 +540,7 @@ Options duoc serialize thanh list `{key, text}`; dap an thanh list chuoi hoac `n
 
 Moi asset luu `asset_id`, `kind`, `page_number`, `bbox` va `path` tuong doi voi thu muc processed. `kind` co the la `question_visual_crop` hoac `ocr_review_crop`. Anh PNG nam trong `visuals/`; du lieu document va question chi luu tham chieu, khong nhung binary anh vao JSON.
 
-## 7. Logic cat anh va review
+## 14. Logic cat anh va review
 
 `QuestionVisualProcessor` doc geometry PDF bang PyMuPDF va:
 
@@ -391,18 +551,18 @@ Moi asset luu `asset_id`, `kind`, `page_number`, `bbox` va `path` tuong doi voi 
 
 Day la phat hien/cat theo hinh hoc, khong phai nhan dang noi dung anh. Crop la bang chung de kiem tra thu cong; chu trong anh scan va noi dung y nghia cua do thi chua duoc OCR tu dong.
 
-## 8. Taxonomy va cau truc de thi
+## 15. Taxonomy va cau truc de thi
 
 - `crawler/taxonomy/competency_framework.json`: framework noi bo dang draft cho TSA va HSA, phan cap exam/section/competency/domain/topic.
 - `crawler/taxonomy/cognitive_levels.json`: cac muc M1-M3; day la danh muc tham chieu, khong duoc extractor tu dong gan vao cau.
 - `crawler/data/processed/hsa/hsa_2026_framework.json`: cau hinh cau truc bai thi HSA 2026, khong phai de thi hay question bank.
 - Cac file `*_draft.md`: ghi chu phat trien taxonomy; can doi chieu truoc khi xem la chuan chinh thuc.
 
-## 9. Crawler tong quat cu
+## 16. Crawler tong quat cu
 
 `crawler/main.py` la crawler tong quat cu, crawl cac trang bat dau HUST va VNU (toi da 20 trang moi nguon), loc domain, kiem tra robots.txt va ghi `crawler/output/sources.json`. File nay khong phai dau vao cua TSA/HSA pipelines. Luong TSA chuyen dung nam trong `crawler.sources.hust_tsa`; luong HSA chuyen dung nam trong `crawler.sources.vnu_hsa`.
 
-## 10. File dau ra va ghi de
+## 17. File dau ra va ghi de
 
 ### TSA
 
@@ -424,7 +584,7 @@ Day la phat hien/cat theo hinh hoc, khong phai nhan dang noi dung anh. Crop la b
 
 Chay pipeline online va local cung ghi vao extracted/question-bank JSON cung exam. Vi vay ket qua cua lan chay gan nhat se thay bo cau hoi cung exam truoc do. Neu thu muc raw khong co PDF, pipeline local TSA/HSA dung va khong ghi de summary, extracted questions hoac Question Bank cu; hay kiem tra `crawler/data/raw/<exam>/` truoc khi chay neu muon tao ket qua moi.
 
-## 11. Gioi han va dieu kien su dung
+## 18. Gioi han va dieu kien su dung
 
 - Chay crawler/pipeline online se tao request ra website. HTTP client co timeout, retry va delay; crawler chuyen dung kiem tra robots.txt khi thu thap metadata.
 - HSA crawler chi tim tai lieu PDF cong khai va luu URL metadata. HSA pipeline online mac dinh bi chan; chi truyen `--rights-cleared` sau khi da xac nhan quyen tai/xu ly. Che do `--local` khong tai file va khong can flag nay.
@@ -433,7 +593,7 @@ Chay pipeline online va local cung ghi vao extracted/question-bank JSON cung exa
 - He thong khong tu tao explanation, khong xac minh dap an ve mat hoc thuat, khong gan competency/cognitive level/difficulty va khong danh gia do chinh xac cua noi dung crawl.
 - De thi va tai lieu tham khao co the duoc bao ho ban quyen. Chi tai, luu tru, xu ly va chia se theo dieu kien/quyen tu don vi phat hanh; khong cong bo lai Question Bank neu chua duoc phep.
 
-## 12. Lo trinh Question Bank chinh thuc
+## 19. Lo trinh Question Bank chinh thuc
 
 Question Bank chinh thuc la mot deliverable co quan tri va audit, khong phai chi la JSON do extractor tao. Luong muc tieu:
 

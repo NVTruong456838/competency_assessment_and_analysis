@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 
 export default function LoginPage() {
   const router = useRouter();
+  const [loginMethod, setLoginMethod] = useState<'email' | 'phone'>('email');
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -14,14 +15,14 @@ export default function LoginPage() {
     setError(null);
 
     const form = new FormData(event.currentTarget);
-    const email = String(form.get('email') ?? '');
+    const emailOrPhone = String(form.get('emailOrPhone') ?? '').trim();
     const password = String(form.get('password') ?? '');
 
     try {
       const res = await fetch('/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ emailOrPhone, password }),
       });
       const data = await res.json();
 
@@ -45,20 +46,43 @@ export default function LoginPage() {
         <div className="mb-8 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.38em] text-blue-600">TYL Smart Assessment</p>
           <h1 className="mt-3 text-4xl font-bold text-blue-950">Đăng nhập hệ thống</h1>
-          <p className="mt-3 text-sm text-slate-600">Đăng nhập để tiếp tục học tập và theo dõi năng lực của bạn.</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
-            <label htmlFor="email" className="mb-2 block text-sm font-medium text-slate-700">
-              Email
+            <fieldset>
+              <legend className="mb-2 block text-sm font-medium text-slate-700">Đăng nhập bằng</legend>
+              <div className="grid grid-cols-2 gap-2 rounded-2xl bg-blue-50 p-1">
+                {(['email', 'phone'] as const).map((method) => (
+                  <button
+                    key={method}
+                    type="button"
+                    aria-pressed={loginMethod === method}
+                    onClick={() => setLoginMethod(method)}
+                    className={`rounded-xl px-4 py-2 text-sm font-semibold transition ${
+                      loginMethod === method
+                        ? 'bg-white text-blue-700 shadow-sm'
+                        : 'text-slate-600 hover:text-blue-700'
+                    }`}
+                  >
+                    {method === 'email' ? 'Email' : 'Số điện thoại'}
+                  </button>
+                ))}
+              </div>
+            </fieldset>
+            <label htmlFor="emailOrPhone" className="mb-2 mt-4 block text-sm font-medium text-slate-700">
+              {loginMethod === 'email' ? 'Email' : 'Số điện thoại'}
             </label>
             <input
-              id="email"
-              name="email"
-              type="email"
+              key={loginMethod}
+              id="emailOrPhone"
+              name="emailOrPhone"
+              type={loginMethod === 'email' ? 'email' : 'tel'}
+              inputMode={loginMethod === 'phone' ? 'tel' : undefined}
               required
-              autoComplete="email"
+              autoComplete={loginMethod === 'email' ? 'email' : 'tel'}
+              maxLength={loginMethod === 'email' ? 255 : 20}
+              placeholder={loginMethod === 'email' ? 'ban@example.com' : '+84 912 345 678'}
               className="w-full rounded-2xl border border-blue-200 bg-white px-4 py-3 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:ring-4 focus:ring-blue-100"
             />
           </div>

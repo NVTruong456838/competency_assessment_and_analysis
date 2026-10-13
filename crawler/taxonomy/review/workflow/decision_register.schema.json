@@ -1,0 +1,257 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Taxonomy Human Review Decision Register",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "decisions", "audit_events"],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/decision"
+      }
+    },
+    "audit_events": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/auditEvent"
+      }
+    }
+  },
+  "$defs": {
+    "targetType": {
+      "enum": [
+        "framework",
+        "competency",
+        "domain",
+        "topic",
+        "skill",
+        "skill_mapping",
+        "taxonomy_change"
+      ]
+    },
+    "reviewStatus": {
+      "enum": [
+        "pending_review",
+        "in_review",
+        "needs_revision",
+        "approved",
+        "rejected"
+      ]
+    },
+    "decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "decision_id",
+        "target_type",
+        "target_id",
+        "target_is_proposed",
+        "exam",
+        "review_status",
+        "decision",
+        "reason",
+        "reviewer",
+        "reviewer_type",
+        "reviewed_at",
+        "evidence_refs",
+        "proposed_change",
+        "taxonomy_version",
+        "created_at",
+        "supersedes_decision_id"
+      ],
+      "properties": {
+        "decision_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^DEC-[A-Za-z0-9][A-Za-z0-9._-]*$"
+        },
+        "target_type": {
+          "$ref": "#/$defs/targetType"
+        },
+        "target_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target_is_proposed": {
+          "type": "boolean"
+        },
+        "exam": {
+          "type": ["string", "null"]
+        },
+        "review_status": {
+          "$ref": "#/$defs/reviewStatus"
+        },
+        "decision": {
+          "enum": ["retain", "revise", "split", "merge", "reparent", "reject", null]
+        },
+        "reason": {
+          "type": ["string", "null"]
+        },
+        "reviewer": {
+          "type": ["string", "null"]
+        },
+        "reviewer_type": {
+          "enum": ["human", null]
+        },
+        "reviewed_at": {
+          "type": ["string", "null"],
+          "format": "date-time"
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "proposed_change": {
+          "type": ["object", "null"]
+        },
+        "taxonomy_version": {
+          "type": ["string", "null"]
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "supersedes_decision_id": {
+          "type": ["string", "null"]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "review_status": {
+                "enum": ["approved", "rejected"]
+              }
+            },
+            "required": ["review_status"]
+          },
+          "then": {
+            "properties": {
+              "decision": {
+                "enum": ["retain", "revise", "split", "merge", "reparent"]
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              },
+              "reviewer": {
+                "type": "string",
+                "minLength": 1
+              },
+              "reviewer_type": {
+                "const": "human"
+              },
+              "reviewed_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "taxonomy_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidence_refs": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "review_status": {
+                "const": "rejected"
+              }
+            },
+            "required": ["review_status"]
+          },
+          "then": {
+            "properties": {
+              "decision": {
+                "const": "reject"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "auditEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "event_id",
+        "decision_id",
+        "target_type",
+        "target_id",
+        "target_is_proposed",
+        "status_before",
+        "status_after",
+        "performed_by",
+        "actor_type",
+        "occurred_at",
+        "reason",
+        "evidence_refs",
+        "taxonomy_version"
+      ],
+      "properties": {
+        "event_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^EVT-[A-Za-z0-9][A-Za-z0-9._-]*$"
+        },
+        "decision_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target_type": {
+          "$ref": "#/$defs/targetType"
+        },
+        "target_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target_is_proposed": {
+          "type": "boolean"
+        },
+        "status_before": {
+          "$ref": "#/$defs/reviewStatus"
+        },
+        "status_after": {
+          "$ref": "#/$defs/reviewStatus"
+        },
+        "performed_by": {
+          "type": "string",
+          "minLength": 1
+        },
+        "actor_type": {
+          "const": "human"
+        },
+        "occurred_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "taxonomy_version": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  }
+}

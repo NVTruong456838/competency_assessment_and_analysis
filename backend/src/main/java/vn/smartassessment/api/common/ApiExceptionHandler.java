@@ -2,10 +2,9 @@ package vn.smartassessment.api.common;
 
 import org.springframework.dao.DataIntegrityViolationException;
 import java.sql.SQLException;
-import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.authentication.BadCredentialsException;
+import org.springframework.security.core.AuthenticationException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -38,10 +37,10 @@ public class ApiExceptionHandler {
         throw exception;
     }
 
-    @ExceptionHandler(BadCredentialsException.class)
-    public ResponseEntity<AuthDtos.ErrorResponse> handleCredentials(BadCredentialsException exception) {
+    @ExceptionHandler(AuthenticationException.class)
+    public ResponseEntity<AuthDtos.ErrorResponse> handleCredentials(AuthenticationException exception) {
         return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
-                .body(new AuthDtos.ErrorResponse("Email hoặc mật khẩu không chính xác."));
+                .body(new AuthDtos.ErrorResponse("Tên đăng nhập/email hoặc mật khẩu không chính xác."));
     }
 
     private boolean isUniqueConstraintViolation(Throwable error) {

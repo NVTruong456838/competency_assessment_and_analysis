@@ -5,7 +5,7 @@ spring:
   datasource:
     url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/smart_assessment_ai}
     username: ${SPRING_DATASOURCE_USERNAME:postgres}
-    password: ${SPRING_DATASOURCE_PASSWORD}
+    password: ${SPRING_DATASOURCE_PASSWORD:postgres}
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -17,5 +17,6 @@ spring:
           time_zone: UTC
 app:
   jwt:
-    issuer: https://smart-assessment.local
-    secret-base64: ${APP_JWT_SECRET_BASE64}
+    issuer: ${APP_JWT_ISSUER:https://smart-assessment.local}
+    secret-base64: ${APP_JWT_SECRET_BASE64:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=}
+    expiration-ms: ${APP_JWT_EXPIRATION_MS:3600000}

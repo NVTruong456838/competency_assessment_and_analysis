@@ -36,7 +36,9 @@ CREATE TABLE users (
 
     username VARCHAR(100) NOT NULL UNIQUE,
 
-    email VARCHAR(255) NOT NULL UNIQUE,
+    email VARCHAR(255) UNIQUE,
+
+    phone_number VARCHAR(20) UNIQUE,
 
     password_hash TEXT NOT NULL,
 
@@ -48,7 +50,13 @@ CREATE TABLE users (
 
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
-    updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT chk_users_email_or_phone
+        CHECK (
+            (email IS NOT NULL AND BTRIM(email) <> '')
+            OR (phone_number IS NOT NULL AND BTRIM(phone_number) <> '')
+        )
 
 );
 

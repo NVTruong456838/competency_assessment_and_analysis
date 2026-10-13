@@ -1,0 +1,1923 @@
+{
+  "generated_at": "2026-10-12T13:50:28.491557+00:00",
+  "structural_validation": {
+    "passed": true,
+    "failed": [],
+    "warnings": [
+      {
+        "code": "framework_not_approved",
+        "message": "Framework status is 'draft'; structural validity does not imply publication approval.",
+        "location": "framework.status"
+      }
+    ],
+    "blockers": []
+  },
+  "mapping_readiness": {
+    "passed": false,
+    "failed": [],
+    "warnings": [],
+    "blockers": [
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_NUMBER_REMAINDER requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_NUMBER_REMAINDER"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_DIGIT_ANALYZE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_DIGIT_ANALYZE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_FUNCTION_GRAPH_ANALYZE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_FUNCTION_GRAPH_ANALYZE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_FUNCTION_EXPRESSION_MANIPULATE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_FUNCTION_EXPRESSION_MANIPULATE"
+      },
+      {
+        "code": "mapping_parent_ambiguous",
+        "message": "Mapping SKILL_MATH_TRIG_EQUATION_SOLVE requires a human decision on its primary Topic path.",
+        "location": "SKILL_MATH_TRIG_EQUATION_SOLVE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_GEOMETRY_MEASURE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_GEOMETRY_MEASURE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_COORDINATE_SPATIAL_ANALYZE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_COORDINATE_SPATIAL_ANALYZE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_COUNT_CONSTRAINED requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_COUNT_CONSTRAINED"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_PROBABILITY_CALCULATE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_PROBABILITY_CALCULATE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_STATISTICS_INTERPRET requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_STATISTICS_INTERPRET"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_MODEL_FORMULATE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_MODEL_FORMULATE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_MODEL_INTERPRET requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_MODEL_INTERPRET"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_OPTIMIZE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_OPTIMIZE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_PARAMETER_REASON requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_PARAMETER_REASON"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_GEOMETRY_VERIFY requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_GEOMETRY_VERIFY"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_CONSTRAINT_DECOMPOSE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_CONSTRAINT_DECOMPOSE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_MATH_MULTI_STEP_SOLVE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_MATH_MULTI_STEP_SOLVE"
+      },
+      {
+        "code": "mapping_requires_expert_review",
+        "message": "Mapping SKILL_READ_LITERARY_IDENTIFY has an unresolved subject-matter classification.",
+        "location": "SKILL_READ_LITERARY_IDENTIFY"
+      },
+      {
+        "code": "mapping_requires_expert_review",
+        "message": "Mapping SKILL_READ_INFORMATIONAL_IDENTIFY has an unresolved subject-matter classification.",
+        "location": "SKILL_READ_INFORMATIONAL_IDENTIFY"
+      },
+      {
+        "code": "mapping_requires_expert_review",
+        "message": "Mapping SKILL_READ_ARGUMENTATIVE_IDENTIFY has an unresolved subject-matter classification.",
+        "location": "SKILL_READ_ARGUMENTATIVE_IDENTIFY"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_READ_MAIN_IDEA_IDENTIFY requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_READ_MAIN_IDEA_IDENTIFY"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_READ_DETAIL_RETRIEVE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_READ_DETAIL_RETRIEVE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_READ_STATEMENT_COMPLETE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_READ_STATEMENT_COMPLETE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_READ_STRUCTURE_ANALYZE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_READ_STRUCTURE_ANALYZE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_READ_EVIDENCE_ANALYZE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_READ_EVIDENCE_ANALYZE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_READ_ARGUMENT_ANALYZE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_READ_ARGUMENT_ANALYZE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_READ_INFERENCE_DRAW requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_READ_INFERENCE_DRAW"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_READ_CAUSE_MOTIVE_INFER requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_READ_CAUSE_MOTIVE_INFER"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_READ_MESSAGE_EVALUATE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_READ_MESSAGE_EVALUATE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_READ_ARGUMENT_EVALUATE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_READ_ARGUMENT_EVALUATE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_READ_TITLE_INTERPRET requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_READ_TITLE_INTERPRET"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_SCI_HEALTH_TERM_APPLY requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_SCI_HEALTH_TERM_APPLY"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_SCI_CHEM_PROPERTY_EXPLAIN requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_SCI_CHEM_PROPERTY_EXPLAIN"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_SCI_CHEM_QUANTITATIVE_CALCULATE requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_SCI_CHEM_QUANTITATIVE_CALCULATE"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_SCI_PHYSICS_RELATION_APPLY requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_SCI_PHYSICS_RELATION_APPLY"
+      },
+      {
+        "code": "topic_not_yet_defined",
+        "message": "Mapping SKILL_SCI_ENVIRONMENT_APPLY requires a proposed Topic and review; it is not mapping-ready.",
+        "location": "SKILL_SCI_ENVIRONMENT_APPLY"
+      }
+    ],
+    "counts": {
+      "candidate_count": 125,
+      "mapping_valid_count": 89,
+      "mapping_blocker_count": 36,
+      "by_exam_section": {
+        "TSA/TSA_MATH": {
+          "candidate_count": 19,
+          "mapping_valid_count": 2,
+          "mapping_blocker_count": 17,
+          "by_mapping_status": {
+            "needs_new_topic": 16,
+            "matched": 2,
+            "ambiguous": 1
+          }
+        },
+        "TSA/TSA_READING": {
+          "candidate_count": 14,
+          "mapping_valid_count": 0,
+          "mapping_blocker_count": 14,
+          "by_mapping_status": {
+            "needs_review": 3,
+            "needs_new_topic": 11
+          }
+        },
+        "TSA/TSA_SCIENCE": {
+          "candidate_count": 15,
+          "mapping_valid_count": 10,
+          "mapping_blocker_count": 5,
+          "by_mapping_status": {
+            "matched": 10,
+            "needs_new_topic": 5
+          }
+        },
+        "HSA/HSA_MATH_DATA": {
+          "candidate_count": 18,
+          "mapping_valid_count": 18,
+          "mapping_blocker_count": 0,
+          "by_mapping_status": {
+            "matched": 18
+          }
+        },
+        "HSA/HSA_LITERATURE_LANGUAGE": {
+          "candidate_count": 16,
+          "mapping_valid_count": 16,
+          "mapping_blocker_count": 0,
+          "by_mapping_status": {
+            "matched": 16
+          }
+        },
+        "HSA/HSA_SCIENCE": {
+          "candidate_count": 31,
+          "mapping_valid_count": 31,
+          "mapping_blocker_count": 0,
+          "by_mapping_status": {
+            "matched": 31
+          }
+        },
+        "HSA/HSA_ENGLISH": {
+          "candidate_count": 12,
+          "mapping_valid_count": 12,
+          "mapping_blocker_count": 0,
+          "by_mapping_status": {
+            "matched": 12
+          }
+        }
+      }
+    }
+  },
+  "approval_readiness": {
+    "passed": false,
+    "failed": [],
+    "warnings": [
+      {
+        "code": "approval_gate_is_non_mutating",
+        "message": "This validator does not approve candidates or change framework status.",
+        "location": "approval_readiness"
+      }
+    ],
+    "blockers": [
+      {
+        "code": "framework_approval_missing",
+        "message": "The framework is not in approved status.",
+        "location": "framework.status"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_NUMBER_REMAINDER is still pending human review.",
+        "location": "SKILL_MATH_NUMBER_REMAINDER"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_DIGIT_ANALYZE is still pending human review.",
+        "location": "SKILL_MATH_DIGIT_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_EQUATION_SOLVE is still pending human review.",
+        "location": "SKILL_MATH_EQUATION_SOLVE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_INEQUALITY_SOLVE is still pending human review.",
+        "location": "SKILL_MATH_INEQUALITY_SOLVE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_FUNCTION_GRAPH_ANALYZE is still pending human review.",
+        "location": "SKILL_MATH_FUNCTION_GRAPH_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_FUNCTION_EXPRESSION_MANIPULATE is still pending human review.",
+        "location": "SKILL_MATH_FUNCTION_EXPRESSION_MANIPULATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_TRIG_EQUATION_SOLVE is still pending human review.",
+        "location": "SKILL_MATH_TRIG_EQUATION_SOLVE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_GEOMETRY_MEASURE is still pending human review.",
+        "location": "SKILL_MATH_GEOMETRY_MEASURE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_COORDINATE_SPATIAL_ANALYZE is still pending human review.",
+        "location": "SKILL_MATH_COORDINATE_SPATIAL_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_COUNT_CONSTRAINED is still pending human review.",
+        "location": "SKILL_MATH_COUNT_CONSTRAINED"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_PROBABILITY_CALCULATE is still pending human review.",
+        "location": "SKILL_MATH_PROBABILITY_CALCULATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_STATISTICS_INTERPRET is still pending human review.",
+        "location": "SKILL_MATH_STATISTICS_INTERPRET"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_MODEL_FORMULATE is still pending human review.",
+        "location": "SKILL_MATH_MODEL_FORMULATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_MODEL_INTERPRET is still pending human review.",
+        "location": "SKILL_MATH_MODEL_INTERPRET"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_OPTIMIZE is still pending human review.",
+        "location": "SKILL_MATH_OPTIMIZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_PARAMETER_REASON is still pending human review.",
+        "location": "SKILL_MATH_PARAMETER_REASON"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_GEOMETRY_VERIFY is still pending human review.",
+        "location": "SKILL_MATH_GEOMETRY_VERIFY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_CONSTRAINT_DECOMPOSE is still pending human review.",
+        "location": "SKILL_MATH_CONSTRAINT_DECOMPOSE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_MATH_MULTI_STEP_SOLVE is still pending human review.",
+        "location": "SKILL_MATH_MULTI_STEP_SOLVE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_READ_LITERARY_IDENTIFY is still pending human review.",
+        "location": "SKILL_READ_LITERARY_IDENTIFY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_READ_INFORMATIONAL_IDENTIFY is still pending human review.",
+        "location": "SKILL_READ_INFORMATIONAL_IDENTIFY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_READ_ARGUMENTATIVE_IDENTIFY is still pending human review.",
+        "location": "SKILL_READ_ARGUMENTATIVE_IDENTIFY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_READ_MAIN_IDEA_IDENTIFY is still pending human review.",
+        "location": "SKILL_READ_MAIN_IDEA_IDENTIFY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_READ_DETAIL_RETRIEVE is still pending human review.",
+        "location": "SKILL_READ_DETAIL_RETRIEVE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_READ_STATEMENT_COMPLETE is still pending human review.",
+        "location": "SKILL_READ_STATEMENT_COMPLETE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_READ_STRUCTURE_ANALYZE is still pending human review.",
+        "location": "SKILL_READ_STRUCTURE_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_READ_EVIDENCE_ANALYZE is still pending human review.",
+        "location": "SKILL_READ_EVIDENCE_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_READ_ARGUMENT_ANALYZE is still pending human review.",
+        "location": "SKILL_READ_ARGUMENT_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_READ_INFERENCE_DRAW is still pending human review.",
+        "location": "SKILL_READ_INFERENCE_DRAW"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_READ_CAUSE_MOTIVE_INFER is still pending human review.",
+        "location": "SKILL_READ_CAUSE_MOTIVE_INFER"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_READ_MESSAGE_EVALUATE is still pending human review.",
+        "location": "SKILL_READ_MESSAGE_EVALUATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_READ_ARGUMENT_EVALUATE is still pending human review.",
+        "location": "SKILL_READ_ARGUMENT_EVALUATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_READ_TITLE_INTERPRET is still pending human review.",
+        "location": "SKILL_READ_TITLE_INTERPRET"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_SCI_TABLE_INTERPRET is still pending human review.",
+        "location": "SKILL_SCI_TABLE_INTERPRET"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_SCI_CHART_INTERPRET is still pending human review.",
+        "location": "SKILL_SCI_CHART_INTERPRET"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_SCI_STATISTICAL_COMPARE is still pending human review.",
+        "location": "SKILL_SCI_STATISTICAL_COMPARE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_SCI_HEALTH_TERM_APPLY is still pending human review.",
+        "location": "SKILL_SCI_HEALTH_TERM_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_SCI_CANCER_KNOWLEDGE_APPLY is still pending human review.",
+        "location": "SKILL_SCI_CANCER_KNOWLEDGE_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_SCI_CHEM_PROPERTY_EXPLAIN is still pending human review.",
+        "location": "SKILL_SCI_CHEM_PROPERTY_EXPLAIN"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_SCI_CHEM_QUANTITATIVE_CALCULATE is still pending human review.",
+        "location": "SKILL_SCI_CHEM_QUANTITATIVE_CALCULATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_SCI_PHYSICS_RELATION_APPLY is still pending human review.",
+        "location": "SKILL_SCI_PHYSICS_RELATION_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_SCI_ENVIRONMENT_APPLY is still pending human review.",
+        "location": "SKILL_SCI_ENVIRONMENT_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_SCI_EVIDENCE_CONCLUDE is still pending human review.",
+        "location": "SKILL_SCI_EVIDENCE_CONCLUDE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_SCI_CAUSE_EFFECT_ANALYZE is still pending human review.",
+        "location": "SKILL_SCI_CAUSE_EFFECT_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_SCI_HYPOTHESIS_EVALUATE is still pending human review.",
+        "location": "SKILL_SCI_HYPOTHESIS_EVALUATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_SCI_PROBLEM_IDENTIFY is still pending human review.",
+        "location": "SKILL_SCI_PROBLEM_IDENTIFY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_SCI_INFORMATION_ANALYZE is still pending human review.",
+        "location": "SKILL_SCI_INFORMATION_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_SCI_SOLUTION_SELECT is still pending human review.",
+        "location": "SKILL_SCI_SOLUTION_SELECT"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_NUMBER_SET_REASON is still pending human review.",
+        "location": "SKILL_HSA_MATH_NUMBER_SET_REASON"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_ALGEBRA_MANIPULATE is still pending human review.",
+        "location": "SKILL_HSA_MATH_ALGEBRA_MANIPULATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_EQUATION_INEQUALITY_SOLVE is still pending human review.",
+        "location": "SKILL_HSA_MATH_EQUATION_INEQUALITY_SOLVE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_FUNCTION_GRAPH_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_MATH_FUNCTION_GRAPH_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_CALCULUS_APPLY is still pending human review.",
+        "location": "SKILL_HSA_MATH_CALCULUS_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_PLANE_GEOMETRY_REASON is still pending human review.",
+        "location": "SKILL_HSA_MATH_PLANE_GEOMETRY_REASON"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_SPATIAL_GEOMETRY_REASON is still pending human review.",
+        "location": "SKILL_HSA_MATH_SPATIAL_GEOMETRY_REASON"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_MEASUREMENT_CALCULATE is still pending human review.",
+        "location": "SKILL_HSA_MATH_MEASUREMENT_CALCULATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_MODEL_FORMULATE is still pending human review.",
+        "location": "SKILL_HSA_MATH_MODEL_FORMULATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_MODEL_INTERPRET is still pending human review.",
+        "location": "SKILL_HSA_MATH_MODEL_INTERPRET"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_OBJECTIVE_CONSTRAINT_DEFINE is still pending human review.",
+        "location": "SKILL_HSA_MATH_OBJECTIVE_CONSTRAINT_DEFINE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_OPTIMIZE is still pending human review.",
+        "location": "SKILL_HSA_MATH_OPTIMIZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_MULTI_STEP_SOLVE is still pending human review.",
+        "location": "SKILL_HSA_MATH_MULTI_STEP_SOLVE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_CONSTRAINT_CASE_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_MATH_CONSTRAINT_CASE_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_DATA_REPRESENTATION_INTERPRET is still pending human review.",
+        "location": "SKILL_HSA_MATH_DATA_REPRESENTATION_INTERPRET"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_DESCRIPTIVE_STATISTICS_CALCULATE is still pending human review.",
+        "location": "SKILL_HSA_MATH_DESCRIPTIVE_STATISTICS_CALCULATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_COUNTING_APPLY is still pending human review.",
+        "location": "SKILL_HSA_MATH_COUNTING_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_MATH_PROBABILITY_CALCULATE is still pending human review.",
+        "location": "SKILL_HSA_MATH_PROBABILITY_CALCULATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_VOCABULARY_GRAMMAR_USE is still pending human review.",
+        "location": "SKILL_HSA_LANG_VOCABULARY_GRAMMAR_USE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_SEMANTICS_PRAGMATICS_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_LANG_SEMANTICS_PRAGMATICS_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_SENTENCE_EXPRESSION_EDIT is still pending human review.",
+        "location": "SKILL_HSA_LANG_SENTENCE_EXPRESSION_EDIT"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_COHERENCE_COHESION_EVALUATE is still pending human review.",
+        "location": "SKILL_HSA_LANG_COHERENCE_COHESION_EVALUATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_MAIN_IDEA_DETAIL_IDENTIFY is still pending human review.",
+        "location": "SKILL_HSA_LANG_MAIN_IDEA_DETAIL_IDENTIFY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_PURPOSE_VIEWPOINT_IDENTIFY is still pending human review.",
+        "location": "SKILL_HSA_LANG_PURPOSE_VIEWPOINT_IDENTIFY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_LITERARY_TEXT_COMPREHEND is still pending human review.",
+        "location": "SKILL_HSA_LANG_LITERARY_TEXT_COMPREHEND"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_INFORMATIONAL_TEXT_COMPREHEND is still pending human review.",
+        "location": "SKILL_HSA_LANG_INFORMATIONAL_TEXT_COMPREHEND"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_STRUCTURE_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_LANG_STRUCTURE_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_ARGUMENT_EVIDENCE_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_LANG_ARGUMENT_EVIDENCE_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_GENRE_IMAGE_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_LANG_GENRE_IMAGE_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_THEME_ARTISTRY_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_LANG_THEME_ARTISTRY_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_ARGUMENT_QUALITY_EVALUATE is still pending human review.",
+        "location": "SKILL_HSA_LANG_ARGUMENT_QUALITY_EVALUATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_LANGUAGE_STYLE_EVALUATE is still pending human review.",
+        "location": "SKILL_HSA_LANG_LANGUAGE_STYLE_EVALUATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_VALUE_INTERPRET is still pending human review.",
+        "location": "SKILL_HSA_LANG_VALUE_INTERPRET"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_LANG_COMPARISON_EVALUATE is still pending human review.",
+        "location": "SKILL_HSA_LANG_COMPARISON_EVALUATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_PHYSICS_MECHANICS_APPLY is still pending human review.",
+        "location": "SKILL_HSA_SCI_PHYSICS_MECHANICS_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_PHYSICS_WAVE_ELECTRICITY_APPLY is still pending human review.",
+        "location": "SKILL_HSA_SCI_PHYSICS_WAVE_ELECTRICITY_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_PHYSICS_THERMAL_MODERN_APPLY is still pending human review.",
+        "location": "SKILL_HSA_SCI_PHYSICS_THERMAL_MODERN_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_CHEM_ATOMIC_ENERGY_APPLY is still pending human review.",
+        "location": "SKILL_HSA_SCI_CHEM_ATOMIC_ENERGY_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_CHEM_INORGANIC_METAL_APPLY is still pending human review.",
+        "location": "SKILL_HSA_SCI_CHEM_INORGANIC_METAL_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_CHEM_ORGANIC_APPLY is still pending human review.",
+        "location": "SKILL_HSA_SCI_CHEM_ORGANIC_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_CHEM_SPECTROSCOPY_PRACTICE_INTERPRET is still pending human review.",
+        "location": "SKILL_HSA_SCI_CHEM_SPECTROSCOPY_PRACTICE_INTERPRET"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_BIO_CELL_ORGANISM_APPLY is still pending human review.",
+        "location": "SKILL_HSA_SCI_BIO_CELL_ORGANISM_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_BIO_METABOLISM_DEVELOPMENT_APPLY is still pending human review.",
+        "location": "SKILL_HSA_SCI_BIO_METABOLISM_DEVELOPMENT_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_BIO_GENETICS_EVOLUTION_APPLY is still pending human review.",
+        "location": "SKILL_HSA_SCI_BIO_GENETICS_EVOLUTION_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_BIO_ECOLOGY_ENVIRONMENT_APPLY is still pending human review.",
+        "location": "SKILL_HSA_SCI_BIO_ECOLOGY_ENVIRONMENT_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_HISTORY_WORLD_MODERN_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_SCI_HISTORY_WORLD_MODERN_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_HISTORY_SEA_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_SCI_HISTORY_SEA_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_HISTORY_VIETNAM_MODERN_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_SCI_HISTORY_VIETNAM_MODERN_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_HISTORY_INTEGRATION_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_SCI_HISTORY_INTEGRATION_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_GEO_GENERAL_APPLY is still pending human review.",
+        "location": "SKILL_HSA_SCI_GEO_GENERAL_APPLY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_GEO_WORLD_SOCIOECONOMIC_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_SCI_GEO_WORLD_SOCIOECONOMIC_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_GEO_VIETNAM_NATURAL_POPULATION_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_SCI_GEO_VIETNAM_NATURAL_POPULATION_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_GEO_VIETNAM_ECONOMIC_REGION_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_SCI_GEO_VIETNAM_ECONOMIC_REGION_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_TABLE_CHART_INTERPRET is still pending human review.",
+        "location": "SKILL_HSA_SCI_TABLE_CHART_INTERPRET"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_EXPERIMENTAL_DATA_INTERPRET is still pending human review.",
+        "location": "SKILL_HSA_SCI_EXPERIMENTAL_DATA_INTERPRET"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_MAP_SPATIAL_INTERPRET is still pending human review.",
+        "location": "SKILL_HSA_SCI_MAP_SPATIAL_INTERPRET"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_HISTORICAL_SOURCE_INTERPRET is still pending human review.",
+        "location": "SKILL_HSA_SCI_HISTORICAL_SOURCE_INTERPRET"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_EVIDENCE_CONCLUSION_REASON is still pending human review.",
+        "location": "SKILL_HSA_SCI_EVIDENCE_CONCLUSION_REASON"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_CAUSE_EFFECT_REASON is still pending human review.",
+        "location": "SKILL_HSA_SCI_CAUSE_EFFECT_REASON"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_PREDICTION_REASON is still pending human review.",
+        "location": "SKILL_HSA_SCI_PREDICTION_REASON"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_HYPOTHESIS_EVALUATE is still pending human review.",
+        "location": "SKILL_HSA_SCI_HYPOTHESIS_EVALUATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_VARIABLE_IDENTIFY is still pending human review.",
+        "location": "SKILL_HSA_SCI_VARIABLE_IDENTIFY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_METHOD_SELECT is still pending human review.",
+        "location": "SKILL_HSA_SCI_METHOD_SELECT"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_CONTEXT_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_SCI_CONTEXT_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_SCI_SOLUTION_SELECT is still pending human review.",
+        "location": "SKILL_HSA_SCI_SOLUTION_SELECT"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_ENG_VOCABULARY_CONTEXT_USE is still pending human review.",
+        "location": "SKILL_HSA_ENG_VOCABULARY_CONTEXT_USE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_ENG_GRAMMAR_USE is still pending human review.",
+        "location": "SKILL_HSA_ENG_GRAMMAR_USE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_ENG_SENTENCE_TRANSFORM is still pending human review.",
+        "location": "SKILL_HSA_ENG_SENTENCE_TRANSFORM"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_ENG_COHERENCE_COHESION_USE is still pending human review.",
+        "location": "SKILL_HSA_ENG_COHERENCE_COHESION_USE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_ENG_MAIN_IDEA_DETAIL_IDENTIFY is still pending human review.",
+        "location": "SKILL_HSA_ENG_MAIN_IDEA_DETAIL_IDENTIFY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_ENG_CONTEXTUAL_MEANING_INFER is still pending human review.",
+        "location": "SKILL_HSA_ENG_CONTEXTUAL_MEANING_INFER"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_ENG_TEXT_STRUCTURE_ANALYZE is still pending human review.",
+        "location": "SKILL_HSA_ENG_TEXT_STRUCTURE_ANALYZE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_ENG_AUTHOR_PURPOSE_ATTITUDE_IDENTIFY is still pending human review.",
+        "location": "SKILL_HSA_ENG_AUTHOR_PURPOSE_ATTITUDE_IDENTIFY"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_ENG_COMMUNICATIVE_RESPONSE_SELECT is still pending human review.",
+        "location": "SKILL_HSA_ENG_COMMUNICATIVE_RESPONSE_SELECT"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_ENG_REGISTER_APPROPRIACY_EVALUATE is still pending human review.",
+        "location": "SKILL_HSA_ENG_REGISTER_APPROPRIACY_EVALUATE"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_ENG_IMPLICIT_INFERENCE_DRAW is still pending human review.",
+        "location": "SKILL_HSA_ENG_IMPLICIT_INFERENCE_DRAW"
+      },
+      {
+        "code": "candidate_pending_human_review",
+        "message": "Candidate SKILL_HSA_ENG_SITUATIONAL_SOLUTION_SELECT is still pending human review.",
+        "location": "SKILL_HSA_ENG_SITUATIONAL_SOLUTION_SELECT"
+      },
+      {
+        "code": "human_review_evidence_missing",
+        "message": "No reviewer, timestamp, decision record, or audit trail was provided.",
+        "location": "approval_evidence"
+      },
+      {
+        "code": "version_audit_policy_missing",
+        "message": "A versioning and audit policy must be confirmed before release.",
+        "location": "approval_evidence.audit_trail"
+      },
+      {
+        "code": "taxonomy_not_approved",
+        "message": "The taxonomy framework is not approved.",
+        "location": "framework.status"
+      },
+      {
+        "code": "mapping_gate_not_passed",
+        "message": "Approval is blocked until all candidate mappings pass the mapping-readiness gate.",
+        "location": "mapping_readiness"
+      }
+    ]
+  },
+  "summary": {
+    "candidate_count": 125,
+    "by_exam": {
+      "TSA": 48,
+      "HSA": 77
+    },
+    "by_mapping_status": {
+      "ambiguous": 1,
+      "duplicate_candidate": 0,
+      "matched": 89,
+      "needs_new_topic": 32,
+      "needs_review": 3
+    },
+    "by_exam_section": {
+      "TSA/TSA_MATH": {
+        "candidate_count": 19,
+        "mapping_valid_count": 2,
+        "mapping_blocker_count": 17,
+        "by_mapping_status": {
+          "needs_new_topic": 16,
+          "matched": 2,
+          "ambiguous": 1
+        }
+      },
+      "TSA/TSA_READING": {
+        "candidate_count": 14,
+        "mapping_valid_count": 0,
+        "mapping_blocker_count": 14,
+        "by_mapping_status": {
+          "needs_review": 3,
+          "needs_new_topic": 11
+        }
+      },
+      "TSA/TSA_SCIENCE": {
+        "candidate_count": 15,
+        "mapping_valid_count": 10,
+        "mapping_blocker_count": 5,
+        "by_mapping_status": {
+          "matched": 10,
+          "needs_new_topic": 5
+        }
+      },
+      "HSA/HSA_MATH_DATA": {
+        "candidate_count": 18,
+        "mapping_valid_count": 18,
+        "mapping_blocker_count": 0,
+        "by_mapping_status": {
+          "matched": 18
+        }
+      },
+      "HSA/HSA_LITERATURE_LANGUAGE": {
+        "candidate_count": 16,
+        "mapping_valid_count": 16,
+        "mapping_blocker_count": 0,
+        "by_mapping_status": {
+          "matched": 16
+        }
+      },
+      "HSA/HSA_SCIENCE": {
+        "candidate_count": 31,
+        "mapping_valid_count": 31,
+        "mapping_blocker_count": 0,
+        "by_mapping_status": {
+          "matched": 31
+        }
+      },
+      "HSA/HSA_ENGLISH": {
+        "candidate_count": 12,
+        "mapping_valid_count": 12,
+        "mapping_blocker_count": 0,
+        "by_mapping_status": {
+          "matched": 12
+        }
+      }
+    },
+    "mapping_valid_count": 89,
+    "mapping_blocker_count": 36
+  },
+  "human_review_decisions": [
+    {
+      "skill_id": "SKILL_MATH_NUMBER_REMAINDER",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Number properties has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_MATH_DIGIT_ANALYZE",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Digit properties has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_MATH_EQUATION_SOLVE",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_MATH_INEQUALITY_SOLVE",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_MATH_FUNCTION_GRAPH_ANALYZE",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Function domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_MATH_FUNCTION_EXPRESSION_MANIPULATE",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Function domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_MATH_TRIG_EQUATION_SOLVE",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "ambiguous",
+      "required_action": "Could fit Function or the broad Algebra Equation Topic"
+    },
+    {
+      "skill_id": "SKILL_MATH_GEOMETRY_MEASURE",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Geometry domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_MATH_COORDINATE_SPATIAL_ANALYZE",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Geometry domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_MATH_COUNT_CONSTRAINED",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Combinatorics domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_MATH_PROBABILITY_CALCULATE",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Probability domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_MATH_STATISTICS_INTERPRET",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Statistics domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_MATH_MODEL_FORMULATE",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Competency has no Domain or Topic for modeling"
+    },
+    {
+      "skill_id": "SKILL_MATH_MODEL_INTERPRET",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Competency has no Domain or Topic for model interpretation"
+    },
+    {
+      "skill_id": "SKILL_MATH_OPTIMIZE",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Competency has no Domain or Topic for optimization"
+    },
+    {
+      "skill_id": "SKILL_MATH_PARAMETER_REASON",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Competency has no Domain or Topic for parameter reasoning"
+    },
+    {
+      "skill_id": "SKILL_MATH_GEOMETRY_VERIFY",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Competency has no Domain or Topic for geometric reasoning"
+    },
+    {
+      "skill_id": "SKILL_MATH_CONSTRAINT_DECOMPOSE",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Competency has no Domain or Topic for constraint decomposition"
+    },
+    {
+      "skill_id": "SKILL_MATH_MULTI_STEP_SOLVE",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "needs_new_topic",
+      "required_action": "Competency has no Domain or Topic for multi-step integration"
+    },
+    {
+      "skill_id": "SKILL_READ_LITERARY_IDENTIFY",
+      "exam": "TSA",
+      "section_id": "TSA_READING",
+      "decision": "needs_review",
+      "required_action": "Existing Topic is text genre and may be a tag rather than a measured skill"
+    },
+    {
+      "skill_id": "SKILL_READ_INFORMATIONAL_IDENTIFY",
+      "exam": "TSA",
+      "section_id": "TSA_READING",
+      "decision": "needs_review",
+      "required_action": "Existing Topic is text genre and may be a tag rather than a measured skill"
+    },
+    {
+      "skill_id": "SKILL_READ_ARGUMENTATIVE_IDENTIFY",
+      "exam": "TSA",
+      "section_id": "TSA_READING",
+      "decision": "needs_review",
+      "required_action": "Existing Topic is text genre and may be a tag rather than a measured skill"
+    },
+    {
+      "skill_id": "SKILL_READ_MAIN_IDEA_IDENTIFY",
+      "exam": "TSA",
+      "section_id": "TSA_READING",
+      "decision": "needs_new_topic",
+      "required_action": "Main idea is not yet a canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_READ_DETAIL_RETRIEVE",
+      "exam": "TSA",
+      "section_id": "TSA_READING",
+      "decision": "needs_new_topic",
+      "required_action": "Explicit detail retrieval is not yet a canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_READ_STATEMENT_COMPLETE",
+      "exam": "TSA",
+      "section_id": "TSA_READING",
+      "decision": "needs_new_topic",
+      "required_action": "Statement completion is not yet a canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_READ_STRUCTURE_ANALYZE",
+      "exam": "TSA",
+      "section_id": "TSA_READING",
+      "decision": "needs_new_topic",
+      "required_action": "Structure domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_READ_EVIDENCE_ANALYZE",
+      "exam": "TSA",
+      "section_id": "TSA_READING",
+      "decision": "needs_new_topic",
+      "required_action": "Argument and evidence domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_READ_ARGUMENT_ANALYZE",
+      "exam": "TSA",
+      "section_id": "TSA_READING",
+      "decision": "needs_new_topic",
+      "required_action": "Argument and evidence domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_READ_INFERENCE_DRAW",
+      "exam": "TSA",
+      "section_id": "TSA_READING",
+      "decision": "needs_new_topic",
+      "required_action": "Inference domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_READ_CAUSE_MOTIVE_INFER",
+      "exam": "TSA",
+      "section_id": "TSA_READING",
+      "decision": "needs_new_topic",
+      "required_action": "Cause and motive is not yet a canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_READ_MESSAGE_EVALUATE",
+      "exam": "TSA",
+      "section_id": "TSA_READING",
+      "decision": "needs_new_topic",
+      "required_action": "Evaluation domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_READ_ARGUMENT_EVALUATE",
+      "exam": "TSA",
+      "section_id": "TSA_READING",
+      "decision": "needs_new_topic",
+      "required_action": "Argument evaluation is not yet a canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_READ_TITLE_INTERPRET",
+      "exam": "TSA",
+      "section_id": "TSA_READING",
+      "decision": "needs_new_topic",
+      "required_action": "Title interpretation is not yet a canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_SCI_TABLE_INTERPRET",
+      "exam": "TSA",
+      "section_id": "TSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_SCI_CHART_INTERPRET",
+      "exam": "TSA",
+      "section_id": "TSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_SCI_STATISTICAL_COMPARE",
+      "exam": "TSA",
+      "section_id": "TSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_SCI_HEALTH_TERM_APPLY",
+      "exam": "TSA",
+      "section_id": "TSA_SCIENCE",
+      "decision": "needs_new_topic",
+      "required_action": "Biology and Health domain has no terminology Topic"
+    },
+    {
+      "skill_id": "SKILL_SCI_CANCER_KNOWLEDGE_APPLY",
+      "exam": "TSA",
+      "section_id": "TSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_SCI_CHEM_PROPERTY_EXPLAIN",
+      "exam": "TSA",
+      "section_id": "TSA_SCIENCE",
+      "decision": "needs_new_topic",
+      "required_action": "Chemistry domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_SCI_CHEM_QUANTITATIVE_CALCULATE",
+      "exam": "TSA",
+      "section_id": "TSA_SCIENCE",
+      "decision": "needs_new_topic",
+      "required_action": "Chemistry domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_SCI_PHYSICS_RELATION_APPLY",
+      "exam": "TSA",
+      "section_id": "TSA_SCIENCE",
+      "decision": "needs_new_topic",
+      "required_action": "Physics domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_SCI_ENVIRONMENT_APPLY",
+      "exam": "TSA",
+      "section_id": "TSA_SCIENCE",
+      "decision": "needs_new_topic",
+      "required_action": "Earth and Environment domain has no canonical Topic"
+    },
+    {
+      "skill_id": "SKILL_SCI_EVIDENCE_CONCLUDE",
+      "exam": "TSA",
+      "section_id": "TSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_SCI_CAUSE_EFFECT_ANALYZE",
+      "exam": "TSA",
+      "section_id": "TSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_SCI_HYPOTHESIS_EVALUATE",
+      "exam": "TSA",
+      "section_id": "TSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_SCI_PROBLEM_IDENTIFY",
+      "exam": "TSA",
+      "section_id": "TSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_SCI_INFORMATION_ANALYZE",
+      "exam": "TSA",
+      "section_id": "TSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_SCI_SOLUTION_SELECT",
+      "exam": "TSA",
+      "section_id": "TSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_NUMBER_SET_REASON",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_ALGEBRA_MANIPULATE",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_EQUATION_INEQUALITY_SOLVE",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_FUNCTION_GRAPH_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_CALCULUS_APPLY",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_PLANE_GEOMETRY_REASON",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_SPATIAL_GEOMETRY_REASON",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_MEASUREMENT_CALCULATE",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_MODEL_FORMULATE",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_MODEL_INTERPRET",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_OBJECTIVE_CONSTRAINT_DEFINE",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_OPTIMIZE",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_MULTI_STEP_SOLVE",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_CONSTRAINT_CASE_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_DATA_REPRESENTATION_INTERPRET",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_DESCRIPTIVE_STATISTICS_CALCULATE",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_COUNTING_APPLY",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_MATH_PROBABILITY_CALCULATE",
+      "exam": "HSA",
+      "section_id": "HSA_MATH_DATA",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_VOCABULARY_GRAMMAR_USE",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_SEMANTICS_PRAGMATICS_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_SENTENCE_EXPRESSION_EDIT",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_COHERENCE_COHESION_EVALUATE",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_MAIN_IDEA_DETAIL_IDENTIFY",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_PURPOSE_VIEWPOINT_IDENTIFY",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_LITERARY_TEXT_COMPREHEND",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_INFORMATIONAL_TEXT_COMPREHEND",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_STRUCTURE_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_ARGUMENT_EVIDENCE_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_GENRE_IMAGE_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_THEME_ARTISTRY_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_ARGUMENT_QUALITY_EVALUATE",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_LANGUAGE_STYLE_EVALUATE",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_VALUE_INTERPRET",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_LANG_COMPARISON_EVALUATE",
+      "exam": "HSA",
+      "section_id": "HSA_LITERATURE_LANGUAGE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_PHYSICS_MECHANICS_APPLY",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_PHYSICS_WAVE_ELECTRICITY_APPLY",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_PHYSICS_THERMAL_MODERN_APPLY",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_CHEM_ATOMIC_ENERGY_APPLY",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_CHEM_INORGANIC_METAL_APPLY",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_CHEM_ORGANIC_APPLY",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_CHEM_SPECTROSCOPY_PRACTICE_INTERPRET",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_BIO_CELL_ORGANISM_APPLY",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_BIO_METABOLISM_DEVELOPMENT_APPLY",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_BIO_GENETICS_EVOLUTION_APPLY",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_BIO_ECOLOGY_ENVIRONMENT_APPLY",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_HISTORY_WORLD_MODERN_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_HISTORY_SEA_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_HISTORY_VIETNAM_MODERN_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_HISTORY_INTEGRATION_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_GEO_GENERAL_APPLY",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_GEO_WORLD_SOCIOECONOMIC_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_GEO_VIETNAM_NATURAL_POPULATION_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_GEO_VIETNAM_ECONOMIC_REGION_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_TABLE_CHART_INTERPRET",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_EXPERIMENTAL_DATA_INTERPRET",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_MAP_SPATIAL_INTERPRET",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_HISTORICAL_SOURCE_INTERPRET",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_EVIDENCE_CONCLUSION_REASON",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_CAUSE_EFFECT_REASON",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_PREDICTION_REASON",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_HYPOTHESIS_EVALUATE",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_VARIABLE_IDENTIFY",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_METHOD_SELECT",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_CONTEXT_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_SCI_SOLUTION_SELECT",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_ENG_VOCABULARY_CONTEXT_USE",
+      "exam": "HSA",
+      "section_id": "HSA_ENGLISH",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_ENG_GRAMMAR_USE",
+      "exam": "HSA",
+      "section_id": "HSA_ENGLISH",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_ENG_SENTENCE_TRANSFORM",
+      "exam": "HSA",
+      "section_id": "HSA_ENGLISH",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_ENG_COHERENCE_COHESION_USE",
+      "exam": "HSA",
+      "section_id": "HSA_ENGLISH",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_ENG_MAIN_IDEA_DETAIL_IDENTIFY",
+      "exam": "HSA",
+      "section_id": "HSA_ENGLISH",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_ENG_CONTEXTUAL_MEANING_INFER",
+      "exam": "HSA",
+      "section_id": "HSA_ENGLISH",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_ENG_TEXT_STRUCTURE_ANALYZE",
+      "exam": "HSA",
+      "section_id": "HSA_ENGLISH",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_ENG_AUTHOR_PURPOSE_ATTITUDE_IDENTIFY",
+      "exam": "HSA",
+      "section_id": "HSA_ENGLISH",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_ENG_COMMUNICATIVE_RESPONSE_SELECT",
+      "exam": "HSA",
+      "section_id": "HSA_ENGLISH",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_ENG_REGISTER_APPROPRIACY_EVALUATE",
+      "exam": "HSA",
+      "section_id": "HSA_ENGLISH",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_ENG_IMPLICIT_INFERENCE_DRAW",
+      "exam": "HSA",
+      "section_id": "HSA_ENGLISH",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "SKILL_HSA_ENG_SITUATIONAL_SOLUTION_SELECT",
+      "exam": "HSA",
+      "section_id": "HSA_ENGLISH",
+      "decision": "pending_review",
+      "required_action": "Record expert construct, evidence, and distinction decision."
+    },
+    {
+      "skill_id": "",
+      "exam": "TSA",
+      "section_id": "TSA_MATH",
+      "decision": "taxonomy_structure_review",
+      "required_action": "Resolve missing TSA Math Domain/Topic structure before assigning official Topic IDs."
+    },
+    {
+      "skill_id": "",
+      "exam": "TSA",
+      "section_id": "TSA_READING",
+      "decision": "stimulus_type_vs_skill",
+      "required_action": "Decide whether the three Text Type concepts are metadata or learner Skills."
+    },
+    {
+      "skill_id": "",
+      "exam": "HSA",
+      "section_id": "HSA_SCIENCE",
+      "decision": "primary_path_policy",
+      "required_action": "Define primary-path selection for items combining subject knowledge, data, and reasoning."
+    },
+    {
+      "skill_id": "",
+      "exam": "HSA",
+      "section_id": "HSA_ENGLISH",
+      "decision": "proficiency_evidence",
+      "required_action": "Obtain representative English items and validate proficiency separately from M1-M3 and difficulty."
+    },
+    {
+      "skill_id": "",
+      "exam": "Cross-exam",
+      "section_id": "",
+      "decision": "versioning_and_approval_policy",
+      "required_action": "Approve version identifiers, decision records, and audit semantics before publication or database integration."
+    }
+  ],
+  "publication_ready": false
+}

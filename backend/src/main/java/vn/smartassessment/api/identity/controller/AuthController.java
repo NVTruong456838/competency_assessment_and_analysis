@@ -12,14 +12,17 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import vn.smartassessment.api.identity.dto.AuthDtos;
 import vn.smartassessment.api.identity.service.AuthService;
+import vn.smartassessment.api.identity.service.UserService;
 
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
     private final AuthService authService;
+    private final UserService userService;
 
-    public AuthController(AuthService authService) {
+    public AuthController(AuthService authService, UserService userService) {
         this.authService = authService;
+        this.userService = userService;
     }
 
     @PostMapping("/register")
@@ -35,13 +38,6 @@ public class AuthController {
 
     @GetMapping("/me")
     public AuthDtos.UserView currentUser(@AuthenticationPrincipal Jwt jwt) {
-        Number id = jwt.getClaim("uid");
-        String role = jwt.getClaimAsString("role");
-        return new AuthDtos.UserView(
-                id.longValue(),
-                jwt.getSubject(),
-                jwt.getClaimAsString("fullName"),
-                jwt.getClaimAsString("username"),
-                role);
+        return userService.getCurrentUser(jwt.getSubject());
     }
 }

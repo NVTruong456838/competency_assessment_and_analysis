@@ -1,0 +1,1 @@
+﻿SELECT * FROM attempts LIMIT 100;
