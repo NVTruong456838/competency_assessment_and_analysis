@@ -9,5 +9,8 @@ backend/target
 npm-debug.log*
 .DS_Store
 coverage
+test-results/
+playwright-report/
+blob-report/
 prisma/dev.db
 .local/

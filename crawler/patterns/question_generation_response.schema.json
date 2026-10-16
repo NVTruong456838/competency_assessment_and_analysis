@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://smart-assessment-ai.local/schemas/question-generation-response-1.0.json",
+  "title": "Question Generation Response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contract_version", "request_id", "questions"],
+  "properties": {
+    "contract_version": { "const": "1.0" },
+    "request_id": { "type": "string", "minLength": 1 },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "stem",
+          "question_type",
+          "options",
+          "correct_answer",
+          "explanation",
+          "provenance",
+          "quality"
+        ],
+        "properties": {
+          "stem": { "type": "string", "minLength": 1 },
+          "question_type": {
+            "enum": [
+              "single_choice",
+              "multiple_choice",
+              "true_false",
+              "numeric_input",
+              "short_answer"
+            ]
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["key", "text"],
+              "properties": {
+                "key": { "type": "string", "minLength": 1 },
+                "text": { "type": "string", "minLength": 1 }
+              }
+            }
+          },
+          "correct_answer": {
+            "type": ["array", "string", "number", "boolean", "null"]
+          },
+          "explanation": { "type": ["string", "null"] },
+          "provenance": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["generation_request_id", "pattern_refs"],
+            "properties": {
+              "generation_request_id": { "type": "string", "minLength": 1 },
+              "pattern_refs": {
+                "type": "array",
+                "items": { "type": "string", "minLength": 1 }
+              }
+            }
+          },
+          "quality": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["author_type", "human_review_status"],
+            "properties": {
+              "author_type": { "const": "AI" },
+              "human_review_status": { "const": "pending" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

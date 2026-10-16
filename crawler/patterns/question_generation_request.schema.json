@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://smart-assessment-ai.local/schemas/question-generation-request-1.0.json",
+  "title": "Question Generation Request",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contract_version", "request"],
+  "properties": {
+    "contract_version": { "const": "1.0" },
+    "request": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "exam",
+        "taxonomy_release",
+        "skill",
+        "cognitive_level",
+        "difficulty",
+        "patterns",
+        "content_policy"
+      ],
+      "properties": {
+        "exam": { "type": "string", "minLength": 1 },
+        "section": { "type": ["string", "null"] },
+        "taxonomy_release": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["release_id", "taxonomy_version"],
+          "properties": {
+            "release_id": { "type": "string", "minLength": 1 },
+            "taxonomy_version": {
+              "type": "string",
+              "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+            }
+          }
+        },
+        "skill": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "skill_id",
+            "skill_code",
+            "skill_name",
+            "operational_definition",
+            "observable_action"
+          ],
+          "properties": {
+            "skill_id": { "type": "string", "minLength": 1 },
+            "skill_code": { "type": "string", "minLength": 1 },
+            "skill_name": { "type": "string", "minLength": 1 },
+            "operational_definition": { "type": "string", "minLength": 1 },
+            "observable_action": { "type": "string", "minLength": 1 }
+          }
+        },
+        "cognitive_level": { "enum": ["M1", "M2", "M3"] },
+        "difficulty": { "enum": ["easy", "medium", "hard"] },
+        "patterns": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "pattern_id",
+              "version",
+              "version_hash",
+              "structure",
+              "reasoning_actions",
+              "distractor_observations"
+            ],
+            "properties": {
+              "pattern_id": { "type": "string", "minLength": 1 },
+              "version": { "type": "integer", "minimum": 1 },
+              "version_hash": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "structure": { "type": "object" },
+              "reasoning_actions": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "distractor_observations": { "type": "object" }
+            }
+          }
+        },
+        "content_policy": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "use_source_question_text",
+            "generate_novel_content",
+            "initial_review_status",
+            "human_review_required"
+          ],
+          "properties": {
+            "use_source_question_text": { "const": false },
+            "generate_novel_content": { "const": true },
+            "initial_review_status": { "const": "DRAFT" },
+            "human_review_required": { "const": true }
+          }
+        }
+      }
+    }
+  }
+}
